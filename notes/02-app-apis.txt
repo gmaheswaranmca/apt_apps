@@ -1,0 +1,8 @@
+php\qnpro\
+
+#
+    http://localhost/apt/aaa/qnpro/be/beadmin/sysadm/controller.php
+    {"m":"RptScoreInit"}
+#
+    http://localhost/apt/aaa/qnpro/be/beadmin/sysadm/controller.php
+    {"m":"RptScoreEachTestLive"}
