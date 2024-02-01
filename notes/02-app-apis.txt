@@ -1,8 +1,61 @@
 php\qnpro\
 
-#
-    http://localhost/apt/aaa/qnpro/be/beadmin/sysadm/controller.php
-    {"m":"RptScoreInit"}
-#
-    http://localhost/apt/aaa/qnpro/be/beadmin/sysadm/controller.php
-    {"m":"RptScoreEachTestLive"}
+# Initial App Page | 
+http://localhost/apt/aaa/qnpro/be/beadmin/sysadm/controller.php
+payload: {LinkCodeName: "job", m: "QueryAppHmStartup"}
+	
+	
+# Live "Monitor Test"
+http://oxygen.aptonlinetest.co.in/100onfire/beapp/be/beadmin/sysadm/controller.php
+payload: {LinkCodeName: "one", m: "LiveMointorTestInit"}
+
+# Local "Monitor Test"
+http://localhost/apt/aaa/qnpro/be/beadmin/sysadm/controller.php
+{LinkCodeName: "two", m: "LiveMointorTestInit"}
+
+# Local - Quizzes of test link
+http://localhost/apt/aaa/qnpro/be/beadmin/qnfile/controller.php?m=vTestPaperPage
+payload: {LinkCodeName: "one"}
+
+#Live - Quizzes of test link
+http://oxygen.aptonlinetest.co.in/100onfire/beapp/be/beadmin/qnfile/controller.php?m=vTestPaperPage
+{LinkCodeName: "eight"}
+
+#Live - Questions of the quiz 
+http://oxygen.aptonlinetest.co.in/100onfire/beapp/be/beadmin/qnfile/controller.php?m=vTakeTestPage&quiz_id=1
+payload: {LinkCodeName: "eight"}
+
+#Live - Download Qns
+http://oxygen.aptonlinetest.co.in/100onfire/beapp/be/beadmin/scores/controller.php
+{LinkCodeName: "eight", m: "RptScoreEachTestLive", assignment_id: "6"}
+
+---
+
+# Download Scores - Prepare
+http://localhost/apt/aaa/qnpro/be/beadmin/aptjob/controller.php
+payload: {LinkCodeName: "job", m: "UpdateLiveStatus"
+
+# Download Scores - Download 
+http://127.0.0.1:8000/mkscorev3
+payload: {csvData: [,
+
+# Download Test Link DB
+http://127.0.0.1:8000/updownload
+{testLinkName: "Winner", fileNameWOExt: "Winner_eight-20240123-20240201174735",…}
+
+http://oxygen.aptonlinetest.co.in/100onfire/beapp/be/beadmin/sysadm/controller.php
+	payload: {LinkCodeName: "eight", m: "DoDownload", login_name: "4063a43f2d333cce60302d930cd975fe",…}
+	login_name: "4063a43f2d333cce60302d930cd975fe"
+	login_password: "e53046433797f07f8e1382e02addd020"
+
+# Upload Test Link DB
+http://127.0.0.1:8000/updownload
+{testLinkName: "Winner", fileNameWOExt: "Winner_eight-20240123-20240201175024",…}
+
+http://oxygen.aptonlinetest.co.in/100onfire/beapp/be/beadmin/sysadm/controller.php
+{LinkCodeName: "eight", m: "DoUpload", login_name: "4063a43f2d333cce60302d930cd975fe",…}
+
+
+
+
+http://localhost/apt/aaa/qnpro/be/beadmin/aptjob/controller.php
