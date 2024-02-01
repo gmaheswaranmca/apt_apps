@@ -1,0 +1,475 @@
+ch 11 1-30	A 30minutes 
+ch 56 1-30  B 30minutes 
+------------------------------------------------------------------------------------------
+F:\v2m\techLang\dev\php\apt\aaa\aaapydj\app\srcV2
+
+				-- Password, Score, Test Files
+#jobs
+deactivate
+cd /d F:\v2m\techLang\dev\php\apt\aaa\aaapydj\app
+envl\Scripts\activate
+cd srcV2
+python AppBePyV2.py
+
+#new app 
+deactivate
+cd /d F:\v2m\techLang\dev\php\apt\aaa\aaapydj\app
+envl\Scripts\activate
+cd F:\v2m\techLang\dev\php\apt\aaa\aaapydj\app202209
+python main.py
+
+#job cost 
+deactivate
+cd /d F:\v2m\techLang\dev\php\apt\aaa\aaapydj\app
+envl\Scripts\activate
+cd /d F:\v2m\techLang\dev\php\apt\aaa\aaapydj\app\aptmktest\mkapp\aptdb
+python ParseJobCost.py 2022Sep18 2022Oct15
+
+
+#appAptJob
+deactivate
+cd /d F:\v2m\techLang\dev\php\apt\aaa\aaapydj\app
+envl\Scripts\activate
+cd /d F:\v2m\techLang\dev\php\apt\aaa\aaapydj\app\aptmktest\mkapp
+python appAptJob.py
+
+#test scores 
+deactivate
+cd /d F:\v2m\techLang\dev\php\apt\aaa\aaapydj\app
+envl\Scripts\activate
+cd srcV2
+cd score
+python TestScores.py
+
+#pivot scores 
+deactivate
+cd /d F:\v2m\techLang\dev\php\apt\aaa\aaapydj\app
+envl\Scripts\activate
+cd srcV2
+cd score	
+python PivotScores.py
+
+#run home app
+deactivate
+cd /d F:\v2m\techLang\dev\php\apt\aaa\aaapydj\app
+envl\Scripts\activate
+cd /d F:\v2m\techLang\dev\php\apt\aaa\aaapydj\app\aptmktest
+python manage.py runserver
+
+
+
+
+
+cd /d D:\nithin\Samsung\Day 7\pyexcel\AppAptTestScores
+python AppAptTestScores.py
+
+cd /d D:\nithin\Samsung\Day 7\pyexcel\AppAptTestScores code
+python AppAptTestScores.py
+
+cd /d D:\nithin\Samsung\Day 7\email
+python AppSendEmail.py
+
+cd /d D:\nithin\Samsung\Day 8\bs4 - BeautifulSoap - WebScraping\Geeks\MCQ-mocktest
+python AppXmlOfGeeksMockTestFromMCQPages.py
+
+cd /d D:\nithin\Samsung\Day 8\bs4 - BeautifulSoap - WebScraping\Geeks\MCQ-mocktest
+python AppTxtOfGeeksMockTestFromXml.py
+
+cd /d D:\nithin\Samsung\Day 8\bs4 - BeautifulSoap - WebScraping\Geeks\MCQ-mocktest
+python AppHtmlOfGeeksMockTestFromXml.py
+
+cd /d D:\nithin\Samsung\Day 7\pyexcel\AppAptPivotScores
+python AppAptPivotScores.py
+
+------------------------------------------------------------------------------------------
+cmd=uploadqn
+toDatabase=t20apt00
+quizName=QA012b
+qnCount=55
+timeLimit=55
+------------------------------------------------------------------------------------------
+Pluto test: Sunday (July 18th) - Chapter 23 - (Qns 1 to 30) & Chapter 24 - (Qns 1 to 30). Total: 60 Qns - 60 mins - (5 pm Sunday to 5 pm Monday).
+------------------------------------------------------------------------------------------
+Pluto test: Sunday (July 25th) - Chapter 26 - (Qns 1 to 30) & Chapter 60 - (Qns 1 to 30). Total: 60 Qns - 60 mins - (5 pm Sunday to 5 pm Monday).
+------------------------------------------------------------------------------------------
+Moon
+
+testPaper=TE051b,13,30|TE002b,16,17!Assessment Test #003,20,45
+testPaper=TE002b,18,20|TE001b,21,23|TE001b,25,36|TE001b,39,40|TE051b,136,140!Assessment Test #004,25,50
+testPaper=TE001b,41,60|TE002b,31,40!Assessment Test #005,30,50
+
+Day 2 20Qn 45mins	
+TE002b : 6-20 -> Test #2 : 1-15
+TE051b : 8-12 -> Test #2 : 16-20
+
+Day 3 20Qn 45mins	
+TE051b : 13-30 -> Test #3 : 1-18
+TE002b : 16-17 -> Test #3 : 19-20
+
+Day 4 25Qn 50mins	
+TE002b : 18-20 -> Test #4 : 1-3
+TE001b : 21-23 -> Test #4 : 4-6
+TE001b : 25-36,39-40 -> Test #4 : 7-18, 19-20
+TE051b : 136-140 -> Test #4 : 21-25
+
+Day 5 30Qn 50mins 		
+TE001b : 41-60 -> Test #5 : 1-20
+TE002b : 31-40 -> Test #5 : 21-30
+------------------------------------------------------------------------------------------
+King Test:  ***17.5.2021**********
+All days Timing: 4 pm to 12 am. 
+King Test:	Monday: 	Chapter 65: Non verbal Reasoning (1-25). 
+King Test: 	Tuesday: 	Chapter 41: HCF, LCM 			 (1-30). 
+King Test: 	Wednesday: 	Chapter 41: HCF, LCM 			 (38-57). 
+King Test: 	Thursday: 	Chapter 65: Non verbal Reasoning (26-50). 
+King Test: 	Friday:		Chapter 67: Logical Reasoning 	 (31-60). 
+King Test: 	Saturday: 	Chapter 42: Partnerships 		 (26-50).
+------------------------------------------------------------------------------------------
+**************11.5.2021**************
+--	King test from Monday. (6 to 12pm)   
+Topic for Wednesday (May 12): Seating Arrangements: chapter 57. 
+Topic for Thursday (May 13): Simple Interest & Compound Interest: chapter 35.         
+Topic for Friday (May 14): 
+	(8 pm to 10 pm test): 3 sections: 
+		(Quants: 20 qns - 30 mins); 			QA011b 6-10|QA012b 1-5|QA013b 26-30|QA014b 21-25
+		(Reasoning: 30 qns - 30 mins); 			RE067b 55-59,60-64,65-68, RE059b 15-20, RE057b 1-10
+		(Technical - C language: 20 qns - 30 mins). TE001b 41-60
+		Total: 90 mins test. 
+**************DONE*************************		
+Monday		: Chapter 56 (qns 1-30):  1 hour		
+Topic for Tuesday (May 11): Logarithms & Races: Chapter 34.    
+------------------------------------------------------------------------------------------		
+**************9.5.2021**************
+	
+	
+	Tuesday		: Chapter 34 Logs and Races (qns 1-15,31-45):  1 hour
+	Wednesday	: Chapter 57 (1-30): 1 hour. 
+	Thursday	: Chapter 61 Data Interpretation (1-30) : 1 hour 
+	Friday		: Chapter 58 (1-30): 1 hour. 
+	Saturday	: Chapter 62 Data Sufficiency (1-30) : 1 hour
+------------------------------------------------------------------------------------------
+--	King test from Monday. (6 to 12pm)
+------------------------------------------------------------------------------------------
+	Monday: Chapter 51 (qns 1-30):  1 hour. 
+	Tuesday: Chapter 31 (1-30): 1hour. 
+	Wednesday: Chapter 52 (1-30): 1 hour. 
+	Thursday: Chapter 32 (1-30): 1 hour. 
+	Friday: Chapter 55 (1-30): 1 hour. 
+	Saturday: Chapter 33 (1-30): 1 hour.
+	
+*King |04:00pm-11:00pm*
+*Apr 2021*
+*30 Fri|Test 20|DAT05* |20 Qns|20 mins|Quants - Part A
+	|30 Qns|20 mins|Reasoning - Part B
+	|40 Qns|20 mins|Verbal - Part C
+	|20 Qns|20 mins|C Language - Part D
+......
+*26 Mon|Test 16|DAT01* |30 Qns|60 mins|31-60|QA16|TIME, SPEED & DISTANCE
+*27 Tue|Test 17|DAT02* |30 Qns|60 mins|1-30|TE02|C Language - Advanced
+*28 Wed|Test 18|DAT03* |40 Qns|60 mins|1-40|RE67|Logical Analytical Reasoning
+*29 Thu|Test 19|DAT04* |50 Qns|60 mins|1-50|VA1|Verbal Ability - 41
+------------------------------------------------------------------------------------------
+*Jack (Batch 1,2,3,4,5,6)|07:00pm-01:00pm|*
+*May 2021*
+*01 Sat|DATII-07|* 25 Qns|45 mins|01-25|RE65|Nonverbal Reasoning ***
+*03 Mon|DATII-08|* 25 Qns|45 mins|01-25|RE65|Nonverbal Reasoning ***
+*04 Tue|DATII-09|* 25 Qns|45 mins|01-25|RE65|Nonverbal Reasoning ***
+*05 Wed|DATII-10|* 25 Qns|45 mins|01-25|RE65|Nonverbal Reasoning ***
+*06 Thu|DATII-11|* 25 Qns|45 mins|01-25|RE65|Nonverbal Reasoning ***
+*07 Fri|DATII-12|* 25 Qns|45 mins|01-25|RE65|Nonverbal Reasoning ***
+*08 Sat|DATII-13|* 25 Qns|45 mins|01-25|RE65|Nonverbal Reasoning ***
+......
+*Apr 2021*
+24 Sat|DATII-01|25 Qns|60 mins|01-25|RE64|Critical Thinking 
+26 Mon|DATII-02|25 Qns|45 mins|01-25|RE65|Nonverbal Reasoning
+*27 Tue|DATII-03|* 40 Qns|45 mins|01-40|VA02|Verbal Ability: Part 2 
+*28 Wed|DATII-04|* 39 Qns|45 mins|41-79|VA02|Verbal Ability: Part 2 
+*29 Thu|DATII-05|* 25 Qns|60 mins|26-50|RE64|Critical Thinking 
+*30 Fri|DATII-06|* 30 Qns|45 mins|01-30|RE67|Logical & Analytical Reasoning
+------------------------------------------------------------------------------------------
+Apr 2021|Jack									|Lemon									|King
+19 Mon  |RE58-Directional Sense Test, 01-30,	|RE58-Directional Sense Test, 01-30,	|QA21-Problems on Ages, 01-30
+		|30Qn, 60min, 							|30Qn, 60min,							|30Qn, 45min,
+		|#21, 06:00pm-01:00pm					|#06, 06:00pm-01:00pm					|#11, 06:00pm-07:00am
+20 Tue  |RE59-Coding & Decoding, 01-30,			|RE59-Coding & Decoding, 01-30,			|QA14-Problems on Trains, 01-30
+		|30Qn, 60min, 							|30Qn, 60min,							|30Qn, 45min,
+		|#22, 06:00pm-01:00pm					|#07, 06:00pm-01:00pm					|#12, 06:00pm-07:00am
+21 Wed  |RE55-Puzzles, 01-30,					|RE55-Puzzles, 01-30,					|QA24-Time and Work, 01-30
+		|30Qn, 60min,							|30Qn, 60min,							|30Qn, 45min,
+		|#23, 06:00pm-01:00pm					|#08, 06:00pm-01:00pm					|#13, 06:00pm-07:00am
+22 Thu  |VA01-Verbal Ability, 01-50,			|RE57-Seating Arrangements,01-30,		|QA23-Chain Rule, 01-30
+		|50Qn, 60min,		 					|30Qn, 60min,							|30Qn, 45min,
+		|#24, 06:00pm-01:00pm					|#09, 06:00pm-01:00pm					|#14, 06:00pm-07:00am
+23 Fri  |VA01-Verbal Ability, 51-90,			|QA15-Percentages, 01-30,				|QA25-Ratio &Proportion, 01-30
+		|40Qn, 60min, 							|30Qn, 60min,							|30Qn, 45min,
+		|#25, 06:00pm-01:00pm					|#10, 06:00pm-01:00pm					|#15, 06:00pm-07:00am
+24 Sat  |*** *** *** *** ***					|*** *** *** *** ***					|*** *** *** *** ***
+		|*** *** *** *** *** 					|*** *** *** *** ***					|*** *** *** *** ***
+		|*** *** *** *** ***					|*** *** *** *** ***					|*** *** *** *** ***
+
+N.A.		
+------------------------------------------------------------------------------------------
+11 Profit & Loss 
+12 Pipes & Cisterns 
+13 Boats & Streams 
+14 Problems on Trains
+15 Percentages 
+16 Time, Speed & Distance	
+21-Problems on Ages
+23-Chain Rule
+24-Time and Work
+25-Ratio & Proportion
+
+51 Alphabet & Number Series
+52 Odd man out Series
+53 Venn Diagrams
+55-Puzzles
+56 Blood Relation
+57 Seating Arrangements
+58-Directional Sense Test
+59-Coding & Decoding
+
+
+VE01-Verbal Ability
+
+TE1-C Language
+TE2-C Language
+------------------------------------------------------------------------------------------
+Test done are: 
+Apr 2021| Jack															| King
+05 Mon | 11 Profit & Loss 31-55, 25Qn, 50min, #10, 6pm-11.50am			| *** *** *** *** ***
+06 Tue | 12 Pipes & Cisterns 25-49, 25Qn, 50min,  #11, 6pm-11.50am		| 16 Time, Speed & Distance 1-30, 30Qn, 45min, #4, 6pm-7am
+07 Wed | 13 Boats & Streams 31-55, 25Qn, 50min, #12, 6pm-11.50am		| 11 Profit & Loss 1-30, 30Qn, 45min, #5, 6pm-7am
+08 Thu | 14 Problems on Trains25-49, 25Qn, 50min, #13, 6pm-11.50am		| 12 Pipes & Cisterns 1-30, 30Qn, 45min, #6, 6pm-7am
+09 Fri | 15 Percentages 31-55, 25Qn, 50min, #14, 6pm-11.50am			| 13 Boats & Streams 1-30, 30Qn, 45min, #7, 6pm-7am
+10 Sat | 16 Time, Speed & Distance	31-55, 25Qn, 50min, #15, 6pm-11.50am| 14 Problems On Trains 1-30, 30Qn, 45min, #8, 6pm-7am [Cancelled]
+------------------------------------------------------------------------------------------
+Apr 2021|Jack									|Lemon									|King
+12 Mon  |RE51-Alphabet & Number Series, 01-40,	|RE51-Alphabet & Number Series,01-40,	|TE1-C Language-Decision making Mid Level, 01-10
+																						|TE2-C Language-Decision making Advance Level, 01-10
+		|40Qn, 60min, 							|40Qn, 60min,							|20Qn, 45min,
+		|#16, 06:00pm-11.55am					|#01, 06:00pm-11.55am					|#08, 06:00pm-07:00am
+13 Tue  |RE52-Odd man out Series, 01-40,		|RE52-Odd man out Series				|*** *** *** *** ***
+		|40Qn, 60min, 							|01-40, 40Qn, 60min,					|*** *** *** *** ***
+		|#17, 06:00pm-11.55am					|#02, 06:00pm-11.55am					|*** *** *** *** ***
+14 Wed  |*** *** *** *** ***					|*** *** *** *** ***					|*** *** *** *** ***
+		|*** *** *** *** ***					|*** *** *** *** ***					|*** *** *** *** ***
+		|*** *** *** *** ***					|*** *** *** *** ***					|*** *** *** *** ***
+15 Thu  |RE53-Venn Diagrams, 01-30,				|RE53-Venn Diagrams,01-30,				|*** *** *** *** ***
+		|30Qn, 60min,		 					|30Qn, 60min,							|*** *** *** *** ***
+		|#18, 06:00pm-11.55am					|#03, 06:00pm-11.55am					|*** *** *** *** ***
+16 Fri  |RE56-Blood Relation, 01-30,			|QA15-Percentages, 01-30,				|TE1-C Language-Loopings & Arrays Mid Level,11-20
+																						|TE2-C Language-Loopings & Arrays Advance Level,11-20
+		|30Qn, 60min, 							|30Qn, 60min,							|20Qn, 45min,
+		|#19, 06:00pm-11.55am					|#04, 06:00pm-11.55am					|#09, 06:00pm-07:00am
+17 Sat  |RE57-Seating Arrangements,01-30,		|QA16-Time, Speed & Distance,01-30,		|TE1-C Language-Strings & Functions Mid Level,21-30
+																						|TE2-C Language-Strings & Functions Advance Level,21-30
+		|30Qn, 60min, 							|30Qn, 60min,							|20Qn, 45min,
+		|#20, 6pm-11.55am						|#05, 6pm-11.55am						|#10, 06:00pm-07:00am		  
+------------------------------------------------------------------------------------------
+Quants [120] 45 46
+Re [48+45(213)]66 68
+Tech [50(263)] 12
+1115 + 263(not uploadable)
+Payable: 2195
+Rs.6700
+------------------------------------------------------------------------------------------
+
+	59
+	64
+------------------------------------------------------------------------------------------	
+	*Jack Test*
+	*Start At:* Saturday, 10 Apr 2021, 6 pm 
+	*Stop At:* Sunday, 11 Apr 2021, 11.50 am 
+	*Chapters:* 16-Time, Speed & Distance, (Qns: 31-55)
+	*Timings of the test:* 50 mins
+	*No.of qns:* 25 qns	
+------------------------------------------------------------------------------------------
+Total Qns (3573 - 1375 = 2,198): QA (1281) + Re (924) + VA (433) + Technical (780) + Pre (45) + Post (110)
+									21			16			6		11			= 54
+------------------------------------------------------------------------------------------
+1-3,4-7,8-11,12-15,16-19,20-24,25-27,28-30
+=>
+[
+        {"rule":1,"from": 1,"to": 3, "suffleCount":0},
+        {"rule":2,"from": 4,"to": 7, "suffleCount":0},
+        {"rule":3,"from": 8,"to": 11, "suffleCount":0},
+        {"rule":4,"from": 12,"to": 15, "suffleCount":0},
+        {"rule":5,"from": 16,"to": 19, "suffleCount":0},
+        {"rule":6,"from": 20,"to": 24, "suffleCount":0},
+        {"rule":7,"from": 25,"to": 27, "suffleCount":0},
+        {"rule":8,"from": 28,"to": 30, "suffleCount":0}
+]
+
+[
+        {"rule":1,"from": 1,"to": 5, "suffleCount":0},
+        {"rule":2,"from": 6,"to": 10, "suffleCount":0},
+        {"rule":3,"from": 11,"to": 14, "suffleCount":0},
+        {"rule":4,"from": 15,"to": 19, "suffleCount":0},
+        {"rule":5,"from": 20,"to": 22, "suffleCount":0},
+        {"rule":6,"from": 23,"to": 27, "suffleCount":0},
+        {"rule":7,"from": 28,"to": 32, "suffleCount":0},
+        {"rule":8,"from": 33,"to": 37, "suffleCount":0},
+        {"rule":9,"from": 38,"to": 40, "suffleCount":0}
+]
+
+
+[
+        {"rule":1,"from": 1,"to": 5, "suffleCount":0},
+        {"rule":2,"from": 6,"to": 11, "suffleCount":0},
+        {"rule":3,"from": 12,"to": 14, "suffleCount":0},
+        {"rule":4,"from": 15,"to": 19, "suffleCount":0},
+        {"rule":5,"from": 20,"to": 24, "suffleCount":0},
+        {"rule":6,"from": 25,"to": 30, "suffleCount":0}
+]
+
+[
+        {"rule":1,"from": 1,"to": 10, "suffleCount":0},
+        {"rule":2,"from": 11,"to": 13, "suffleCount":0},
+        {"rule":3,"from": 14,"to": 15, "suffleCount":0},
+        {"rule":4,"from": 16,"to": 25, "suffleCount":0},
+        {"rule":5,"from": 26,"to": 30, "suffleCount":0},
+        {"rule":6,"from": 31,"to": 35, "suffleCount":0},
+        {"rule":7,"from": 36,"to": 40, "suffleCount":0}
+]
+------------------------------------------------------------------------------------------
+	*Jack|Apr 2021|21 Wed|#23*
+	RE55-Puzzles, 01-30,
+	30Qn, 60min,06:00pm-01:00pm	
+	Started 
+	Professional Charges Rs.125
+
+	*Lemon|Apr 2021|21 Wed|#08*
+	RE55-Puzzles, 01-30,
+	30Qn, 60min,06:00pm-01:00pm	
+	Started 
+	Professional Charges Rs.125
+
+
+	*King|Apr 2021|21 Wed|#13*
+	QA24-Time and Work, 01-30
+	30Qn, 45min,06:00pm-07:00am
+	Started 
+	Professional Charges Rs.125
+	
+*King |04:00pm-11:00pm*
+*Apr 2021*
+*27 Tue|Test 17|DAT02*|30 Qns|60 mins|1-30|TE02|C Language - Advanced 
+	-- Started
+	-- Professional Charges Rs.125
+------------------------------------------------------------------------------------------
+509 21-39 | RE067b 1-19
+521 1-18  | RE067b 20-37
+67bII 1-27 | RE067b 38-64
+508 21-40 | RE067b 65-84
+508 40-40 | RE067b 85-85
+
+testPaper=509,21,39|521,1,18|67bII,1,27|508,21,40|508,40,40!RE067b,85,85
+------------------------------------------------------------------------------------------
+[9:05 PM, 4/28/2021] 
+V2m Apt Aravind: 
+	MEC 
+		Mec-Saravanaraj sir -ph-99441 88011
+
+[9:07 PM, 4/28/2021] 
+V2m Apt Aravind: College: 
+	Kamaraj College of Engg. 
+	Students: II year students. 
+	Staff Coordinator for u: Ramapriya ma'm -ph- 89733 29529.
+------------------------------------------------------------------------------------------
+jack - to addr
+king - 
+	-- 481 -> Raja - (KING) (KSRMCE)
+	-- fri exam is over
+	-- cc is there
+	-- next week schedule in whatsaapp
+		-- sun do confirm once
+			--	King test from Monday. next week
+				Monday: Chapter 31 (qns 1-30):  1 hour. 
+				Tuesday: Chapter 32 (1-30): 1hour. 
+				Wednesday: Chapter 33 (1-30): 1 hour. 
+				Thursday: Chapter 34 (1-30): 1 hour. 
+				Friday: Chapter 35 (1-30): 1 hour. 
+				Saturday: Chapter 41 (1-30): 1 hour.
+			--Ignore above
+			--	King test from Monday. (6 to 12pm)
+				Monday: Chapter 51 (qns 1-30):  1 hour. 
+				Tuesday: Chapter 31 (1-30): 1hour. 
+				Wednesday: Chapter 52 (1-30): 1 hour. 
+				Thursday: Chapter 32 (1-30): 1 hour. 
+				Friday: Chapter 55 (1-30): 1 hour. 
+				Saturday: Chapter 33 (1-30): 1 hour.
+MEC - own portal 
+	-- send qns every day to the staff
+		-- get email on day 1
+	-- first 3 files, six days to be sent 
+	prabhum@mahendra.org
+	saravanarajmg@mahendra.info
+	
+Kamaraj College of Engg. 
+	Students: II year students. 
+	Staff Coordinator for u: Ramapriya ma'm -ph- 89733 29529	
+	--call and ask date for 
+	
+------------------------------------------------------------------------------------------
+[
+        {"rule":1,"from": 1,"to": 5, "suffleCount":0},
+        {"rule":2,"from": 6,"to": 10, "suffleCount":0},
+        {"rule":3,"from": 11,"to": 14, "suffleCount":0},
+        {"rule":4,"from": 15,"to": 19, "suffleCount":0},
+        {"rule":5,"from": 20,"to": 22, "suffleCount":0},
+        {"rule":6,"from": 23,"to": 27, "suffleCount":0},
+        {"rule":7,"from": 28,"to": 30, "suffleCount":0}
+]
+------------------------------------------------------------------------------------------
+VA002b 	01-10 	| VA003b 	01-10
+513 	21-40 	| VA003b 	11-20
+VA002b 	21-30	| VA003b 	21-30
+VA002b 	51-55	| VA003b 	31-35
+VA002b 	51-55	| VA003b 	36-40
+VA002b 	51-55	| VA003b 	41-45
+513 	51-60 	| VA003b 	46-55
+VA002b 	66-75	| VA003b 	56-65
+VA002b 	66-69	| VA003b 	66-69
+
+testPaper=VA002b,1,10|513,21,40|VA002b,21,30|VA002b,51,55|VA002b,51,55|VA002b,51,55|513,51,60|VA002b,66,75|VA002b,66,69!VA003b,69,69
+------------------------------------------------------------------------------------------
+VA003b 11-55 | VA004b 1-45
+VA003b 56-69 | VA004b 46-59
+VA003b 56-59 | VA004b 60-63
+
+testPaper=VA003b,11,55|VA003b,56,69|VA003b,56,59!VA004b,63,63
+
+
+https://www.convertjson.com/xml-to-json.htm
+
+[
+        {"rule":1,"from": 1,"to": 25, "suffleCount":0},
+        {"rule":2,"from": 26,"to": 28, "suffleCount":0},
+        {"rule":3,"from": 29,"to": 40, "suffleCount":0},
+        {"rule":4,"from": 41,"to": 43, "suffleCount":0},
+        {"rule":5,"from": 44,"to": 47, "suffleCount":0},
+        {"rule":6,"from": 48,"to": 51, "suffleCount":0},
+        {"rule":7,"from": 52,"to": 55, "suffleCount":0},
+        {"rule":8,"from": 56,"to": 59, "suffleCount":0},
+        {"rule":9,"from": 60,"to": 64, "suffleCount":0},
+        {"rule":10,"from": 65,"to": 67, "suffleCount":0},
+        {"rule":11,"from": 68,"to": 72, "suffleCount":0},
+        {"rule":12,"from": 73,"to": 77, "suffleCount":0},
+        {"rule":13,"from": 78,"to": 80, "suffleCount":0}
+]
+
+
+testPaper=4011,1,20!Assessment Test #007-Part A,20,20
+testPaper=4012,1,30!Assessment Test #007-Part B,30,20
+testPaper=4013,1,40!Assessment Test #007-Part C,40,20
+
+
+
+SELECT u.UserName, u.Name, au.assignment_id, uq.*, count(*) answered_qns, ua.added_date FROM `users` u
+INNER JOIN assignment_users au ON(u.UserID=au.user_id)
+INNER JOIN user_quizzes uq ON(au.assignment_id=uq.assignment_id AND au.user_id=uq.user_id)
+INNER JOIN user_answers ua ON(uq.id=ua.user_quiz_id)
+WHERE -- u.UserName IN('C31','TN402','TN453')
+uq.status=3
+GROUP BY au.assignment_id, au.user_id

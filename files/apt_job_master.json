@@ -1,0 +1,66 @@
+{
+    "apphm_servers":
+	[
+		{"server_id" : "1", "server_name":"Apps(Local 1)", "url":"http://localhost/apt/aaa/qnpro", "url_mid":"be"},
+		{"server_id" : "2", "server_name":"Apps(Live 1)" , "url":"http://oxygen.aptonlinetest.co.in/100onfire/beapp", "url_mid":"be"},
+		{"server_id" : "4", "server_name":"Apps(Live 2)" , "url":"http://oxy.aptonlinetest.co.in/100onfire/beapp", "url_mid":"be"},
+		{"server_id" : "3", "server_name":"QnDB(Local 2)", "url":"http://localhost/apt/aaa/qnpro", "url_mid":"be"},
+		{"server_id" : "5", "server_name":"Apps(Live 3)" , "url":"http://gen.aptonlinetest.co.in/100onfire/beapp", "url_mid":"be"},
+		{"server_id" : "6", "server_name":"Apps(Live 4)" , "url":"http://io.aptonlinetest.co.in/100onfire/beapp", "url_mid":"be"}
+	],	
+	"apphm_apps":
+	[
+		{"app_id" : "1", "server_id":"1", "app_name":"Green", "db_name":"one", "display_name":"Apple", "is_active":"1"},
+		{"app_id" : "2", "server_id":"1", "app_name":"Everest", "db_name":"two", "display_name":"Technique", "is_active":"1"},
+		{"app_id" : "3", "server_id":"1", "app_name":"Princess", "db_name":"three", "display_name":"Speed", "is_active":"1"},
+		{"app_id" : "4", "server_id":"1", "app_name":"Himalaya", "db_name":"four", "display_name":"Rainbow", "is_active":"1"},
+		{"app_id" : "5", "server_id":"1", "app_name":"Harappa", "db_name":"five", "display_name":"Ultra", "is_active":"1"},
+		{"app_id" : "6", "server_id":"1", "app_name":"Poompuhar", "db_name":"six", "display_name":"Jack", "is_active":"1"},
+		{"app_id" : "7", "server_id":"1", "app_name":"Chozha", "db_name":"seven", "display_name":"Pluto", "is_active":"1"},
+		{"app_id" : "8", "server_id":"1", "app_name":"Pallava", "db_name":"eight", "display_name":"Winner", "is_active":"1"},
+		{"app_id" : "1", "server_id":"2", "app_name":"Green", "db_name":"one", "display_name":"Apple", "is_active":"1"},
+		{"app_id" : "2", "server_id":"2", "app_name":"Everest", "db_name":"two", "display_name":"Technique", "is_active":"1"},
+		{"app_id" : "3", "server_id":"2", "app_name":"Princess", "db_name":"three", "display_name":"Speed", "is_active":"1"},
+		{"app_id" : "4", "server_id":"2", "app_name":"Himalaya", "db_name":"four", "display_name":"Rainbow", "is_active":"0"},
+		{"app_id" : "5", "server_id":"2", "app_name":"Harappa", "db_name":"five", "display_name":"Ultra", "is_active":"1"},
+		{"app_id" : "6", "server_id":"2", "app_name":"Poompuhar", "db_name":"six", "display_name":"Jack", "is_active":"0"},
+		{"app_id" : "7", "server_id":"2", "app_name":"Chozha", "db_name":"seven", "display_name":"Pluto", "is_active":"1"},
+		{"app_id" : "8", "server_id":"2", "app_name":"Pallava", "db_name":"eight", "display_name":"Winner", "is_active":"1"},
+		{"app_id" : "1", "server_id":"4", "app_name":"Green", "db_name":"one", "display_name":"Speed--", "is_active":"0"},
+		{"app_id" : "2", "server_id":"4", "app_name":"Everest", "db_name":"two", "display_name":"Moon--", "is_active":"0"},
+		{"app_id" : "3", "server_id":"4", "app_name":"Princess", "db_name":"three", "display_name":"Sun--", "is_active":"0"},
+		{"app_id" : "4", "server_id":"4", "app_name":"Himalaya", "db_name":"four", "display_name":"Quick--", "is_active":"1"},
+		{"app_id" : "5", "server_id":"4", "app_name":"Harappa", "db_name":"five", "display_name":"Winner--", "is_active":"0"},
+		{"app_id" : "6", "server_id":"4", "app_name":"Poompuhar", "db_name":"six", "display_name":"Camel--", "is_active":"1"},
+		{"app_id" : "1", "server_id":"3", "app_name":"Qn DB", "db_name":"base", "display_name":"Qn DB", "is_active":"1"},
+		{"app_id" : "1", "server_id":"5", "app_name":"Green", "db_name":"one", "display_name":"Hurricane--", "is_active":"0"},
+		{"app_id" : "2", "server_id":"5", "app_name":"Everest", "db_name":"two", "display_name":"Technique--", "is_active":"0"},
+		{"app_id" : "3", "server_id":"5", "app_name":"Princess", "db_name":"three", "display_name":"Galaxy--", "is_active":"0"},
+		{"app_id" : "4", "server_id":"5", "app_name":"Himalaya", "db_name":"four", "display_name":"Zenith--", "is_active":"1"},
+		{"app_id" : "5", "server_id":"5", "app_name":"Harappa", "db_name":"five", "display_name":"Bag--", "is_active":"0"},
+		{"app_id" : "6", "server_id":"5", "app_name":"Poompuhar", "db_name":"six", "display_name":"Camel--", "is_active":"1"},
+		{"app_id" : "5", "server_id":"6", "app_name":"Harappa", "db_name":"five", "display_name":"Bag--", "is_active":"0"},
+		{"app_id" : "6", "server_id":"6", "app_name":"Poompuhar", "db_name":"six", "display_name":"Camel--", "is_active":"1"}	
+	],
+	"job_type":
+	[
+		{"job_type_id" : "1", "job_cost" : 125, "job_type_name" : "MCQ Test (Sing Part, Default)"},
+		{"job_type_id" : "2", "job_cost" : 150, "job_type_name" : "Coding Test"},
+		{"job_type_id" : "3", "job_cost" : 250, "job_type_name" : "Scores + Multi Part Test (Each Part is MCQ)"},
+		{"job_type_id" : "4", "job_cost" : 275, "job_type_name" : "Scores + Multi Part Test (MCQ Tests with one coding test)"},
+		{"job_type_id" : "5", "job_cost" : 125, "job_type_name" : "Upload Username / Password"},
+		{"job_type_id" : "6", "job_cost" : 125, "job_type_name" : "Add Username / Password"}
+	],
+	"test_link":
+	[
+		"apple", "bag", "camel", "diamond", "excel", "fortune", "galaxy", "hurricane", "institute", "jack", "king", "lemon", "moon", "neptune", "oxygen", "pluto", "quick", "recent", "sapphire", "technique", "ultra", "violet", "winner", "xerox", "year", "zenith"
+	],
+	"map_active_test_link_database":
+	[
+		{"link_name" : "violet", "db_code_name":"two"},
+		{"link_name" : "pluto", "db_code_name":"five"},
+		{"link_name" : "ultra", "db_code_name":"four"}
+	]
+	
+}	
+	

@@ -1,0 +1,90 @@
+Notes: (move the apt apps to HP laptop)
+
+--------------------------------------------------------------------------------------
+	How apt apps work?
+	10:00 am -
+	1. I have to run wamp
+	2. I have to run py server
+			2.1 I will get the "tests' setting up app" in the browser 
+--------------------------------------------------------------------------------------			
+
+--------------------------------------------------------------------------------------			
+	Source Code:
+	1. DB
+		1.1 qn db 					- COPIED
+		1.2 one-eight dbs 	- COPIED
+	2. Code 
+		2.1 php 
+		2.2 py 
+	3. Files
+		3.1 student folders - passwords generation, password files, test file, score file 
+		3.2 .json -- test names setting file 
+		3.3 schedule --- test jobs description files ->
+--------------------------------------------------------------------------------------
+
+
+		
+--------------------------------------------------------------------------------------
+I remote: {apache,	php}, mysql 
+	
+II local: {apache, php}, mysql, py 
+	php source: 
+				test conduct app site: 							http://localhost/apt/aaa/qnpro/fev5											I
+				test locatl(verification purpose): 	http://localhost/apt/aaa/qnpro/?link=base&dt=20220522		II
+				
+... ...
+cd /d F:\v2m\techLang\dev\php\apt\aaa\aaapydj\app 
+envl\Scripts\activate 
+cd /d F:\v2m\techLang\dev\php\apt\aaa\aaapydj\app\aptmktest 						
+start http://localhost/apt/aaa/qnpro/fev5 
+python manage.py runserver 
+... ...
+				
+III 
+	make test 
+IV 
+	student file etc 
+--------------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------------
+I
+Q1. How a test is taken in remote?
+		
+II		
+Q2. How a test is taken in local(verification purpose)?
+Q3. How a test is uploaded to remote?
+Q4. How test scores are downloaded?
+		
+		
+		
+--------------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------------
+Remote Server Details:
+	http://oxygen.aptonlinetest.co.in:2083
+	https://oxygen.aptonlinetest.co.in:2083		
+	UserName: oxygen
+	PassWord: S@OwiOfhc#r{
+--------------------------------------------------------------------------------------	
+
+
+
+jdoodle.com
+-------------------------------------------------------------------------------------
+	01 for aptonlinetest.co.in - Exam for Students
+		gmaheswaranmca@gmail.com | 2020apttraining
+		urlToRun		https://api.jdoodle.com/v1/execute
+		clientId 		'524a4ccae6caac2a3f791b04186c72f5';
+		clientSecret 	'4a70a9a269720b855f37e9e353eb4fdfd460fbf3ba33a508709ab1a8e805e2cf';
+		
+		Site: https://www.jdoodle.com/
+		Pricing: https://www.jdoodle.com/compiler-api
+		Login ID:gmaheswaranmca@gmail.com 
+		Password: 2020apttraining
+-------------------------------------------------------------------------------------
+
+
+
+		

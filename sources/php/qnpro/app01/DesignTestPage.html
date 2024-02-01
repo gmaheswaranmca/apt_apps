@@ -1,0 +1,522 @@
+<html><head>
+		<title>APT Online Test</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">	
+		<link rel="shortcut icon" href="../static/img/comp/fav.png">
+		<link href="../static/css/cat.css" type="text/css" rel="stylesheet">
+		<script language="javascript" src="../static/js/jquery/jquery.min.js"></script>
+				
+		<link href="../static/js/bootstrap/bootstrap-4.min.css" type="text/css" rel="stylesheet">
+		<script language ="javascript" src="../static/js/bootstrap/bootstrap-4.min.js"></script>		
+
+		<script language="javascript" src="../static/js/mustache/mustache.js"></script>
+		<script language="javascript" src="../static/js/PageBase.js"></script>
+		
+		<script language="javascript" src="form/conductTest/conductTest.js"></script>
+		<script language="javascript" src="form/conductTest/conductTestMisc.js"></script>
+		<script language="javascript">
+		    var vSuffleRule=[
+  {"name":"Assessment (17May2020) - Test - Part B",
+		"rule":[
+		    {"rule":1,"from": 1,"to": 5, "suffleCount":0},
+			{"rule":2,"from": 6,"to": 11, "suffleCount":0},
+			{"rule":3,"from": 12,"to": 14, "suffleCount":0},
+			{"rule":4,"from": 15,"to": 19, "suffleCount":0},
+			{"rule":5,"from": 20,"to": 24, "suffleCount":0},
+			{"rule":6,"from": 25,"to": 30, "suffleCount":0}
+		]
+	},
+	{"name":"Assessment (17May2020) - Test - Part C",
+		"rule":[
+		    {"rule":1,"from": 1,"to": 10, "suffleCount":0},
+			{"rule":2,"from": 11,"to": 13, "suffleCount":0},
+			{"rule":3,"from": 14,"to": 15, "suffleCount":0},
+			{"rule":4,"from": 16,"to": 25, "suffleCount":0},
+			{"rule":5,"from": 26,"to": 30, "suffleCount":0},
+			{"rule":6,"from": 31,"to": 35, "suffleCount":0},
+			{"rule":7,"from": 36,"to": 40, "suffleCount":0}
+		]
+	}
+];  
+
+var CurrSuffledRules=[];
+var CurrRules={};
+var CurrRulesIsThere=false;
+var CurrRuleSufIdx = 0;
+//alert(44);		</script>
+		<script language="javascript">
+			var JsController = new ConductTestJsController('1');
+			JsController.OnLoad();
+			window.onscroll = function() {PageHeaderFix()};
+		</script>
+<style type="text/css">
+		.compe{
+		background: #f4f5f7!important; color:#c44844!important; font-family: tahoma; font-size:14pt;font-weight:bold; 
+		border-radius:20px;	border:1px solid #f4f5f7;	padding: 5px;	
+		}
+		</style>
+</head>
+<body >
+
+<header>
+<nav class="navbar navbar-expand-md navbar-light bg-light">
+	 <div class="navbar-brand"><img src="../static/img/comp/APEC-LOGO.png" width="89"></div>	
+	 
+ <button class="navbar-toggler" type="button" data-toggle="collapse" 
+	data-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+ </button>
+ <div class="collapse navbar-collapse" id="navbarsExample01">
+	<div class="navbar-brand compe" >
+			<span>Apt Training Resources<br><small style="text-align:right;color:black;font-size:10pt;">Online Test Platform</small>
+			</span>
+		</div>
+	<ul class="navbar-nav mr-auto">
+	<li class="nav-item"><a class="nav-link" href="ActiveAssignmentRes.php">Active Assignments</a></li>
+	<li class="nav-item"><a class="nav-link" href="ActiveAssignmentRes.php">Active Assignments</a></li>
+	<li class="nav-item"><a class="nav-link" href="ActiveAssignmentRes.php">Active Assignments</a></li>
+	<li class="nav-item"><a class="nav-link" href="ActiveAssignmentRes.php">Active Assignments</a></li>
+	<li class="nav-item"><a class="nav-link" href="ActiveAssignmentRes.php">Active Assignments</a></li>
+	</ul>
+</div>	
+	<div class="navbar-brand">
+		<div style="width:100%" id="myRemainingTime"><div timerdiv=""><div class="timerCounter">59<span class="tmrTxt">mins</span></div> <div class="timerCounter" style="width:20px;">:</div> <div class="timerCounter">41<span class="tmrTxt">secs</span></div> </div></div>
+	</div>
+</nav>
+</header>
+	<div style="overflow:auto" class="top_banner" id="topping">
+		<div class="top_ins"><img src="../static/img/comp/APEC-LOGO.png"></div>
+		<div class="top_header brand">
+			<style type="text/css">
+
+.brand-prd-desc{
+display:inline-block; width: 300px;
+padding:5px;
+	margin:1%;
+background: #ADA996;
+
+    background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
+    background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
+	 
+	color:navy;
+
+	border-radius:50px; 
+	font-size:12pt;font-variant:small-caps;
+}
+.brand-each{		display: table-cell; 		
+		padding:5px;
+		margin:1%;
+		color:#f4f5f7; font-family: tahoma; font-size:18pt;font-weight:bold; 
+				border-radius:20px;
+		border:1px solid #434343;		
+background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+		font-variant:small-caps;
+		vertical-align:middle;
+		text-align: center;	}
+.comp-each{		display: table-cell; 		
+		padding:5px;
+		margin:1%;
+		color:#c44844; font-family: tahoma; font-size:18pt;font-weight:bold; 
+		border-radius:20px;
+		border:1px solid #f4f5f7;		
+background: #f4f5f7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #ffffff, #f4f5f7);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #ffffff, #f4f5f7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+		
+		vertical-align:middle;
+		text-align: center;	}		
+</style>
+
+
+
+
+
+<div style="font-family: tahoma;">			
+	<div>
+		<table align="center"><tbody><tr><td>
+		<span class="comp-each">&nbsp;&nbsp;Apt&nbsp;&nbsp;</span>
+		<span class="comp-each">&nbsp;&nbsp;Training&nbsp;&nbsp;</span>
+		<span class="comp-each">&nbsp;&nbsp;Resources&nbsp;&nbsp;</span>
+		</td></tr><tr></tr></tbody></table>
+	</div>
+<!--div>
+	<table align="center"><tr><td>
+		<span class="brand-each">M</span><span class="brand-each">C</span>
+		<span class="brand-each">Q</span> 
+		<span class="brand-each">Challenge</span>
+	</td><tr></table>
+</div-->
+<div>
+	<span class="brand-prd-desc">Online Test Platform</span>
+</div>
+</div>
+<div>
+	<span id="myDbMsg" style="color:white;">
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;			
+	</span>
+</div>
+								
+		</div>
+		<div class="top_comp"><div>&nbsp;</div>
+			<div style="width:100%;padding-top:5px;">
+				<table width="100%">
+				<tbody><tr>
+					<td class="tmrBox" align="center"><div style="width:100%" id="myRemainingTime"><div timerdiv=""><div class="timerCounter">59<span class="tmrTxt">mins</span></div> <div class="timerCounter" style="width:20px;">:</div> <div class="timerCounter">41<span class="tmrTxt">secs</span></div> </div></div></td>
+				</tr>
+				</tbody></table>
+			</div>
+		</div>
+	</div>
+	<div style="overflow:auto" class="heading_view" id="myHeader">
+		<div class="heading_data" id="myTitle"><span>Assessment Test (MayJun) - 01</span>, <span>Total number of questions:</span><span id="myQCount">30</span>, <span>Max Time Limit: 60 minutes</span></div>
+		<div class="heading_logout" style="display:table;">
+		<div style="display:table-cell;text-align:right; vertical-align: middle; color: white; font-family: Arial; font-weight: bold; font-size: 12pt;"><span>Welcome </span><span id="myUserName">developer02</span><span>(</span><span id="myFullName">DEVELOPER02</span><span>)! </span></div>
+		<div style="display:table-cell;"><a href="logout.php" border="1">Logout</a></div></div>
+	</div>
+	<div style="overflow:auto" class="main_view">
+		<div class="main_menus">
+			<div id="menuContent" style="display: none;">
+
+	
+<style type="text/css">
+.bgmnu{
+font-weight: bold;
+border-radius: 10px; 
+border: 1px solid rgb(21, 87, 153);
+color:white;
+background-color: rgb(28, 181, 224);
+padding: 10px;
+
+	
+}
+</style>
+<table width="100%">
+	<tbody><tr>
+		<td>
+			<a class="menu_child_name" href="ActiveAssignmentRes.php">
+				<div class="c_menu_list_bg bgmnu">Active Assignments</div>
+			</a>
+		</td>
+	</tr>
+</tbody></table></div>		
+			<div id="testPagers" style="display: block;">
+
+	<style type="text/css">
+	.timerCounter {
+		display: table-cell; 		
+		width: 40px; height:40px; 
+		margin:1%;
+		font-size: 20px;					
+		font-family: 'Lucida Console'; 	
+		
+		border-radius:20px;
+		border:1px solid #434343;		
+background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+		color: white;
+		
+		vertical-align:middle;
+		text-align: center;	
+		
+	}
+	.timerDiv{
+		display:block; width:100%; padding:3px;
+		text-align:center;
+	}
+	.tmrBox{
+	font-family:tahoma; font-size:9pt; font-weight:bold;	
+	
+	border: 1px solid #DBDBDB; border-radius: 5px;
+	color:navy;
+	background: #ADA996;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.tmrTxt{float:bottom;font-size:7pt;display:block;}
+</style>
+<table align="center">
+	<tbody><tr>
+	<td class="tmrBox" align="center">Remaining Time: <div style="width:100%" id="myRemainingTime"><div timerdiv=""><div class="timerCounter">59<span class="tmrTxt">mins</span></div> <div class="timerCounter" style="width:20px;">:</div> <div class="timerCounter">41<span class="tmrTxt">secs</span></div> </div></div></td>
+	</tr>
+	<tr>
+	<td class="tmrBox" align="center">Test started at : <span id="myTestStartAt">11:32 AM</span></td>
+	</tr>
+	<tr>
+	<td>
+		<div sty1le="overflow:auto; height: 200px;" id="myQMatrix">
+
+	<style type="text/css">
+.pgrBtAning{
+	background: #fdc830;
+    background: -webkit-linear-gradient(to right, #f37335, #fdc830, #f37335);
+    background: linear-gradient(to right, #f37335, #fdc830, #f37335)
+}
+</style>
+
+<table align="center">
+	<tbody><tr>
+	</tr>	
+</tbody></table>
+
+<table align="center">
+	<tbody><tr>
+	<td>
+		<input type="button" class="pgrBt        pgrBtNotAns    pgrBtCurr" value="1" title="1" onclick="JsController.apdata.action.LoadQuestionByNo(1)"> 
+	</td>	
+	
+	<td>
+		<input type="button" class="pgrBt       pgrBtNotVisit pgrBtNotAns    " value="2" title="2" onclick="JsController.apdata.action.LoadQuestionByNo(2)"> 
+	</td>	
+	
+	<td>
+		<input type="button" class="pgrBt       pgrBtNotVisit pgrBtNotAns    " value="3" title="3" onclick="JsController.apdata.action.LoadQuestionByNo(3)"> 
+	</td>	
+	
+	<td>
+		<input type="button" class="pgrBt       pgrBtNotVisit pgrBtNotAns    " value="4" title="4" onclick="JsController.apdata.action.LoadQuestionByNo(4)"> 
+	</td>	
+	
+	<td>
+		<input type="button" class="pgrBt       pgrBtNotVisit pgrBtNotAns    " value="5" title="5" onclick="JsController.apdata.action.LoadQuestionByNo(5)"> 
+	</td>	
+	</tr><tr>
+	<td>
+		<input type="button" class="pgrBt       pgrBtNotVisit pgrBtNotAns    " value="6" title="6" onclick="JsController.apdata.action.LoadQuestionByNo(6)"> 
+	</td>	
+	
+	<td>
+		<input type="button" class="pgrBt       pgrBtNotVisit pgrBtNotAns    " value="7" title="7" onclick="JsController.apdata.action.LoadQuestionByNo(7)"> 
+	</td>	
+	
+	<td>
+		<input type="button" class="pgrBt       pgrBtNotVisit pgrBtNotAns    " value="8" title="8" onclick="JsController.apdata.action.LoadQuestionByNo(8)"> 
+	</td>	
+	
+	<td>
+		<input type="button" class="pgrBt       pgrBtNotVisit pgrBtNotAns    " value="9" title="9" onclick="JsController.apdata.action.LoadQuestionByNo(9)"> 
+	</td>	
+	
+	<td>
+		<input type="button" class="pgrBt       pgrBtNotVisit pgrBtNotAns    " value="10" title="10" onclick="JsController.apdata.action.LoadQuestionByNo(10)"> 
+	</td>	
+	</tr><tr>
+	<td>
+		<input type="button" class="pgrBt       pgrBtNotVisit pgrBtNotAns    " value="11" title="11" onclick="JsController.apdata.action.LoadQuestionByNo(11)"> 
+	</td>	
+	
+	<td>
+		<input type="button" class="pgrBt       pgrBtNotVisit pgrBtNotAns    " value="12" title="12" onclick="JsController.apdata.action.LoadQuestionByNo(12)"> 
+	</td>	
+	
+	<td>
+		<input type="button" class="pgrBt       pgrBtNotVisit pgrBtNotAns    " value="13" title="13" onclick="JsController.apdata.action.LoadQuestionByNo(13)"> 
+	</td>	
+	
+	<td>
+		<input type="button" class="pgrBt       pgrBtNotVisit pgrBtNotAns    " value="14" title="14" onclick="JsController.apdata.action.LoadQuestionByNo(14)"> 
+	</td>	
+	
+	<td>
+		<input type="button" class="pgrBt       pgrBtNotVisit pgrBtNotAns    " value="15" title="15" onclick="JsController.apdata.action.LoadQuestionByNo(15)"> 
+	</td>	
+	</tr><tr>
+	<td>
+		<input type="button" class="pgrBt       pgrBtNotVisit pgrBtNotAns    " value="16" title="16" onclick="JsController.apdata.action.LoadQuestionByNo(16)"> 
+	</td>	
+	
+	<td>
+		<input type="button" class="pgrBt       pgrBtNotVisit pgrBtNotAns    " value="17" title="17" onclick="JsController.apdata.action.LoadQuestionByNo(17)"> 
+	</td>	
+	
+	<td>
+		<input type="button" class="pgrBt       pgrBtNotVisit pgrBtNotAns    " value="18" title="18" onclick="JsController.apdata.action.LoadQuestionByNo(18)"> 
+	</td>	
+	
+	<td>
+		<input type="button" class="pgrBt       pgrBtNotVisit pgrBtNotAns    " value="19" title="19" onclick="JsController.apdata.action.LoadQuestionByNo(19)"> 
+	</td>	
+	
+	<td>
+		<input type="button" class="pgrBt       pgrBtNotVisit pgrBtNotAns    " value="20" title="20" onclick="JsController.apdata.action.LoadQuestionByNo(20)"> 
+	</td>	
+	</tr><tr>
+	<td>
+		<input type="button" class="pgrBt       pgrBtNotVisit pgrBtNotAns    " value="21" title="21" onclick="JsController.apdata.action.LoadQuestionByNo(21)"> 
+	</td>	
+	
+	<td>
+		<input type="button" class="pgrBt       pgrBtNotVisit pgrBtNotAns    " value="22" title="22" onclick="JsController.apdata.action.LoadQuestionByNo(22)"> 
+	</td>	
+	
+	<td>
+		<input type="button" class="pgrBt       pgrBtNotVisit pgrBtNotAns    " value="23" title="23" onclick="JsController.apdata.action.LoadQuestionByNo(23)"> 
+	</td>	
+	
+	<td>
+		<input type="button" class="pgrBt       pgrBtNotVisit pgrBtNotAns    " value="24" title="24" onclick="JsController.apdata.action.LoadQuestionByNo(24)"> 
+	</td>	
+	
+	<td>
+		<input type="button" class="pgrBt       pgrBtNotVisit pgrBtNotAns    " value="25" title="25" onclick="JsController.apdata.action.LoadQuestionByNo(25)"> 
+	</td>	
+	</tr><tr>
+	<td>
+		<input type="button" class="pgrBt       pgrBtNotVisit pgrBtNotAns    " value="26" title="26" onclick="JsController.apdata.action.LoadQuestionByNo(26)"> 
+	</td>	
+	
+	<td>
+		<input type="button" class="pgrBt       pgrBtNotVisit pgrBtNotAns    " value="27" title="27" onclick="JsController.apdata.action.LoadQuestionByNo(27)"> 
+	</td>	
+	
+	<td>
+		<input type="button" class="pgrBt       pgrBtNotVisit pgrBtNotAns    " value="28" title="28" onclick="JsController.apdata.action.LoadQuestionByNo(28)"> 
+	</td>	
+	
+	<td>
+		<input type="button" class="pgrBt       pgrBtNotVisit pgrBtNotAns    " value="29" title="29" onclick="JsController.apdata.action.LoadQuestionByNo(29)"> 
+	</td>	
+	
+	<td>
+		<input type="button" class="pgrBt       pgrBtNotVisit pgrBtNotAns    " value="30" title="30" onclick="JsController.apdata.action.LoadQuestionByNo(30)"> 
+	</td>	
+	</tr><tr>
+	</tr>	
+</tbody></table></div>
+		<table style="font-family:tahoma; font-size:9pt; font-weight:bold;">
+			<tbody><tr><td>Legend</td></tr>
+		</tbody></table>	
+		<table style="font-family:tahoma; font-size:9pt;">
+			<tbody><tr>
+				<td><span class="pgrBt pgrBtAns" style="display:inline-block;">&nbsp;</span>&nbsp;Answered&nbsp;</td>
+			</tr>
+			<tr>
+				<td><span class="pgrBt pgrBtNotAns" style="display:inline-block;">&nbsp;</span> Not Answered</td>				
+			</tr>
+			<tr>
+				<td><span class="pgrBt pgrBtNotVisit" style="display:inline-block;">&nbsp;</span> Not Visited</td>				
+			</tr>
+			<tr>
+				<td><span class="pgrBt pgrBtAns pgrBtCurr" style="display:inline-block;">&nbsp;
+					</span><!--&nbsp;<span class="pgrBt pgrBtNotAns pgrBtCurr" style="display:inline-block;">&nbsp;
+					</span>&nbsp;<span class="pgrBt pgrBtNotVisit pgrBtCurr" style="display:inline-block;">&nbsp;</span>-->&nbsp;Current Question</td>				
+			</tr>
+		</tbody></table>
+	</td>
+	</tr>
+		<tr>
+	<td class="tmrBox" align="center"><div style="width:100%" id="myRemainingTime"><div timerdiv=""><div class="timerCounter">59<span class="tmrTxt">mins</span></div> <div class="timerCounter" style="width:20px;">:</div> <div class="timerCounter">41<span class="tmrTxt">secs</span></div> </div></div></td>
+	</tr>
+
+</tbody></table>
+
+
+</div>
+		</div>
+		<div class="main_data">
+			<div id="pageContent">
+
+	<style type="text/css">
+.pgrBtLike{
+	display:table-cell;
+	vertical-align:middle;
+	text-align:center;
+	
+}
+</style>
+
+<div align="center" id="divQst" class="qst_main_table_li">
+	<table style="width: 100%;">
+	<tbody><tr>
+		<td class="header_text" style="padding:5px; background-color:#ccc;">
+			<span class="pgrBtLike pgrBt pgrBtAns pgrBtCurr">Q1 <!--.24--></span>
+			<span class="pgrBtLike pgrBt    ">&nbsp;</span>
+			
+		</td>
+	</tr>
+	<tr>
+		<td style="padding:5px;">
+			<font face="tahoma" size="4">
+				<b>
+					<p>
+	In 6 minutes, how many degrees minute hand traverses______?</p>
+				</b>
+			</font>
+		</td>
+	</tr>    
+	<tr>
+		<td style="padding:10px;">
+			<table border="0" class="qst_ans_table" cellspacing="10">
+				<tbody><tr style="background-color:#eee;color:navy;">
+					<td style="padding:5px;border:1px solid #ccc;">
+						<label class="rbcontainer">6°
+						<input type="radio" id="rdAns" name="rdAns" value="266">
+						<span class="rbcheckmark"></span>
+						</label>
+					</td>					
+				</tr>
+				<tr style="background-color:#eee;color:navy;">
+					<td style="padding:5px;border:1px solid #ccc;">
+						<label class="rbcontainer">30°
+						<input type="radio" id="rdAns" name="rdAns" value="267">
+						<span class="rbcheckmark"></span>
+						</label>
+					</td>					
+				</tr>
+				<tr style="background-color:#eee;color:navy;">
+					<td style="padding:5px;border:1px solid #ccc;">
+						<label class="rbcontainer">5°
+						<input type="radio" id="rdAns" name="rdAns" value="268">
+						<span class="rbcheckmark"></span>
+						</label>
+					</td>					
+				</tr>
+				<tr style="background-color:#eee;color:navy;">
+					<td style="padding:5px;border:1px solid #ccc;">
+						<label class="rbcontainer">36°
+						<input type="radio" id="rdAns" name="rdAns" value="269">
+						<span class="rbcheckmark"></span>
+						</label>
+					</td>					
+				</tr>
+				<tr style="background-color:#eee;color:navy;">
+					<td style="padding:5px;border:1px solid #ccc;">
+						<label class="rbcontainer">33°
+						<input type="radio" id="rdAns" name="rdAns" value="270">
+						<span class="rbcheckmark"></span>
+						</label>
+					</td>					
+				</tr>
+			</tbody></table>            
+		</td>
+	</tr>
+	<!--tr class="c_list_item_gr">
+		<td class="footer_text" style="padding:5px; background-color:#ccc;">
+			<input type="hidden" name="hdnPriority" id="hdnPriority" value="24">
+			<input type="hidden" name="hdnNextPriority" id="hdnNextPriority" value="25">
+			
+		</td>
+	</tr-->
+	<tr class="c_list_item_gr">
+		<td style="padding:5px;">
+			<div id="myQBtns">
+			<input type="button" class="aptBtn" style="min-width:100px;" onclick="JsController.apdata.action.PreviousQuestion();" value="< Previous">
+			<input type="button" class="aptBtn" style="min-width:100px;" onclick="JsController.apdata.action.NextQuestion();" value="  Next >  ">
+			
+			<input type="button" class="aptBtn" style="float: right;" onclick="JsController.apdata.action.FinishTest();" value="Finish Test">
+			<input type="button" class="aptBtn" style="float: right;margin-right: 20px;" onclick="JsController.apdata.action.ShowInstruction();" value="Instructions">
+			</div>
+			<div id="myNonQBtns" style="display:none;color:orange;font-weight:bold;font-size:12pt;font-family:Arial; text-align: center;">Saving Your Answer...
+			</div>
+		</td>
+	</tr>
+	</tbody></table>
+</div></div>
+		</div>
+	</div>
+
+		 
+</body></html>

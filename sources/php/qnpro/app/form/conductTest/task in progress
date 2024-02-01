@@ -1,0 +1,14 @@
+Page Display
+(a) Instruction
+(b) Quiz / Assignment Detail
+(c) Data
+    i. Questions, 
+    ii. Options and 
+	iii. Answered Detail
+	--> Diplay Instruction Page
+(d) On each question display
+    We submit the answer in silent way...
+    submit text is formed and displayed until we get response from database
+	   Qno We save your answer in the background - you can answer in the meanwhile
+    	
+
