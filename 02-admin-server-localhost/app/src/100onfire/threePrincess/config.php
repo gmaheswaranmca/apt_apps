@@ -1,0 +1,20 @@
+<?php
+  include_once('pref.php');
+  define("SQL_IP", "mysqldb");
+  
+  
+  
+  define("SQL_USER", "oxygen_aptonline");
+  define("SQL_PWD","I8U+RxjE7*.H");  
+  define("SQL_DATABASE","oxygen_aptonlinethree");
+  
+  define("DEBUG_SQL","no");
+
+  function Imported_Users_Password_Hash($entered_password,$password_from_db)
+  {
+      return md5($entered_password);
+  }
+
+  @session_start();
+
+  

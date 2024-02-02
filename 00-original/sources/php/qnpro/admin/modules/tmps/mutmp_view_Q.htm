@@ -1,0 +1,138 @@
+<form method="post" name="form1">
+    <div id="dvCont">
+    <table align="left" width="100%" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+            <td style="display:{{$timer_display}}" align="left">
+                <div class="c_timer" align="left" id="divTimer" style="display:{{$timer_display}}">
+                Remaining Time <span id="tmrStart"></span>: <label id="lblTimer" style='font-size:15pt;'></label>
+                </div>
+            </td>        
+            <td class="desc_text_bg2" align="right" >
+                <div id="divPager" style="display:{{$pager_display}};">
+                    Questions : 
+					
+{{#A}}
+<u>
+<a style='cursor:pointer;background-color:{{$bgcolor}}' 
+ onmouseout='HideObject(\"tblTip\")' 
+ onmouseover='ShowQst(event.pageX, event.pageY , {{$row['priority']}} )'    
+ onclick='LoadQst(\"{{$page}}\",{{$row[question_type_id]}},{{$row[priority]}},{{$row[id]}},{{$finish}})'>
+ {{$i}}</a></u>&nbsp;
+{{/A}} &nbsp;&nbsp;					
+					
+                </div>
+            </td>                   
+        </tr>
+        <tr id="trLine" style="display:{{$timer_display}}">
+            <td colspan="2"><hr></td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                  <div align="center" id="divQst" style="display:{{$app_display}}">
+{{#qst_html}}
+                        <table align="left" cellpadding=5 cellspacing=5 border=0>
+{{#qst}}
+    <tr>
+        <td class="header_text">
+            {{header_text}}
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <font face="tahoma" size="4"><b>{{question_text}}</b></font>
+        </td>
+    </tr>    
+    <tr>
+        <td align="left" class="qst_ans_table">
+           <table border=0 >
+                <tr>
+                    <td class="desc_text_bg2" colspan=2>
+                        {{group_name}}
+                    </td>
+                </tr>
+                {{#A}}[answers]{{/A}}
+				{{#row_answer}}
+					<tr><td><input  
+					   {{#answers_val_true}}checked{{/answers_val_true}} 
+					   type=radio 
+					   id=rdAns{{control_unq}} 
+					   {{#read_only_text}}readonly{{/read_only_text}} 
+					   name=rdAns{{control_unq}}
+					   value='{{a_id}}'
+					   >
+					   </td><td style=\"width:80%\" class=desc_text_bg>
+						  {{answer_text}}
+					   {{#show_correct_answers and correct_answer_true}}
+					   <font color=red>&nbsp;&nbsp;&nbsp;(correct answer)</font>   
+					   {{/show_correct_answers and correct_answer_true}}
+					</td></tr>
+				{{/row_answer}}
+            </table>            
+        </td>
+    </tr>
+
+    <tr>
+        <td class="footer_text">
+			{{#B}}[hiddens]
+			<input type=hidden name=hdnPriority id=hdnPriority value="{{priority}}">
+			<input type=hidden name=hdnNextPriority id=hdnNextPriority value="{{next_priority}}">
+			{{/B}}
+			
+            {{footer_text}}
+        </td>
+    </tr>
+    {{#C}}[buttons]{{/C}}
+		<tr><td>
+			{{#show_prev}}
+			<input type=button onclick=javascript:PrevQst('".$this->page_name."',$row[question_type_id],$row[prev_priority]) style='width:110px' value='< Previous'>&nbsp;
+			{{/show_prev}}
+			{{#show_next}}
+			<input type=button onclick=javascript:NextQst('".$this->page_name."',$row[question_type_id],$row[next_priority],$row[id],0) style='width:110px' value='Next >'>
+			{{/show_next}}
+			{{#show_finish}}
+			<input onclick=javascript:NextQst('".$this->page_name."',$row[question_type_id],$row[next_priority],$row[id],1) type=button style='width:110px' value='Finish'>
+			{{/show_finish}}
+		</td></tr>
+
+{{/qst}}	
+</table>
+{{/qst_html}}
+                  </div>
+            </td>
+        </tr>
+    </table>
+    </div>
+    &nbsp;
+	
+    <div align="center" id="divMsg" style="display:{{$msg_display}}">
+        <p><label class="empty_data">&nbsp;{{$msg_text}}</label></p>
+    </div>    
+    
+</form>
+
+<table id="tblTip" style="display:none" cellspacing="0" cellpadding="0" border=0>
+  <tr>
+    <td align="right"><img border="0" src="tooltip_files/t1.gif" /></td>
+  </tr>
+	<tr >
+		<td>		
+			<table width="400px" cellspacing="0" cellpadding="0" style="border:0;border-width:2;border-color:#ED7C36" border=0 >
+				<tr >
+					<td style="width:1%" align=left valign=bottom ><img src="i/tool/tb_l.gif"></img></td>
+					<td style="width:98%" bgcolor="#F9DD93"></td>
+					<td style="width:2px"  align="left" ><img src="i/tool/tb_r.gif"></img></td>
+				</tr>
+				<tr bgcolor="#F9DD93">
+					<td colspan=3 align=center>
+                                            <font face="arial" size="2" color="#63665B">&nbsp;<span id="divText"></span></font>
+					</td>
+				</tr>
+				<tr valign="top">
+					<td style="width:1%" align="left"><img src="i/tool/tb_l_b.gif"></img></td>
+					<td style="width:400px" bgcolor="#F9DD93"></td>
+					<td style="width:2px" align="left" ><img src="i/tool/tb_r_b.gif"></img></td>
+				</tr>
+			</table>
+		</td>
+	</tr>	
+</table>

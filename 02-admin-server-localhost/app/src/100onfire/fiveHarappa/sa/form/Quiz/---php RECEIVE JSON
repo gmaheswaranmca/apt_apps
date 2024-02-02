@@ -1,0 +1,116 @@
+https://stackoverflow.com/questions/54773204/sending-complex-json-data-on-php-post
+
+
+How to decode the nested json from ajax post
+Rate this:	
+
+See more: PHPAjaxjQueryJSON
+I am sending dropdown data to php in json format by ajax call and decoding it and trying to insert that data into db as shown below...
+
+The response for ajax call is getting success here, but only the email is stored successfully in db , others(jobcategory, jobtype, company) are stored as empty data.....
+
+The html file subscriber.html is as given below:
+
+Hide   Expand    Copy Code
+<script>
+        jQuery(document).ready(function()
+        {
+            jQuery('#subscribe').click(function()
+            {
+            var inputDetails =[];
+            var obj = {};
+
+                obj.jobcategory = jQuery('#jobcategory').val();
+                obj.jobtype = jQuery('#jobtype').val();
+                obj.company = jQuery('#company').val();
+                obj.email = jQuery('#email').val();
+
+                inputDetails.push(obj);
+
+var jsonString = JSON.stringify(inputDetails);
+jQuery.ajax(
+				{
+					type: 'POST',
+					url: 'subscriberinput.php',
+					data: { 'inputDetailsData': jsonString},
+					success: function(data)
+					{
+						if(data=="success")
+						{
+						alert("Data stored successfully");
+						}
+					},
+					error: function(xhr, textStatus, errorThrown)
+					{
+						alert('An error occurred! ' + ( errorThrown ? errorThrown :xhr.status));
+					}
+				});
+			});
+		});
+</script>
+</head>
+<body>
+	<form id="search" name="SUBSCRIBE FOR JOBS" method="POST" action="subscriberinput.php">
+	<hr>
+	<div>
+			Job Categories: <select multiple="multiple" id="jobcategory" value="jobcategory" name="jobcategory">
+			</select><br><br>
+
+
+			Job Type: <select multiple="multiple" id="jobtype" value="jobtype" name="jobtype">
+			</select><br><br>
+
+			Company Name: <select multiple="multiple" id="company" value="company" name="company">
+			</select><br><br>
+			
+			Your E-Mail ID: <input type="email" id="email" name="email" placeholder="email"></input><br><br>
+
+			<input type="button" id="subscribe" value="subscribe"/>
+
+
+The php file Subscriberinput.php is as given below:
+Hide   Copy Code
+$inputDetailsData = json_decode($_POST['inputDetailsData']);
+
+foreach($inputDetailsData as $inputDetails)
+{
+$jobcategory = mysql_real_escape_string($inputDetails->jobcategory);
+$jobtype = mysql_real_escape_string($inputDetails->jobtype);
+$company = mysql_real_escape_string($inputDetails->company);
+$email = mysql_real_escape_string($inputDetails->email);
+
+
+
+$result = mysql_query("INSERT into subscriberinput(jobcategory,jobtype,company,email) values('$jobcategory','$jobtype','$company','$email')");
+}
+
+if($result)
+{
+echo "success";
+}
+
+And json data of var jsonString = JSON.stringify(inputDetails); is as
+
+[
+{
+"jobcategory": [
+"BPO"
+],
+"jobtype": [
+"Apply-Online",
+"Full",
+"Internship",
+"Off-Campus",
+"Walk-In",
+"Part"
+],
+"company": [
+"Dell"
+],
+"email": "xxxxxxx@gmail.com"
+}
+]
+
+Here,I think, the json data is nested data except email, so its only stored into db fine and others are stored as empty data. I need some help to do it fine.
+
+Can anyone help?

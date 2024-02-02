@@ -1,0 +1,68 @@
+https://semaphoreci.com/community/tutorials/dockerizing-a-php-application
+https://medium.com/@miladev95/dockerizing-a-php-application-e3c756670336
+
+
+--- 02-admin-server-localhost ---
+https://medium.com/@tech_18484/deploying-a-php-web-app-with-docker-compose-nginx-and-mariadb-d61a84239c0d
+
+Deploying a PHP web application using Docker Compose
+o Nginx 
+    - as the web server
+o Docker Compose 
+    - simplifies the management of multi-container applications
+    - making it easy to set up and run your PHP web app with all its dependencies
+o
+The source code does not work in the containers because
+  The error ie"Cannot modify header information - headers already sent by" 
+  we got at PHP
+  
+  and 
+
+  the files "config.php"
+            "gf/ar6PhpUtil.php"
+            "form/userAndModule/UserAndModuleDb.php"
+  we removed end php directive 
+    php directive Start         End
+                  <?php         ?>             
+o 
+"docker compose"'s mysql service has 
+      "mysqldb" as its name ie service name, 
+      "3306" as local port, 
+      "3307" as docker port
+
+so, container php connnection string is "mysql:host=mysqldb;port=3306;...."
+    whereas host computer workbench connects to "localhost:3307"
+
+For database 
+    Run all the one-eight databases     
+    Create username and password for apps and set the privileges
+
+o conculsion 
+mysqldb, php, nginx are the services of docker compose
+
+Run "localhost:8001/winner" to run the test where winner is the "test link name"
+
+
+--- 02-admin-server-localhost ---
+Simiar setup 
+
+db port: 3308 (outside)
+app port: 8002
+
+localhost:8002?dt=20240202&link=one
+
+
+
+
+
+https://www.bogotobogo.com/DevOps/Docker/Docker-Compose-Nginx-Reverse-Proxy-Multiple-Containers.php
+
+To make the "8002" as nginx server port,
+set the port in 
+    default.config[1 time] and 
+    docker-compose[2 times] files 
+            [Total 3 times]
+
+--- 02-admin-server-localhost | admin portal ---
+admin portal to get run 
+    change the server address

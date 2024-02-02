@@ -1,0 +1,21 @@
+apt64qbase
+	------------------------------
+	file_qn_source -> source_id, source_detail
+		!source_detail : {'source_path':'F:\v2m\techLang\assignment\2020-07-08-Apt-BulkQuestions\qn', original_file:'fn-vvn.docx', 'question_file':'_qn', 'option_file':'_opt'}
+	file_qn_base -> file_id, file_number, source_id
+	file_qn_version -> file_id, version_number, json
+	------------------------------
+	file_participant_source -> source_id, source_detail
+		!source_detail : {'source_path':'F:\v2m\techLang\assignment\2020-07-08-Apt-BulkQuestions\participant', original_file:'fn-vvn.csv'}
+	file_participant_base -> file_id, file_number, source_id
+	file_participant_version -> file_id, version_number, json
+	------------------------------
+	participant_group_base -> group_id, group_name, file_id
+	participant_base -> group_id, participant_id, sno, participant_name, participant_code, login_username, login_password, login_password_enc
+	------------------------------
+	question_base -> file_id, version_number, question_id, question_number, question_text, question_options, answer_key, question_score_point, question_subject_id, question_group_id, question_section_id
+	question_section -> question_section_id, question_section_name, section_intro_text
+	question_subject -> question_subject_id, question_subject_name
+	question_group -> question_group_id,question_subject_id, question_group_name
+	------------------------------
+apt64qtest

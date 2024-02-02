@@ -1,0 +1,48 @@
+.c_list_head
+{
+	color:#7D848C;
+	font-size : 13px;
+	font-family:tahoma;
+	font-weight : bold;
+	padding:5px;
+}
+
+.c_list_head td
+{
+	padding:5px;
+	color:#ffffff;
+	background-color:#c44844;
+	border-top:none;
+	border-left:none;
+	border-right:1px solid #ffffff;
+	border-bottom:none;
+}
+
+.c_list_item
+{
+	color:black;
+	font-size : 13px;
+	font-family:tahoma;	
+
+}
+
+.c_list_item td
+{
+	padding:5px;
+	border-top:none;
+	border-left:none;
+	border-right:none;
+	border-bottom:1px solid #c44844;
+}
+
+.tblGrid
+{
+    scope:col;    
+    width: 100%;
+	border-top:none;
+	border-left:none;
+	border-right:none;
+	border-bottom:1px solid #c44844;
+    border-collapse:collapse;
+    
+}

@@ -1,0 +1,158 @@
+-- maxedu_qnbase --
+question_data -> question_id, question_text, question_options, answer_key, question_score_point, question_subject_id, question_group_id, question_section_id
+quiz_data -> quiz_id, quiz_name, quiz_intro_text, qns_count, time_mins, suffle_rule, quiz_score_point, is_disabled
+quiz_question -> quiz_id, question_id
+question_section -> question_section_id, question_section_name
+question_subject -> question_subject_id, question_subject_name
+question_group -> question_group_id, question_group_name, question_subject_id
+
+CREATE TABLE ext01_question_data(question_id bigint(20) unsigned null auto_increment,
+    question_text varchar(8000) CHARACTER SET utf8  not null default '' , question_options varchar(8000)CHARACTER SET utf8   not null default '', 
+	answer_key varchar(100) CHARACTER SET utf8  not null default '', question_score_point double not null default 1,
+	question_subject_id  bigint(20) unsigned not null default 0, question_group_id  bigint(20) unsigned not null default 0,
+	question_section_id  bigint(20) unsigned not null default 0, 	
+	primary key(question_id));
+	
+CREATE TABLE ext01_quiz_data(quiz_id bigint(20) unsigned null auto_increment,
+    quiz_name varchar(250)CHARACTER SET utf8   not null default '', quiz_intro_text varchar(2000)CHARACTER SET utf8   not null default '', 
+	qns_count int(11) not null default 0, time_mins int(11) not null default 0, 
+	suffle_rule varchar(2000)CHARACTER SET utf8   not null default '', quiz_score_point double not null default 0, 
+	is_disabled tinyint(1) not null default 0, 
+	primary key(quiz_id));
+	
+CREATE TABLE ext01_quiz_question( quiz_id  bigint(20) unsigned not null default 0, 
+    question_id bigint(20) unsigned not null default 0, 
+	primary key(quiz_id, question_id));
+	
+CREATE TABLE ext01_question_section( question_section_id bigint(20) unsigned null auto_increment, 
+    question_section_name varchar(250)CHARACTER SET utf8   not null default '', 
+	section_intro_text varchar(2000)CHARACTER SET utf8   not null default '',
+	primary key(question_section_id));
+
+CREATE TABLE ext01_question_subject( question_subject_id bigint(20) unsigned null auto_increment, 
+    question_subject_name varchar(250)CHARACTER SET utf8   not null default '',
+	primary key(question_subject_id));
+	
+CREATE TABLE ext01_question_group( question_group_id bigint(20) unsigned null auto_increment, 
+    question_group_name varchar(250)CHARACTER SET utf8   not null default '', question_subject_id  bigint(20) unsigned not null default 0,
+	primary key(question_group_id));	
+
+CREATE TABLE ext01_user_data( user_id bigint(20) unsigned null auto_increment, 
+    login_user_name varchar(100)CHARACTER SET utf8   not null default '', login_password varchar(100)CHARACTER SET utf8   not null default '', 
+	full_name varchar(500)CHARACTER SET utf8   not null default '', is_super_admin tinyint(1) not null default 0, 
+	is_admin  tinyint(1) not null default 0, is_disabled  tinyint(1) not null default 0,
+	primary key(user_id));
+	
+CREATE TABLE ext01_user_group( user_group_id  bigint(20) unsigned null auto_increment, 
+    user_group_name varchar(250)CHARACTER SET utf8   not null default '', is_diabled tinyint(1) not null default 0,
+	primary key(user_group_id));
+	
+CREATE TABLE ext01_user_group_user(user_group_id bigint(20) unsigned not null default 0, 
+    user_id bigint(20) unsigned not null default 0,
+	primary key(user_group_id,user_id));
+    
+CREATE TABLE ext01_assignment_data( assignment_id  bigint(20) unsigned null auto_increment, 
+    quiz_id bigint(20) unsigned not null default 0, assignment_name varchar(250)CHARACTER SET utf8   not null default '', 
+	assginment_status int(11) unsigned not null default 0, valid_from datetime null, valid_to datetime null,
+	user_group_id bigint(20) unsigned not null default 0, assignment_score_card varchar(8000) CHARACTER SET utf8 not null default '',
+	primary key(user_group_id));
+				  
+CREATE TABLE ext01_assignment_user_score(assignment_id bigint(20) unsigned not null default 0, 
+    user_id bigint(20) unsigned not null default 0, attempt_no int(11) unsigned not null default 0, 
+	user_assignment_status int(11) unsigned not null default 0, assignment_user_score  double not null default 0, 
+    qns_answered_count int(11) unsigned not null default 0, 
+	simple_score_card varchar(8000) CHARACTER SET utf8 not null default '', 
+	extended_score_card varchar(8000) CHARACTER SET utf8  not null default '', 
+	questions_suffle_order varchar(1000)CHARACTER SET utf8  not null default '', 
+	test_start_time datetime, score_update_time datetime,
+	test_end_time datetime, total_time_spent  bigint(20) unsigned not null default 0);
+		
+--- --- --- --- --- --- --- --- --- --- --- --- ---
+	simple_score_card = 
+	{
+	qns_answered_count, qns_count, qns_correct_answered_count, 
+	assignment_user_score, time_spent_in_qns, time_spent, user_assignment_status
+	extended_score_card =
+	byq:{"question_id": [,,,,....], "score":[], "times_spent":[], is_answered:[]}
+	bysubject: {subject_id, score, qns_count, qns_answered_count} 
+	bygroup: {group_id, score, qns_count, qns_answered_count} 
+	bysection: {section_id, score, qns_count, qns_answered_count} 
+	}
+--- --- --- --- --- --- --- --- --- --- --- --- ---
+
+
+laptop-app
+	-> super admin
+		create questions from file 
+			qn_file_source -> source_id, source_detail{'source_path':'', original_file:'{{fileNumber}}-v{{VersionNumber}}.docx', 'question_file':'_qn', 'option_file':'_opt'}
+			qn_file -> file_id, file_number, version_number, json, source_id
+			user_file_source -> source_id, source_detail{'original_file':'{{fileNumber}}-v{{VersionNumber}}.csv', 'group_detail':'_det.txt'}
+		
+		
+		files 
+			1 2 3 4 5 6 11 12 13 14 15 16 21 22 ...
+			
+		file: 01 (v1)|new, subject: xxx, group: yyy,  [view]  edit 
+			1 2 3 4 5 6 7 8 9 10
+			Q1  Prev Next                                      ... Save 
+				section: zzz | Not Applicable
+				Q: qqq
+				Options: (a) AAAA (b) BBBB (c) CCCC (d) DDDD (e) EEEE 
+				Answer Key: (e) 
+				
+				Prev Next                                      ... Save 
+	-> admin		
+		participant group:  
+			1 2 3 4 ...
+				file_number, name:KIOT, status: active 
+				SNo 	FullName 	ParticipantCode		LoginUserName	LoginPassword
+				1		...
+				2		...          
+							.
+							.
+							.
+				<<Save>>
+
+		test paper: 
+			1001 1002 1003 1004 1005 1006 ...... new
+			formed from : 1(1-10),2(1-10),3(1-10)
+			paper_number:1001, name: xxx, intro_text: <view>, qns: 30, time limit: 60mins, shuffle_options: {shuffle_questions:'y', shuffle_options: 'y'}
+			status: active 
+			1 2 3 4 5 5 6 7 8 ....			
+			
+			Q1  Prev Next                                      ... Save 
+				section: zzz | Not Applicable
+				Q: qqq
+				Options: (a) AAAA (b) BBBB (c) CCCC (d) DDDD (e) EEEE 
+				Answer Key: (e) 
+				
+				Prev Next                                      ... Save 
+				
+		test plan 
+			no: 1
+			plan no 
+			date: 
+			valid from - valid to 
+		assignment:	
+			1001-1, 1001-2, .... new 
+			
+			test_paper: 1000,<xxx> v, participant_group: 1, <xxx> v, test_plan: 01apr20 10am-[02apr ]8pm, link: [     ]v
+				Save | Download Result 
+					<download_test_assignment> | <update_test_data> 
+			
+server app	
+	test result <upload_test_assignment> 
+		1001-1-1-01apr20-10amto02apr-10am, 1001-2-1, .....  
+		assignment: 1001-1,  attempt_number: 1
+			<download_test_data>
+			assignment_id, user_id, attempt_number, result, detailed_result
+
+	
+<download_test_assignment>
+	link is nothing but test_result<linkname>
+<update_test_data>		
+<upload_test_assignment>
+
+
+apt64qbase
+apt64qtest

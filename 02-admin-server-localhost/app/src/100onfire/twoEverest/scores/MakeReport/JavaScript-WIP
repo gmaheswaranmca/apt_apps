@@ -1,0 +1,124 @@
+var rptDef = this.getReportDef();
+
+Res.mdReports
+Res.ResultIDs
+
+function jsonConcat(o1, o2) { 
+	o1 = JSON.parse(JSON.stringify(o1));
+	for (var key in o2) o1[key] = o2[key];	
+	return o1;
+}
+rptDef = jsonConcat(fieldDef, rptDefUsrGroup);//rptDef=fieldDef, rptDefUsrGroup=usrGroup
+rptDef.report_name = agn.day_name() + qz.quiz_name;
+
+this.GenReport=function(rptDef) {		
+		
+		var Res = MakeReportReqDoRes.vMakeReportPage;
+		idx = Res.report_idx;
+		var RL = Res.mdReports[idx];
+		
+		$('#testPagers').html(RL.report_name + "<br>Got Data.<br>Generating Report....");
+		
+		
+		var fieldReplace = {'username':'UserName','fullname':'Name','answered':'QnsAnswered','score':'Score','attendance':'Attendance'};
+		var field_list = rptDef.field_list;
+		var field_caption = rptDef.field_caption;
+		var fields = field_list.split(",");
+		var captions = field_caption.split(",");
+		this.trimList(fields);
+		this.trimList(captions);
+		var	CapStr='';var	CapStr01='';
+		for(var J=0; J<fields.length; J++){
+			fields[J] = this.getFieldParts(fields[J]);
+			if(fields[J].is_part) {
+				var TP = Res.TP[fields[J].tp_id-1];				
+				captions[J] = captions[J].replace('~tp_name~',TP.quiz_name).replace('~qn_count~',parseInt(TP.question_count));
+			}
+			CapStr += (CapStr==''?'':',') + '"' + captions[J] + '"'; 
+		}		
+		//
+		var Dat01 = Res.DataRes['ass'+ Res.ResultIDs[0]];
+		var DatOut = [];
+		rptDef.user_list = rptDef.user_list.trim()
+		var users = [];
+		var usrData = {};
+		var isAll = true;
+		if(rptDef.user_list != '*'){
+			isAll = false;
+			users = rptDef.user_list.split(",");
+			this.trimList(users);
+			for(var J=0; J<users.length; J++){				
+				usrData[users[J]] = {};
+			}
+		}	
+		var DatStr = '';var hasCap02Done=false;
+		K=0;
+		for(var I=0; I<Dat01.length;I++){			
+			var rec = {},recstr='';
+			
+			rec['username'] =  Dat01[I][fieldReplace['username']];
+			if((!isAll) && rptDef.user_list.indexOf(rec['username'])<0) continue;
+			K++;
+			rec['fullname'] =  Dat01[I][fieldReplace['fullname']];
+			rec['usercode'] =  '';
+			rec['sno'] =  K;
+			
+			for(var J=0; J<fields.length; J++){
+				switch(fields[J].field_name){
+					case 'answered':
+					case 'score':
+					case 'attendance': 
+						rec[fields[J].field_name] 	=  Res.DataRes['ass'+ Res.ResultIDs[fields[J].tp_id-1]][I][fieldReplace[fields[J].field_name]]; 
+						if(!hasCap02Done) CapStr01 += (CapStr01==''?'':',') + '"' + Res.TP[fields[J].tp_id-1].quiz_name + '"';
+						break;
+					default:
+						if(!hasCap02Done) CapStr01 += (CapStr01==''?'':',') + '"' + '' + '"'
+				}
+				if(fields[J].field_name!='sno') recstr += (recstr==''?'':',') + '"' +  rec[fields[J].field_name] + '"'  ;
+			}
+			hasCap02Done = true;
+			DatOut.push(rec);DatStr += "\n"+ K + ',' + recstr;usrData[rec['username']] = recstr;			
+		}
+		//
+		if(isAll){
+			DatStr = CapStr01 + '\n' + CapStr + DatStr;
+			//
+			$('#testPagers').html(RL.report_name + "<br>Got Data.<br>Generated Report.<br>");			
+			gfMgr.ToCsv(DatStr, RL.report_name + "_-_Scores");
+			$('#testPagers').html(RL.report_name + "<br>Got Data.<br>Generated Report.<br>Downloaded.");
+		}else{
+			DatStr = '';
+			//
+			for(var J=0; J<users.length; J++){				
+				DatStr += "\n"+ (J+1) + ',' + usrData[users[J]];
+			}
+			
+			DatStr = CapStr01 + '\n' + CapStr + DatStr;
+			$('#testPagers').html(RL.report_name + "<br>Got Data.<br>Generated Report.<br>");			
+			gfMgr.ToCsv(DatStr, RL.report_name + "_-_Scores");
+			$('#testPagers').html(RL.report_name + "<br>Got Data.<br>Generated Report.<br>Downloaded.");
+		}
+	};
+	
+	this.GenReport_0=function(Res, fields, fieldReplace, I, rec, CapStr01, recstr) {			
+		var ofield = null;
+		for(var J=0; J<fields.length; J++){
+			ofield = fields[J];
+			switch(ofield.field_name){
+				case 'answered':
+				case 'score':
+				case 'attendance': 
+					var fieldReplaced = fieldReplace[ofield.field_name]
+					var tp_idx = ofield.tp_id-1
+					var test_id = 'ass'+ Res.ResultIDs[tp_idx]					
+					var otest = Res.DataRes[test_id]
+					var otestRec = otest[I];
+					rec[ofield.field_name] 	=  otestRec[fieldReplaced]; 
+					if(!hasCap02Done) CapStr01 += (CapStr01==''?'':',') + '"' + Res.TP[tp_idx].quiz_name + '"';
+					break;
+				default:
+					if(!hasCap02Done) CapStr01 += (CapStr01==''?'':',') + '"' + '' + '"'
+			}
+			if(ofield.field_name!='sno') recstr += (recstr==''?'':',') + '"' +  rec[ofield.field_name] + '"'  ;
+		}
+	}

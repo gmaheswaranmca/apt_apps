@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  mysqldb:
+    image: mysql:5.7
+    restart: unless-stopped
+    env_file: ./.env
+    environment:
+      - MYSQL_ROOT_PASSWORD=$MYSQLDB_ROOT_PASSWORD
+      - MYSQL_DATABASE=$MYSQLDB_DATABASE
+    ports:
+      - $MYSQLDB_LOCAL_PORT:$MYSQLDB_DOCKER_PORT
+    volumes:
+      - db:/var/lib/mysql
+  nginx:
+    build: ./nginx/
+    ports:
+      - 8002:8002
+    volumes:
+      - ./app/src/:/var/www/html/
+  php:
+    build: ./app/
+    expose:
+      - 9000
+    volumes:
+      - ./app/src/:/var/www/html/
+volumes: 
+  db:

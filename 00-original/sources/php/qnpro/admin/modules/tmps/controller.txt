@@ -1,0 +1,40 @@
+conduct_test.php
+  
+conduct_test_tmp.php  
+  
+conduct_test_controller.php
+  1) view
+  2) js
+	getData
+	  use assignment and user data
+	  -is assigned to user
+	  if so, 
+		check:
+			1. timer ended
+				display msg and score
+			2. test finished
+				display msg and score
+			3. test on progress				
+				
+				a. display next question after answered
+				b. pager
+				
+				
+	  if not: display: "Sorry! No Such Test Assessment is for you."
+    load
+		- can_load
+			- load question
+			- load pager
+			- start timer display
+			
+	 
+  3) i.data | assignment data for user
+	app_display="none", msg_display="none",
+	msg_text="", timer_display="none", 
+	pager_display="none"	
+  3) ii. data | quiz data, options data, answer data, user_answered data
+----------------------------
+theme bg
+  https://www.codiva.io/		bg at bottom banner
+  https://godbolt.org/  		border at top center
+  

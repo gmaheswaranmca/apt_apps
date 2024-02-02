@@ -1,0 +1,5 @@
+#Python Commands
+    #Prepare python requirements.txt
+    pip3 freeze > requirements.txt
+    #Prepare python requirements.txt
+    pip install -r requirements.txt

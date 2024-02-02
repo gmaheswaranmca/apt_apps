@@ -1,0 +1,7 @@
+cats			 : id, cat_name
+quizzes			 : id, cat_id, quiz_name, quiz_desc, added_date, parent_id, show_intro, intro_text
+assignments		 : id, quiz_id, org_quiz_id, results_mode, added_date, quiz_time, show_results, pass_score, quiz_type, status 
+assignment_users : id, assignment_id, user_type, user_id
+user_quizzes	 : id, assignment_id, user_id, status, added_date, success, finish_date, pass_score_point, pass_score_perc
+user_answers	 : id, user_quiz_id, question_id, answer_id, user_answer_id, user_answer_text, added_date
+users 			 : UserID, UserName, Password, Name, Surname, added_date, user_type, email
