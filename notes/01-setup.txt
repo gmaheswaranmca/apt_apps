@@ -1,3 +1,102 @@
+List of apps: 
+    1. live app 
+        php app, take test app 
+        php api, api [local each test link]
+            - server of client/server
+                - a. receive "test link db"
+                - b. download scores 
+                - c. send "test link db" 
+            - display quizzes
+                - display qns 
+    2. local app 
+        php app, upload qns [qns db]
+        php app, admin app, edit qns, old school app [qns db]
+        php app, each test link 'one-eight'
+            - take test app 
+            - admin app, edit qns 
+            - api [local each test link]
+                - client of client/server 
+                    - a. send "test link db" [call py api] 
+                    - b. save scores as excel [call py api]  
+                    - c. receive "test link db" [call py api] 
+                - display quizzes [local each test link]
+                    - display qns 
+        py app
+            - configure test 
+            - password generation, password files, test file, scores file 
+        py api
+            - send "test link db" [a]
+            - save scores as excel [b]
+            - receive "test link db" [c]
+                
+-------------------------------------------------
+setting up python, virtualenv, django 
+
+Step 1: Download and install python
+    check "python" and "pip" are installed.
+    $python --version
+    $pip --version 
+Step 2: Install virtualenv
+    $pip install virtualenv 
+    check "virtualenv" is installed.
+    $virtualenv --version 
+Step 3: Create an environment
+    Let be in a folder where the environment is created 
+    $virtualenv env01
+Step 4: To activate virtual env 
+    Be in parent folder of "env01"
+    $env01\Scripts\activate 
+Step 5: To deactivate virtual env "env01" 
+    (env01)$deactivate
+
+install all the packages of "apt-local-py-apps" packages:
+Step 1: Install the packages 
+    Be in parent folder of "env01"
+
+
+$
+cd /d C:\mywork\source\apt\envs\
+env01\Scripts\activate 
+End $
+
+
+(env01)$
+cd /d C:\mywork\source\apt\envs\
+env01\Scripts\activate
+cd /d C:\mywork\source\apt\apt_apps\01-admin-client-localhost\py
+pip install -r .\requirements.txt
+deactivate
+End $
+
+
+(env01)$
+    pip install pyproject-toml
+End $
+
+because Got error when installing "requirements.txt"
+1. Do "pip install pyproject-toml" 
+2. Install Microsoft Visual C++ 14.0 or greater 
+    https://visualstudio.microsoft.com/visual-cpp-build-tools/
+        Visual Studio Installer
+            [] Visual Studio Build Tools 2022 
+                Install 
+-------------------------------------------------
+The requirements 
+    numpy==1.18.4       
+    pandas==1.0.4
+    lxml==4.5.1
+    pywin32==301
+are installed manually 
+    pip install numpy 
+    pip install pandas 
+    pip install lxml
+    pip install pywin32
+-------------------------------------------------
+
+
+
+
+
 https://semaphoreci.com/community/tutorials/dockerizing-a-php-application
 https://medium.com/@miladev95/dockerizing-a-php-application-e3c756670336
 
@@ -65,4 +164,26 @@ set the port in
 
 --- 02-admin-server-localhost | admin portal ---
 admin portal to get run 
-    change the server address
+    change the server API end point URL at angular app 
+
+
+
+--- 02-admin-server-localhost | admin portal ---
+
+
+Resources for dockerizing:
+    @@@ python - docker compose @@@
+
+    How To Deploy Django Using Docker Compose On Windows In 9 Steps
+        https://medium.com/powered-by-django/deploy-django-using-docker-compose-windows-3068f2d981c4
+
+    Dockerizing Django with Postgres, Gunicorn, and Nginx
+        https://testdriven.io/blog/dockerizing-django-with-postgres-gunicorn-and-nginx/
+
+    https://stackoverflow.com/questions/5178416/libxml-install-error-using-pip
+
+Install the python at windows:
+    i. Reason 1 : We use files processing, 
+        - creation of files
+        - reading from file at a location
+        - opening excel file etc

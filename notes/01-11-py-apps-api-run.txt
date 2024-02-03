@@ -1,0 +1,107 @@
+URL: http://127.0.0.1:7002/
+
+#api app 
+deactivate
+cd /d C:\mywork\source\apt\envs\
+env01\Scripts\activate
+cd /d C:\mywork\source\apt\apt_apps\01-admin-client-localhost\py\src\aptmktest
+python manage.py runserver 7002
+
+#jobs
+deactivate
+cd /d C:\mywork\source\apt\envs\
+env01\Scripts\activate
+cd /d C:\mywork\source\apt\apt_apps\01-admin-client-localhost\py\src\srcV2
+python AppBePyV2.py
+
+#new app 
+deactivate
+cd /d C:\mywork\source\apt\envs\
+env01\Scripts\activate
+cd /d C:\mywork\source\apt\apt_apps\01-admin-client-localhost\py\src\app202209
+python main.py
+
+#
+Apt Conduct Monitor Test app: http://localhost:8002/fev5
+
+#
+------------------------------------------------------
+volumes and environments
+------------------------------------------------------
+aptmktest\mkapp\aptdb\mkscores.py
+    datPathAndFile = r'C:\mywork\source\apt\apt-test-files\scores'
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+database:aptjob
+    table:apt_job_config
+        job_master_path[0]=/var/www/html/jobfile/apt_job_master.json
+            here: "/var/www/html/jobfile/" docker volume folder
+                "C:\mywork\source\apt\apt_apps\01-admin-client-localhost\app\jobfile" is the local folder 
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\mywork\source\apt\apt_apps\01-admin-client-localhost\app\jobfile
+    apphm_servers[0]."url"      :   "http://localhost:8002/"
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\mywork\source\apt\apt_apps\01-admin-client-localhost\app\src\fev5\main-es5.95c1c3c034470cc129b3.js
+C:\mywork\source\apt\apt_apps\01-admin-client-localhost\app\src\fev5\main-es2015.95c1c3c034470cc129b3.js
+    Search "http://localhost...." change it as "http://localhost:8002"      2 times
+    Search "http://127.0.0.1:...." change it as "http://127.0.0.1:7002"     1 time
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\mywork\source\apt\apt_apps\01-admin-client-localhost\py\src\srcV2\ReadPref.py
+    PrefFolderPath = r'F:\v2m\techLang\assignment\2020-07-08-Apt-BulkQuestions\OLT\OLTAssignment\datafiles'
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\mywork\source\apt\apt_apps\01-admin-client-localhost\py\src\srcV2\PickToDb.py~
+def getSrcCon(cls,database):
+        mydb = mysql.connector.connect(host = 'localhost', 	user = 'root', database = database)
+
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\mywork\source\apt\apt_apps\01-admin-client-localhost\py\src\srcV2\PickToDb.py    
+    def getCon(cls):
+        #...
+        mydb = mysql.connector.connect(host = 'localhost', 	
+                user = 'root', 
+                password = '4321',
+                database = StudSavePwd.databaseName,
+                port=3308)
+        #...
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\mywork\source\apt\apt_apps\01-admin-client-localhost\py\src\srcV2\PickToDb.py
+    #...
+    def getSrcCon(cls,database):
+        mydb = mysql.connector.connect(host = 'localhost', 	
+            user = 'root', 
+            password = '4321',
+            database = database,
+            port = 3308)
+    #...
+    def getToCon(cls,database):
+        mydb = mysql.connector.connect(host = 'localhost', 	
+            user = 'root', 
+            password = '4321',
+            database = database,
+            port = 3308)
+    #...
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~    
+C:\mywork\source\apt\apt_apps\01-admin-client-localhost\py\src\srcV2\UpDownLoadUtil.py    
+    jobLoc = {
+    'jobDir' : r'C:\mywork\source\apt\apt-test-files\db',
+
+    #...
+    def dumpMysqlDb(fileName, linkCodeName):
+        #...
+        dumpcmd = f'"{command_path}/mysqldump"  --defaults-file=C:/mywork/source/apt/apt-test-files/config.cnf --column-statistics=0 -h localhost -P 3308  {db} > "{fileName}.sql"'
+        #...
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+------------------------------------------------------
+
+#
+To take backup 
+"C:/Program Files/MySQL/MySQL Server 8.2/bin/mysqldump" --defaults-file=C:/mywork/source/apt/apt-test-files/config.cnf --column-statistics=0 -h localhost -P 3308 aptonlinethree > "C:/mywork/source/apt/apt-test-files/db/speed/to/Speed_three-20240203-20240204000630.sql"
+
+#
+Note: 
+    we can configure the test.
+    we can up the test to live
+    we can down the test from live to local 
+    we can switch on, finish etc 
+    we can download scores 
+        taking the db backup automatically 
+    we can create student password files.

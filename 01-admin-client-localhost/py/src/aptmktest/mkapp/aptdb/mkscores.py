@@ -10,7 +10,8 @@ from .MultipleTest import MultipleTest
 from .ManyTestv2 import ManyTest
 
 
-datPathAndFile = r'F:\v2m\techLang\assignment\2020-07-08-Apt-BulkQuestions\OLT\OLTAssignment\scoresfiles'
+#datPathAndFile = r'F:\v2m\techLang\assignment\2020-07-08-Apt-BulkQuestions\OLT\OLTAssignment\scoresfiles'
+datPathAndFile = r'C:\mywork\source\apt\apt-test-files\scores'
 
 singleData = dict()
 singleData['testName'], singleData['md_templates'],singleData['md_soruces'] = '', dict(), dict()
