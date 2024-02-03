@@ -1,0 +1,6 @@
+cmd=mktest
+hasBrandInInstruction=1
+fromDatabase=t20apt00
+toDatabase=aptonlineeight
+testPaper=QA011b,1,40!Assessment Test #003,40,60
+testPaper=QA012b,1,40!Assessment Test #004,40,60
