@@ -1,11 +1,11 @@
-import docx
+#import docx
 import pandas as pd
-import os
-import io
+#import os
+#import io
 import os.path
 
-import random
-import string
+#import random
+#import string
 
 import mysql.connector
 
@@ -18,7 +18,11 @@ class StudSavePwd:
     def getCon(cls):
         '''caption_databaseName = Captions.StudSavePwd_getCon_caption_databaseName#!
         StudSavePwd.databaseName = input(caption_databaseName)'''
-        mydb = mysql.connector.connect(host = 'localhost', 	user = 'root', database = StudSavePwd.databaseName)#aptonlineone, aptonlinetwo, aptonlinethree, aptonlinefour, aptonlinefive
+        mydb = mysql.connector.connect(host = 'localhost', 	
+                user = 'root', 
+                password = '4321',
+                database = StudSavePwd.databaseName,
+                port=3308)#aptonlineone, aptonlinetwo, aptonlinethree, aptonlinefour, aptonlinefive
         return mydb
 
     @classmethod    
@@ -27,8 +31,12 @@ class StudSavePwd:
         mydb = StudSavePwd.getCon()
         mycursor = mydb.cursor()
         for index, row in df.iterrows():
-            aboutUser = row[srcFieldsPos[2]] + '-' + row[srcFieldsPos[0]]  + '-' + row[srcFieldsPos[1]]
-            mycursor.execute("SELECT UserName FROM users WHERE UserName=%s",(row[srcFieldsPos[0]].strip(),))
+            #print(row,'---mahe---')
+            UserName, Name, Password = row.iloc[srcFieldsPos[0]].strip()  , row.iloc[srcFieldsPos[2]].strip(),  row.iloc[srcFieldsPos[1]].strip()
+            aboutUser = UserName + '-' + Name  + '-' + Password
+            #aboutUser = UserName  + '-' + Password  #DEBUG****#
+            #print("SELECT UserName FROM users WHERE UserName=%s"%(UserName,)) #DEBUG****#
+            mycursor.execute("SELECT UserName FROM users WHERE UserName=%s",(UserName,))
             myresult = mycursor.fetchall()
             isThere = False 
             for x in myresult:
@@ -37,11 +45,11 @@ class StudSavePwd:
             msg += aboutUser
             if isThere:
                 sql = "UPDATE users SET Password=md5(%s), Name=%s WHERE UserName=%s"
-                val = (row[srcFieldsPos[1]].strip(),row[srcFieldsPos[2]].strip(),row[srcFieldsPos[0]].strip())   
+                val = (Password,Name,UserName)   
                 msg += ' Updated! '
             else:
                 sql = "INSERT INTO users(UserName, Name, Password) VALUES (%s,%s,md5(%s))"
-                val = (row[srcFieldsPos[0]].strip(),row[srcFieldsPos[2]].strip(),row[srcFieldsPos[1]].strip())     
+                val = (UserName, Name, Password)     
                 msg += ' Added! '
             #print(aboutUser,end=" | ")
             mycursor.execute(sql, val) 	
@@ -71,8 +79,9 @@ now(),%s,1,
 
             msg += '\nTest [%s](%s,%s,%s)|Quiz=%s|Users:' %(dbassignments_id, test_name,qn_count,time_limit,quiz_id)
             for index, row in df.iterrows():
-                aboutUser = row[srcFieldsPos[2]] + '-' + row[srcFieldsPos[0]]  + '-' + row[srcFieldsPos[1]]
-                mycursor.execute("SELECT UserID user_id FROM users WHERE UserName=%s",(row[srcFieldsPos[0]].strip(),))
+                UserName, Name, Password = row.iloc[srcFieldsPos[0]].strip()  , row.iloc[srcFieldsPos[2]].strip(),  row.iloc[srcFieldsPos[1]].strip()
+                aboutUser = UserName + '-' + Name  + '-' + Password
+                mycursor.execute("SELECT UserID user_id FROM users WHERE UserName=%s",(UserName,))
                 myresultusers = mycursor.fetchall()
                 user_id = str(myresultusers[0][0]) #'user_id'
                 
@@ -88,8 +97,9 @@ now(),%s,1,
             assess_id = TestData['assess_id']    
             
             for index, row in df.iterrows():
-                aboutUser = row[srcFieldsPos[2]] + '-' + row[srcFieldsPos[0]]  + '-' + row[srcFieldsPos[1]]
-                mycursor.execute("SELECT UserID user_id FROM users WHERE UserName=%s",(row[srcFieldsPos[0]].strip(),))
+                UserName, Name, Password = row.iloc[srcFieldsPos[0]].strip()  , row.iloc[srcFieldsPos[2]].strip(),  row.iloc[srcFieldsPos[1]].strip()
+                aboutUser = UserName + '-' + Name  + '-' + Password
+                mycursor.execute("SELECT UserID user_id FROM users WHERE UserName=%s",(UserName,))
                 myresultusers = mycursor.fetchall()
                 user_id = str(myresultusers[0][0]) #'user_id'
                 
@@ -122,6 +132,7 @@ now(),%s,1,
         mydb = StudSavePwd.getCon()
         mycursor = mydb.cursor()
         for st in lsEach:
+            #print(st,end="***mahesh***") #DEBUG****#
             if st.strip()!='':
                 print(st,end=" ")
                 mycursor.execute(st)
@@ -161,7 +172,7 @@ now(),%s,1,
         FieldsPosStr = '2,3,1'.split(',') #input('"UserName","Password","Name" Pos:').split(",")
         srcFieldsCount = 4
         srcFieldsPos = [int(e.strip()) for e in FieldsPosStr]#[2,3,1]
-        print(srcFieldsPos)
+        #print(srcFieldsPos) #DEBUG****#
 
         df = pd.read_csv(srcFilePathManager)
         print(df.head())

@@ -24,5 +24,6 @@ services:
       - 9000
     volumes:
       - ./app/src/:/var/www/html/
+      - ./app/jobfile/:/var/www/html/jobfile/
 volumes: 
   db:

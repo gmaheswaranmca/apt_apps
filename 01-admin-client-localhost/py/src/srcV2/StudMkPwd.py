@@ -1,11 +1,11 @@
-import docx
+#import docx
 import pandas as pd
 import os
-import io
+#import io
 import os.path
 
 import random
-import string
+#import string
 
 import mysql.connector
 

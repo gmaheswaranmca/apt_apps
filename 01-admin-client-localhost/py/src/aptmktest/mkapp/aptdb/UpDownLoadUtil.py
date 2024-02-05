@@ -1,8 +1,8 @@
 jobLoc = {
-    'jobDir' : r'F:\v2m\techLang\assignment\2020-07-08-Apt-BulkQuestions\OLT\OLTAssignment\dbonfire',
+    'jobDir' : r'C:\mywork\source\apt\apt-test-files\db',
     'uploadDir' : '%s/%s/to', #jobDir testLikName
     'downloadDir' : '%s/%s/from', #jobDir testLikName
-    'command_path' : r'C:\wamp\bin\mysql\mysql5.5.8\bin'
+    'command_path' : r'C:/Program Files/MySQL/MySQL Server 8.2/bin'
 }
 
 import os 
@@ -42,7 +42,7 @@ class MysqlBkupUtil:
     if DB_USER_PASSWORD != "" : 
         DB_USER_PASSWORD = f'-p {DB_USER_PASSWORD}'
 
-    dumpcmd = f'{command_path}\\mysqldump -h {DB_HOST} -u {DB_USER} {DB_USER_PASSWORD} {db} > "{fileName}.sql"'
+    dumpcmd = f'"{command_path}/mysqldump"  --defaults-file=C:/mywork/source/apt/apt-test-files/config.cnf --column-statistics=0 -h localhost -P 3308  {db} > "{fileName}.sql"'
     print(dumpcmd)
     os.system(dumpcmd)
 

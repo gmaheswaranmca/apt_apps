@@ -1,0 +1,52 @@
+app:
+    qns 
+        - mcq | tags(arrange/rows) 
+            - add question 
+                desing 
+                    - plain text            
+                    - bootstrap             !!!NOW!!!
+                        templates
+                    - html 
+                        headings 
+                        paragraph
+                            words 
+                                bold, italic, underline, background, border, border-curve, 
+                                foreground-color, font-family, font-size 
+                        list-numbers
+                            item 
+                        table 
+                        image 
+                        video 
+                    - android 
+        - coding qns | tags 
+            - add question
+        - descriptive qns | tags 
+            - add question 
+    test papers
+        [groups - title { preferences} ]
+            qns [one next another way]
+                { preferences }
+        title 
+        {   preferences : 
+                time limit: 
+                    qn
+                    each group qn
+                    each qn 
+                score point:
+                    qn 
+                    each group qn   
+                    eqch qn 
+                shuffle qns:
+                    groups shuffle 
+                    shuffle qns in group 
+                shuffle ans:
+                    applied to 
+                        [all] qns / qn
+                        [all] groups / group 
+        }
+
+        
+app 
+    conduct test 
+
+

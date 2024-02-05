@@ -24,11 +24,19 @@ class PickToDb:
 
     @classmethod
     def getSrcCon(cls,database):
-        mydb = mysql.connector.connect(host = 'localhost', 	user = 'root', database = database)
+        mydb = mysql.connector.connect(host = 'localhost', 	
+            user = 'root', 
+            password = '4321',
+            database = database,
+            port = 3308)
         return mydb
     @classmethod
     def getToCon(cls,database):
-        mydb = mysql.connector.connect(host = 'localhost', 	user = 'root', database = database)
+        mydb = mysql.connector.connect(host = 'localhost', 	
+            user = 'root', 
+            password = '4321',
+            database = database,
+            port = 3308)
         return mydb
     @classmethod
     def queryQs(cls,mydb, quiz_name):
@@ -94,6 +102,7 @@ class PickToDb:
                 OptIds =[]
                 for J in range(len(Opts)):
                     valOpt = (dbgrp_id,Opts[J],OptCorAnss[J])
+                    #print(sqlOpt,'000mahesh000') #DEBUG****#
                     mycursor.execute(sqlOpt, valOpt)
                     dbans_id=mycursor.lastrowid		
                     OptIds.append(dbans_id)

@@ -1,13 +1,13 @@
-import docx
-import pandas as pd
+#import docx
+#import pandas as pd
 import os
-import io
+#import io
 import os.path
 
-import random
-import string
+#import random
+#import string
 
-import mysql.connector
+#import mysql.connector
 
 from Captions import Captions
 from StudMkPwd import StudMkPwd  
@@ -166,7 +166,7 @@ class MenuHandler:
             IsUser= True
             StudSavePwd.cleanDb(IsQuiz,IsAssignment,IsUser)
 
-          choice = input(sayYesOrNo) == 'y'
+          choice = True #choice = input(sayYesOrNo) == 'y'
           if(choice  and (len(testPaper)>0 or len(codeQn)>0)):
             # ######################################                    
             #Create the User Data Base   
@@ -177,12 +177,12 @@ class MenuHandler:
             # ######################################
             PickToDb.DoByPref(hasBrandInInstruction, fromDatabase, toDatabase, testPaper)    
           
-          choice = input(sayYesOrNo) == 'y'
+          choice = True #choice = input(sayYesOrNo) == 'y'
 
           if (choice and len(codeQn)>0):
             PickCodeQnToDb.DoByPref(hasBrandInInstruction, fromDatabase, toDatabase, codeQn)
 
-          choice = input(sayYesOrNo) == 'y'
+          choice = True #choice = input(sayYesOrNo) == 'y'
           if(choice  and (len(testPaper)>0 or len(codeQn)>0)):
             # ######################################            
             #Add MCQ Test the users

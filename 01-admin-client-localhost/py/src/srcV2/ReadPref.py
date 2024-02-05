@@ -14,7 +14,8 @@ import mysql.connector
 from Captions import Captions
 
 class ReadPref:
-    PrefFolderPath = r'F:\v2m\techLang\assignment\2020-07-08-Apt-BulkQuestions\OLT\OLTAssignment\datafiles'
+    #PrefFolderPath = r'F:\v2m\techLang\assignment\2020-07-08-Apt-BulkQuestions\OLT\OLTAssignment\datafiles'
+    PrefFolderPath = r'C:\mywork\source\apt\apt-test-files\test'
     @classmethod
     def getJobDetail(cls):
         resFiles = []

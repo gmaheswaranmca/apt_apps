@@ -1,13 +1,13 @@
 import docx
 import pandas as pd
-import os
-import io
-import os.path
+#import os
+#import io
+#import os.path
 
-import random
-import string
+#import random
+#import string
 
-import mysql.connector
+#import mysql.connector
 
 from Captions import Captions
 from gfQnMake import gfQnMake
