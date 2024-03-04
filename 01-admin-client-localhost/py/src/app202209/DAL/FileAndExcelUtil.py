@@ -46,9 +46,9 @@ class FileAndExcelUtil:
         
         fmtBk.save(fullToFile)
     @staticmethod
-    def RemoveFile(file):
+    def RemoveFile(file, hasToRemoveChoice=True):
         import os
         print(file)
-        if input("Are you sure to delete(y/n)?") != "y":
+        if hasToRemoveChoice==True and input("Are you sure to delete(y/n)?") != "y":
             return
         os.remove(file)

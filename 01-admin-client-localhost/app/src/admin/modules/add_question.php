@@ -192,11 +192,13 @@ access::allow("1");
                                                             "answer_text"=>$answer_text,
                                                             "correct_answer"=>$correct_answer ,
                                                             "correct_answer_text"=>$correct_answer_text ,
-                                                            "priority"=>"(select isnull(max(priority)+1,1) from answers where group_id=$group_id)",
+                                                            "priority"=>"1",
                                                             "answer_pos"=>"1",
                                                             "parent_id"=>"0",
                                                             "control_type"=>"1",
                                                             "answer_parent_id"=>"0"));
+
+                                                            //"priority"=>"(select ifnull(max(priority)+1,1) from answers where group_id=$group_id)"
                 
                 $db->query($query);
             }

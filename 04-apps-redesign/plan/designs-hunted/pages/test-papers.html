@@ -1,0 +1,108 @@
+<html><head>
+    <title>Apt Online Test</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">	
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <link rel="shortcut icon" href="../static/img/comp/fav.png">
+    <link href="../static/css/aptStyle.css?t=20240215135633" type="text/css" rel="stylesheet">
+    <script language="javascript" src="../static/js/jquery/jquery.min.js?t=20240215135633"></script>
+    <script language="javascript" src="../static/js/mustache/mustache.js?t=20240215135633"></script>
+    <script language="javascript" src="../static/js/lib/pouchdb.min.js?t=20240215135633"></script>
+    <script language="javascript" src="../static/js/lib/js.cookie.min.js?t=20240215135633"></script>
+    
+    
+    <script language="javascript" src="../static/js/PageBase.js?t=20240215135633"></script>
+<style type="text/css">
+.compe{
+padding: 5px;	
+border:1px solid #f4f5f7;border-radius:20px;	
+background: #f4f5f7!important; color:#c44844!important; 
+font-family: tahoma; font-size:14pt;font-weight:bold; 	
+}
+</style>		
+<script language="javascript" src="form/conductTest/ActiveAssignment.js?t=20240215135633"></script>
+<script language="javascript">
+var JsController = new ActiveAssignmentJsController();	JsController.OnLoad();
+</script>
+</head>
+<body onbeforecopy="return false" ondragstart="return false" onselectstart="return false" oncontextmenu="return false" onselect="SupSel()" oncopy="SupSel()">
+<div id="PageBefore" style="color: white; width: 99%; height: 80%; border: 1px solid silver; border-radius: 100px; text-align: center; font-family: Arial; font-size: 14pt; display: none;">
+        <br><br><br>
+        <img src="../static/img/comp/fav.png" width="100" height="100" align="center"><br>
+        <div>
+            <div style="overflow:auto;background-color:#F4F5F7;">
+                <table class="aptTable">
+                    <tbody><tr>
+                        <td class="data" align="center" style="font-size:18pt;font-family:\'Arial Narrow\';" id="PageBefExtraText">
+                            Loading Online Test Platform...
+                            <br>Please wait for few seconds.
+                            <br>We are loading the application.
+                        </td>
+                    </tr>
+                </tbody></table>
+            </div>				
+            <br><br><br><br><br><br>
+            <span class="aptLogout" style="float:none;"><a href="logout.php" border="1">Logout</a></span>			
+        </div>
+         
+</div>
+<div style="display: block;" id="PageAfter">
+    <div class="AptStTopLine">			
+            <img src="../static/img/comp/APEC-LOGO.png">
+            <div class="AptStTopLineBrand AptStMobile">
+                <span class="AptStBrandName">Online Test Platform</span>
+                <span class="AptStCompName">Apt Training Resources</span>
+            </div>			
+            <div class="AptStTimer" id="myRemainingTime">&nbsp;&nbsp;&nbsp;&nbsp;</div>			
+    </div>
+    <div class="AptStTopicLine" id="myHeader">						
+        <span class="aptTitle" id="myTitle">Active Assignments</span>
+        <span class="aptLogout" id="idLogout"><a href="logout.php" border="1">Logout</a></span> 
+        <span class="aptLogout" id="idFinish" style="display:none;"><a href="#" border="1" onclick="return JsController.apdata.action.FinishTest();">Finish <strong style="color:black;">✔</strong></a></span>
+        <span class="aptUser"><span>Welcome </span><span id="myUserName">developer05</span><span>(</span><span id="myFullName">DEVELOPER05</span><span>)! </span></span>
+    </div> 
+    <div class="AptMain">
+        <div class="AptContentOnly">
+            <div id="pageContent"><table class="aptTable">
+<tbody><tr>
+    <td class="data">
+        <span class="artDataPrimary">Assessment Test #012</span> <br>
+        <span class="artDataSecondary">
+            <span class="AboutQuizInScreen">Total Number of Questions: 10 Questions <br> 
+            Maximum Time Limit: 120 mins</span>
+            <span class="AboutQuizInMobile">10 Questions, Time: 120 mins</span>
+        </span>
+    </td>
+    <td class="data">
+            You have finished test 
+    </td>
+</tr>
+
+
+
+<tr>
+    <td class="data">
+        <span class="artDataPrimary">Assessment Test #012</span> <br>
+        <span class="artDataSecondary">
+            <span class="AboutQuizInScreen">Number of Questions:2 <br> 
+            Maximum Duration:60mins</span>
+            <span class="AboutQuizInMobile">2 Questions, Time: 60 mins</span>
+        </span>
+    </td>
+    <td class="data">
+        <!--a href="#" class="aptBtn" style="text-decoration:none;" onclick="alert('We are upgrading the app for our technical coding test feature.\n You will get the link shortly.');">
+        Go</a-->
+        <a href="ConductCodeTestRes.php?assess_id=1" class="aptBtn" style="text-decoration:none;">
+        Start		
+        </a>
+    </td>
+</tr>
+
+</tbody></table>	
+</div>
+        </div>
+    </div>
+</div>	
+
+     
+
+</body></html>

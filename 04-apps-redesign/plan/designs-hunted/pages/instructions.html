@@ -1,0 +1,131 @@
+<html><head>
+    <title>Apt Online Test</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">	
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <link rel="shortcut icon" href="../static/img/comp/fav.png">
+    <link href="../static/css/aptStyle.css?t=20240215134109" type="text/css" rel="stylesheet">
+    <script language="javascript" src="../static/js/jquery/jquery.min.js?t=20240215134109"></script>
+    <script language="javascript" src="../static/js/mustache/mustache.js?t=20240215134109"></script>
+    <script language="javascript" src="../static/js/lib/pouchdb.min.js?t=20240215134109"></script>
+    <script language="javascript" src="../static/js/lib/js.cookie.min.js?t=20240215134109"></script>
+    
+    
+    <script language="javascript" src="../static/js/PageBase.js?t=20240215134109"></script>
+<style type="text/css">
+.compe{
+padding: 5px;	
+border:1px solid #f4f5f7;border-radius:20px;	
+background: #f4f5f7!important; color:#c44844!important; 
+font-family: tahoma; font-size:14pt;font-weight:bold; 	
+}
+</style><script language="javascript" src="form/conductTest/conductTestMisc.js?t=20240215134109"></script>
+<script language="javascript">var vSuffleRule=[
+{"name":"Test 01",
+    "rule":[
+        {"rule":1,"from": 1,"to": 25, "suffleCount":0},
+        {"rule":2,"from": 26,"to": 45, "suffleCount":0}
+    ]
+},{"name":"Test 02",
+    "rule":[
+        {"rule":1,"from": 1,"to": 10, "suffleCount":0},
+        {"rule":2,"from": 11,"to": 15, "suffleCount":0},
+        {"rule":3,"from": 16,"to": 20, "suffleCount":0},
+        {"rule":4,"from": 21,"to": 24, "suffleCount":0},
+        {"rule":5,"from": 25,"to": 29, "suffleCount":0},
+        {"rule":6,"from": 30,"to": 30, "suffleCount":0}
+    ]
+}
+
+];  
+
+var CurrSuffledRules=[];
+var CurrRules={};
+var CurrRulesIsThere=false;
+var CurrRuleSufIdx = 0;
+//alert(44);</script>
+<script language="javascript">
+var JsController = new ConductTestJsController('1');JsController.OnLoad();
+</script>
+</head>
+<body onbeforecopy="return false" ondragstart="return false" onselectstart="return false" oncontextmenu="return false" onselect="SupSel()" oncopy="SupSel()">
+<div id="PageBefore" style="color: white; width: 99%; height: 80%; border: 1px solid silver; border-radius: 100px; text-align: center; font-family: Arial; font-size: 14pt; display: none;">
+        <br><br><br>
+        <img src="../static/img/comp/fav.png" width="100" height="100" align="center"><br>
+        <div>
+            <div style="overflow:auto;background-color:#F4F5F7;">
+                <table class="aptTable">
+                    <tbody><tr>
+                        <td class="data" align="center" style="font-size:18pt;font-family:\'Arial Narrow\';" id="PageBefExtraText">
+                            Loading Online Test Platform...
+                            <br>Please wait for few seconds.
+                            <br>We are loading the application.
+                        </td>
+                    </tr>
+                </tbody></table>
+            </div>				
+            <br><br><br><br><br><br>
+            <span class="aptLogout" style="float:none;"><a href="logout.php" border="1">Logout</a></span>			
+        </div>
+         
+</div>
+<div style="display: block;" id="PageAfter">
+    <div class="AptStTopLine">			
+            <img src="../static/img/comp/APEC-LOGO.png">
+            <div class="AptStTopLineBrand AptStMobile">
+                <span class="AptStBrandName">Online Test Platform</span>
+                <span class="AptStCompName">Apt Training Resources</span>
+            </div>			
+            <div class="AptStTimer" id="myRemainingTime">&nbsp;&nbsp;&nbsp;&nbsp;</div>			
+    </div>
+    <div class="AptStTopicLine" id="myHeader">						
+        <span class="aptTitle" id="myTitle"><span class="AboutQuizInScreen"><span>Assessment Test #012</span>, <span>Total number of questions:</span><span id="myQCount">10</span>, <span>Max Time Limit: 120 minutes</span></span><span class="AboutQuizInMobile">Assessment Test #012, 10 Qns, Time: 120 mins</span></span>
+        <span class="aptLogout" id="idLogout"><a href="logout.php" border="1">Logout</a></span> 
+        <span class="aptLogout" id="idFinish" style="display:none;"><a href="#" border="1" onclick="return JsController.apdata.action.FinishTest();">Finish <strong style="color:black;">✔</strong></a></span>
+        <span class="aptUser"><span>Welcome </span><span id="myUserName">developer05</span><span>(</span><span id="myFullName">DEVELOPER05</span><span>)! </span></span>
+    </div> 
+    <div style="overflow:auto" class="AptMain">			
+        <div class="AptContent">
+            <div id="pageContent"><div class="qst_main_table_li">
+    <table border="1" class="tblGridLi">
+        <tbody><tr class="c_list_head_gr">
+            <td>Instructions</td>				
+        </tr>
+    </tbody></table>	
+    <table border="1" class="tblGridLi">
+        <tbody><tr class="c_list_item_gr">
+            <td><h2><b>Test Organized by</b></h2>
+<h2 style="border-bottom: 1px solid #F4F5F7;margin-bottom:5px;padding-bottom:5px;"><span style="color:red">Apt Training Resources</span></h2><h2><b>Total number of questions: 10 Questions</b></h2>
+<h2><b>Maximum Time Limit: 120 minutes</b></h2>
+<p style="border-top: 1px solid #F4F5F7;margin-top:5px;padding-top:5px;">
+Please click on the <b>Continue</b> button only after reading the instructions thoroughly.</p>
+<p><b><u>Instructions:</u></b></p>
+<p>1.For every question, click the answer option &amp; then click the <b>Save</b> button to save the answer for that particular question. Clicking on the <b>Save </b>button is essential for the answer to be saved.</p>
+<p>2.Do not keep on pressing the <b>Save </b>button for the same question again &amp; again. Clicking once is enough.</p>
+<p>3.Clicking on the particular question number (available on the right side or bottom side) will take you directly to the particular question, but click it only after you have pressed the <b>Save </b>button for that question, that you are currently attending in the test.</p>
+<p>4.If after choosing the correct option, you click on the <b>Previous</b> button, instead of the <b>Save </b>button, even then answers will be saved. Don't worry.</p>
+<p>5.If you click the correct option and then click the <b>Question number link</b> in the right or in the bottom or if u click the <b>Instruction page link</b>, without pressing the <b>Save </b>button, answer won't be saved. Clicking on the <b>Save </b>button is essential for the answer to be saved.</p>
+<p>6.If you exceed the time limit for the test, the answers for which u have clicked the <b>Save </b>button alone, will automatically be saved &amp; it will take you to the home page.</p>
+<p>7.If incase u want to check the remaining time available for u any time during the test, u can scroll up, to see the timer on the right top corner.</p>
+<p>8.Once you have finished the test, click the <b>Finish</b> button available in the top right corner.</p></td>
+        </tr>
+    </tbody></table>
+    <table width="100%">
+            <tbody><tr class="c_list_item_gr">
+                <td><input type="button" class="aptBtn" id="btnContinue" onclick="JsController.apdata.action.NextToInstructions()" value="Continue" style="di1splay:None;">	
+                    <!--span class="brand-prd-desc" style="width:100%;font-size:18pt;" 
+                    id="msgContinue">Wait for few seconds...Loading...</span-->
+                </td>
+            </tr>
+    </tbody></table>
+</div>
+
+</div>
+        </div>
+        <div class="AptSideBar">
+            <div id="testPagers" style="display:none;">						
+            </div>
+        </div>
+    </div>
+</div>	
+
+      </body></html>

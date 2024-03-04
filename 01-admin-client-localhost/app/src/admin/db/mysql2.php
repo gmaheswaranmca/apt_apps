@@ -1,8 +1,20 @@
 <?php
-
+function escape($value) {
+    $return = '';
+    for($i = 0; $i < strlen($value); ++$i) {
+        $char = $value[$i];
+        $ord = ord($char);
+        if($char !== "'" && $char !== "\"" && $char !== '\\' && $ord >= 32 && $ord <= 126)
+            $return .= $char;
+        else
+            $return .= '\\x' . dechex($ord);
+    }
+    return $return;
+}
 class db
 {
     var $link;
+    
 
     public function connect()
     {
@@ -138,7 +150,9 @@ class db
 
     public static function clear($str)
     {
-        return mysql_escape_string($str);
+        //return mysql_escape_string($str);
+        //return escape($str);
+        return $str;
         //return mysqli_real_escape_string($str);
     }
 
@@ -160,8 +174,13 @@ class db
 
     public static function esp($str)
     {
-        return mysql_escape_string($str);
-        //return mysqli_real_escape_string($str);
+        //return mysql_escape_string($str);
+        /*
+            https://stackoverflow.com/questions/1162491/alternative-to-mysql-real-escape-string-without-connecting-to-db
+        */
+        //return escape($str);
+        return $str;
+        //return mysqli_real_escape_string($this->link, $str);
     }
 
     public function close_connection()

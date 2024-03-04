@@ -1,0 +1,8 @@
+deactivate
+cd /d C:\mywork\source\apt\envs\
+env01\Scripts\activate
+cd /d C:\mywork\source\apt\apt_apps\03-apps-learn\py
+python pandas-01-depr01.py
+
+python pandas-01-csv-read.py
+python pandas-01-json-read.py

@@ -2,7 +2,7 @@ jobLoc = {
     'jobDir' : r'C:\mywork\source\apt\apt-test-files\db',
     'uploadDir' : '%s/%s/to', #jobDir testLikName
     'downloadDir' : '%s/%s/from', #jobDir testLikName
-    'command_path' : r'C:/Program Files/MySQL/MySQL Server 8.2/bin'
+    'command_path' : r'C:\mywork\source\apt\apt-test-files\mysqlbin'
 }
 
 import os 
@@ -42,7 +42,8 @@ class MysqlBkupUtil:
     if DB_USER_PASSWORD != "" : 
         DB_USER_PASSWORD = f'-p {DB_USER_PASSWORD}'
 
-    dumpcmd = f'"{command_path}/mysqldump"  --defaults-file=C:/mywork/source/apt/apt-test-files/config.cnf --column-statistics=0 -h localhost -P 3308  {db} > "{fileName}.sql"'
+    #command_path = os.path.join(command_path, r"\bin")
+    dumpcmd = f'{command_path}/mysqldump  --defaults-file=C:/mywork/source/apt/apt-test-files/config.cnf --column-statistics=0 -h localhost -P 3308  {db} > "{fileName}.sql"'
     print(dumpcmd)
     os.system(dumpcmd)
 

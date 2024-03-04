@@ -116,7 +116,7 @@ class StudentListDAL:
 
     
     @staticmethod
-    def DownloadPasswordFileYetToMail(processModel):  
+    def DownloadPasswordFileYetToMail(processModel, hasToRemoveChoice=True):  
         import pyexcel as pyxl
         import os
         from .FileAndExcelUtil import FileAndExcelUtil
@@ -143,13 +143,13 @@ class StudentListDAL:
             'PasswordFile-01', 
             f"../PasswordFormat", 
             'PasswordYetToMail')
-        FileAndExcelUtil.RemoveFile(fileNamePath)
+        FileAndExcelUtil.RemoveFile(fileNamePath, hasToRemoveChoice)
         print(f'Downloaded the Password File\n\tie{processModel.StudentListFilePath}/PasswordYetToMail.xlsx')
         
         
 
     @staticmethod
-    def DownloadScoreFile(processModel):  
+    def DownloadScoreFile(processModel, hasToRemoveChoice=True):  
         import pyexcel as pyxl
         import os
         from .FileAndExcelUtil import FileAndExcelUtil
@@ -180,7 +180,7 @@ class StudentListDAL:
             'ScoreFile-01', 
             f"../ScoreFormat", 
             'ScoreFile')
-        FileAndExcelUtil.RemoveFile(fileNamePath)
+        FileAndExcelUtil.RemoveFile(fileNamePath, hasToRemoveChoice)
         print(f'Downloaded the Score File\n\tie{processModel.StudentListFilePath}/ScoreFile.xlsx')
         
 

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<userstore>
+  <user>
+    <full_name>rahul dravid</full_name>
+    <username>dra01</username>
+    <password>4321a</password>
+  </user>
+  <user>
+    <full_name>rohit sharma</full_name>
+    <username>roh01</username>
+    <password>4321b</password>
+  </user>
+</userstore>

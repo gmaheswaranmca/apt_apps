@@ -1,0 +1,20 @@
+--- pandas ---
+Diff #1 read row using field index 
+Let 'df' is dataframe
+Let row is an 'row' at dataframe
+indexFullName = 1
+keyFullName = "full name"
+
+old school:
+    To access 'full name' field value by index:
+        row[indexFullName]           #now, deprecated 
+    To access 'full name' field value by key:
+        row[keyFullName]
+
+now:
+    To access 'full name' field value by index:
+        row.iloc[indexFullName]     #alternative to old school 
+    To access 'full name' field value by key:
+        row[keyFullName]
+    
+    

@@ -18,6 +18,7 @@ class MainStudentListController:
 
         while True:
             print("Choices:")        
+            print("\t21-Generate Password, Test File, Password File, Score File")
             print("\t1-Print Students")        
             print("\t2-Test File")        
             print("\t3-Password File To Send Mail")
@@ -26,9 +27,17 @@ class MainStudentListController:
             print("\t0-Exit")
             choice = int(input('Your Choice:'))
         
-            if choice in [1,2,3,4]:
+            if choice in [1,2,3,4,21]:
                 processModel.ClearData()
                 StudentListDAL.ReadStudentsExcelBook(processModel)
+            if choice == 21:
+                if input('Are you sure to \n\tGenerate Password, \n\tTest File, \n\tPassword File, \n\tScore File?') == 'n':
+                    continue
+                StudentListDAL.ReadStudentsAndUpdatePassword(processModel)
+                StudentListDAL.DownloadTestFile(processModel)
+                StudentListDAL.DownloadPasswordFileYetToMail(processModel,False)
+                StudentListDAL.DownloadScoreFile(processModel,False)
+                break
 
             if choice == 1:
                 StudentListDAL._PrintStudentsList(processModel)

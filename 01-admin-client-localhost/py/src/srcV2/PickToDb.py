@@ -40,7 +40,7 @@ class PickToDb:
         return mydb
     @classmethod
     def queryQs(cls,mydb, quiz_name):
-        sqlQn 	= r'''SELECT qn.quiz_id,qn.id question_id,qn.question_text,
+        sqlQn1 	= r'''SELECT qn.quiz_id,qn.id question_id,qn.question_text,
         CONCAT('[',GROUP_CONCAT(CONCAT('{"id":',qo.id,',"option":"', replace(qo.answer_text,'"','\\"'),'","is_correct":', qo.correct_answer,'}')),']') options
     FROM quizzes qz INNER JOIN 
         questions qn ON(qz.id = qn.quiz_id) INNER JOIN
@@ -50,20 +50,57 @@ class PickToDb:
     GROUP BY qn.id'''
         valQn = (quiz_name,)
 
+        sqlQn = r'''SELECT qn.quiz_id,qn.id question_id,qn.question_text
+    FROM quizzes qz INNER JOIN 
+        questions qn ON(qz.id = qn.quiz_id) 
+    WHERE qn.parent_id=0 AND qz.quiz_name=%s
+    GROUP BY qn.id'''
+        valQn = (quiz_name,)
+
+        sqlQnOpt = r'''SELECT qn.id question_id, qo.id id, qo.answer_text answer_text, qo.correct_answer is_correct 
+    FROM quizzes qz INNER JOIN 
+        questions qn ON(qz.id = qn.quiz_id) INNER JOIN
+        question_groups qg ON(qn.id=qg.question_id) INNER JOIN
+        answers qo ON (qg.id=qo.group_id)
+    WHERE qn.parent_id=0 AND qz.quiz_name=%s'''
+        valQn = (quiz_name,)
+
         mycursor = mydb.cursor()	
         mycursor.execute(sqlQn, valQn) 	
-        myresult = mycursor.fetchall()
+        myresultQns = mycursor.fetchall()
+
+        mycursor1 = mydb.cursor()	
+        mycursor1.execute(sqlQnOpt, valQn) 	
+        myresultOptions = mycursor1.fetchall()
+
+        qnDict = {}
+        i=1
+        for rec in myresultQns:
+            qnDict[rec[1]] = [i,rec[1],rec[2],[]]
+            i+=1
+        for rec in myresultOptions:
+            #try:
+            qnDict[rec[0]][3].append({'id':rec[1],'option':rec[2],'is_correct':rec[3]}) 
+            #except:
+            #   print('\n\n\n=====================n\n',rec,'\n\n=====================n\n\n')
+
         i,qns = 1,[]
-        for rec in myresult:
-            qn=dict()
+        for rec in myresultQns:
+            eQn=qnDict[rec[1]]
+            '''
+            eQn=dict()
             #print(rec);		
             rec3 = ''
+            print('\n\n\n-----------------------\n\n',rec[3],'\n\n-----------------------\n\n\n')
             try:
                 rec3 = eval(rec[3])
             except:
                 rec3 = [rec[3],'Err','Err','Err','Err']
             qn['sno'],qn['question_id'],qn['question_text'],qn['options']=i,rec[1],rec[2],rec3
+            '''
+            qn = {'sno':eQn[0],'question_id':eQn[1],'question_text':eQn[2],'options':eQn[3]}
             qns.append(qn)
+            #print('\n\n\n-----------------------\n\n',qn,'\n\n-----------------------\n\n\n')
             i+=1
         return qns
     @classmethod
@@ -86,8 +123,9 @@ class PickToDb:
         ids = [dbcat_id,dbquiz_id,[]]
         K=1
         for el in TestData['pick_list']:
-            for I in range(el['from']-1,el['to']):
+            for I in range(el['from']-1,el['to']):                
                 qn = el['qns'][I]
+                #print('\n\n\n',qn,'\n\n\n')
                 valQn = (qn['question_text'],K,dbquiz_id) #sno,q,opta,optb,optc,optd,opte,optcount,optans
                 mycursor.execute(sqlQn, valQn)
                 K=K+1

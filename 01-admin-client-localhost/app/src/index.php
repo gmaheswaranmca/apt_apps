@@ -1,5 +1,12 @@
 <?php
 	@session_start(); 
+	/*
+	https://stackoverflow.com/questions/16765158/date-it-is-not-safe-to-rely-on-the-systems-timezone-settings
+	*/
+	if( ! ini_get('date.timezone') )
+	{
+		date_default_timezone_set('GMT');
+	}
 	$dt = date('Ymd', time());
 	if(isset($_GET["dt"])){
 		//echo('Get Dt:' . $_GET["dt"] . '<br>');
@@ -49,6 +56,3 @@
 	}
 	else
 		header("location:betaApp/");
-?>
-
-

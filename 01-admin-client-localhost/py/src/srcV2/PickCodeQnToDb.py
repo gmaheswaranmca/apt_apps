@@ -24,11 +24,21 @@ class PickCodeQnToDb:
 
     @classmethod
     def getSrcCon(cls,database):
-        mydb = mysql.connector.connect(host = 'localhost', 	user = 'root', database = database)
+        #mydb = mysql.connector.connect(host = 'localhost', 	user = 'root', database = database)
+        mydb = mysql.connector.connect(host = 'localhost', 	
+            user = 'root', 
+            password = '4321',
+            database = database,
+            port = 3308)
         return mydb
     @classmethod
     def getToCon(cls,database):
-        mydb = mysql.connector.connect(host = 'localhost', 	user = 'root', database = database)
+        #mydb = mysql.connector.connect(host = 'localhost', 	user = 'root', database = database)
+        mydb = mysql.connector.connect(host = 'localhost', 	
+            user = 'root', 
+            password = '4321',
+            database = database,
+            port = 3308)
         return mydb
     @classmethod
     def queryQs(cls,mydb, qn_id, maxTestCases, scorePerTestCase):

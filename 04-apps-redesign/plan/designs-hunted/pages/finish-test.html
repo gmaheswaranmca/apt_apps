@@ -1,0 +1,277 @@
+<html><head>
+    <title>Apt Online Test</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">	
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <link rel="shortcut icon" href="../static/img/comp/fav.png">
+    <link href="../static/css/aptStyle.css?t=20240215134109" type="text/css" rel="stylesheet">
+    <script language="javascript" src="../static/js/jquery/jquery.min.js?t=20240215134109"></script>
+    <script language="javascript" src="../static/js/mustache/mustache.js?t=20240215134109"></script>
+    <script language="javascript" src="../static/js/lib/pouchdb.min.js?t=20240215134109"></script>
+    <script language="javascript" src="../static/js/lib/js.cookie.min.js?t=20240215134109"></script>
+    
+    
+    <script language="javascript" src="../static/js/PageBase.js?t=20240215134109"></script>
+<style type="text/css">
+.compe{
+padding: 5px;	
+border:1px solid #f4f5f7;border-radius:20px;	
+background: #f4f5f7!important; color:#c44844!important; 
+font-family: tahoma; font-size:14pt;font-weight:bold; 	
+}
+</style><script language="javascript" src="form/conductTest/conductTestMisc.js?t=20240215134109"></script>
+<script language="javascript">var vSuffleRule=[
+{"name":"Test 01",
+    "rule":[
+        {"rule":1,"from": 1,"to": 25, "suffleCount":0},
+        {"rule":2,"from": 26,"to": 45, "suffleCount":0}
+    ]
+},{"name":"Test 02",
+    "rule":[
+        {"rule":1,"from": 1,"to": 10, "suffleCount":0},
+        {"rule":2,"from": 11,"to": 15, "suffleCount":0},
+        {"rule":3,"from": 16,"to": 20, "suffleCount":0},
+        {"rule":4,"from": 21,"to": 24, "suffleCount":0},
+        {"rule":5,"from": 25,"to": 29, "suffleCount":0},
+        {"rule":6,"from": 30,"to": 30, "suffleCount":0}
+    ]
+}
+
+];  
+
+var CurrSuffledRules=[];
+var CurrRules={};
+var CurrRulesIsThere=false;
+var CurrRuleSufIdx = 0;
+//alert(44);</script>
+<script language="javascript">
+var JsController = new ConductTestJsController('1');JsController.OnLoad();
+</script>
+</head>
+<body onbeforecopy="return false" ondragstart="return false" onselectstart="return false" oncontextmenu="return false" onselect="SupSel()" oncopy="SupSel()">
+<div id="PageBefore" style="color: white; width: 99%; height: 80%; border: 1px solid silver; border-radius: 100px; text-align: center; font-family: Arial; font-size: 14pt; display: none;">
+        <br><br><br>
+        <img src="../static/img/comp/fav.png" width="100" height="100" align="center"><br>
+        <div>
+            <div style="overflow:auto;background-color:#F4F5F7;">
+                <table class="aptTable">
+                    <tbody><tr>
+                        <td class="data" align="center" style="font-size:18pt;font-family:\'Arial Narrow\';" id="PageBefExtraText">
+                            Loading Online Test Platform...
+                            <br>Please wait for few seconds.
+                            <br>We are loading the application.
+                        </td>
+                    </tr>
+                </tbody></table>
+            </div>				
+            <br><br><br><br><br><br>
+            <span class="aptLogout" style="float:none;"><a href="logout.php" border="1">Logout</a></span>			
+        </div>
+         
+</div>
+<div style="display: block;" id="PageAfter">
+    <div class="AptStTopLine">			
+            <img src="../static/img/comp/APEC-LOGO.png">
+            <div class="AptStTopLineBrand AptStMobile">
+                <span class="AptStBrandName">Online Test Platform</span>
+                <span class="AptStCompName">Apt Training Resources</span>
+            </div>			
+            <div class="AptStTimer" id="myRemainingTime"><div timerdiv=""><div class="timerCounter">106<span class="tmrTxt">mins</span></div> <div class="timerCounter" style="width:20px;">:</div> <div class="timerCounter">36<span class="tmrTxt">secs</span></div> </div></div>			
+    </div>
+    <div class="AptStTopicLine" id="myHeader">						
+        <span class="aptTitle" id="myTitle"><span class="AboutQuizInScreen"><span>Assessment Test #012</span>, <span>Total number of questions:</span><span id="myQCount">10</span>, <span>Max Time Limit: 120 minutes</span></span><span class="AboutQuizInMobile">Assessment Test #012, 10 Qns, Time: 120 mins</span></span>
+        <span class="aptLogout" id="idLogout" style="display: none;"><a href="logout.php" border="1">Logout</a></span> 
+        <span class="aptLogout" id="idFinish" style="display: inline-block;"><a href="#" border="1" onclick="return JsController.apdata.action.FinishTest();">Finish <strong style="color:black;">✔</strong></a></span>
+        <span class="aptUser"><span>Welcome </span><span id="myUserName">developer05</span><span>(</span><span id="myFullName">DEVELOPER05</span><span>)! </span></span>
+    </div> 
+    <div style="overflow:auto" class="AptMain">			
+        <div class="AptContent">
+            <div id="pageContent"><div align="center" id="divQst" class="qst_main_table_li" style="font-size:14pt;font-family:tahoma;">
+<table width="100%" cellpadding="5" cellspacing="0" border="0">
+    <tbody><tr>
+        <td class="header_text" style="padding:5px; background-color:#ccc;font-size:14pt;" colspan="4">
+            Are you sure to finish the test?
+        </td>
+    </tr>
+    <tr>
+        <td colspan="4" style="border-bottom:1px solid silver;">
+            Out of 10 Questions:
+        </td>
+    </tr> 		
+    <tr>
+        <td style="border-bottom:1px solid silver;max-width:120px;">
+            <span class="pgrBt pgrBtAns" style="display:inline-block;">&nbsp;</span> Answered 
+        </td>
+        <td width="15" style="border-bottom:1px solid silver;">:</td>
+        <td width="70" style="border-bottom:1px solid silver;padding-right:20px;" align="right">
+        6</td>
+        <td style="border-bottom:1px solid silver;"> Questions</td>
+    </tr> 
+    <tr>
+        <td style="border-bottom:1px solid silver;">
+            <span class="pgrBt pgrBtNotAns" style="display:inline-block;">&nbsp;</span> Visited but Not Answered 
+        </td>
+        <td style="border-bottom:1px solid silver;">:</td>
+        <td style="border-bottom:1px solid silver;padding-right:20px;" align="right">
+        3</td>
+        <td style="border-bottom:1px solid silver;">Questions</td>
+    </tr> 
+    <tr>
+        <td style="border-bottom:1px solid silver;">
+            <span class="pgrBt pgrBtNotVisit" style="display:inline-block;">&nbsp;</span> Not Visited 
+        </td>
+        <td style="border-bottom:1px solid silver;">:</td>
+        <td style="border-bottom:1px solid silver;padding-right:20px;" align="right">
+        1</td>
+        <td style="border-bottom:1px solid silver;">Questions</td>
+    </tr> 
+    <tr>
+        <td style="border-bottom:1px solid silver;" colspan="4" valign="middle">
+            You have Balance Time : <div class="AptStTimer" id="myRemainingTime" style="float:none;"><div timerdiv=""><div class="timerCounter">106<span class="tmrTxt">mins</span></div> <div class="timerCounter" style="width:20px;">:</div> <div class="timerCounter">36<span class="tmrTxt">secs</span></div> </div></div>
+        </td>
+    </tr> 		
+    <tr class="c_list_item_gr">
+        <td style="padding:5px;" colspan="4">
+            <button class="aptBtn" style="min-width:50px;" onclick="return JsController.apdata.action.AcceptFinish();" title="Finish"> Finish </button>
+            <button class="aptBtn" style="min-width:50px;" onclick="return JsController.apdata.action.CancelFinish();" title="Cancel"> Cancel </button>
+        </td>
+    </tr>
+</tbody></table>
+</div></div>
+        </div>
+        <div class="AptSideBar">
+            <div id="testPagers" style="display: none;"><style type="text/css">
+.timerCounter {
+    display: table-cell; 		
+    width: 40px; height:40px; 
+    margin:1%;
+    font-size: 20px;					
+    font-family: 'Lucida Console'; 	
+    
+    border-radius:20px;
+    border:1px solid #434343;		
+background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+    color: white;
+    
+    vertical-align:middle;
+    text-align: center;	
+    
+}
+.timerDiv{
+    display:block; width:100%; padding:3px;
+    text-align:center;
+}
+.tmrBox{
+font-family:tahoma; font-size:9pt; font-weight:bold;	
+
+border: 1px solid #DBDBDB; border-radius: 5px;
+color:navy;
+background: #ADA996;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.tmrTxt{float:bottom;font-size:7pt;display:block;}
+</style>
+<table align="center">
+<!--tr>
+<td class="tmrBox" align="center">Remaining Time: <div style="width:100%" id="myRemainingTime">mm:ss</div></td>
+</tr>
+<tr>
+<td  class="tmrBox" align="center">Test started at : <span id="myTestStartAt">hh:mm PM</span></td>
+</tr-->
+<tbody><tr>
+<td>
+    <div sty1le="overflow:auto; height: 200px;" id="myQMatrix"><style type="text/css">
+.pgrBtAning{
+background: #fdc830;
+background: -webkit-linear-gradient(to right, #f37335, #fdc830, #f37335);
+background: linear-gradient(to right, #f37335, #fdc830, #f37335)
+}
+</style>
+
+<table align="center">
+<tbody><tr>
+</tr>	
+</tbody></table>
+
+<table align="center">
+<tbody><tr>
+<td>
+    <input type="button" class="pgrBt     pgrBtAns    " value="1" title="1" onclick="JsController.apdata.action.LoadQuestionByNo(1)"> 
+</td>	
+
+<td>
+    <input type="button" class="pgrBt     pgrBtAns    " value="2" title="2" onclick="JsController.apdata.action.LoadQuestionByNo(2)"> 
+</td>	
+
+<td>
+    <input type="button" class="pgrBt     pgrBtAns    " value="3" title="3" onclick="JsController.apdata.action.LoadQuestionByNo(3)"> 
+</td>	
+
+<td>
+    <input type="button" class="pgrBt        pgrBtNotAns    " value="4" title="4" onclick="JsController.apdata.action.LoadQuestionByNo(4)"> 
+</td>	
+
+<td>
+    <input type="button" class="pgrBt        pgrBtNotAns    " value="5" title="5" onclick="JsController.apdata.action.LoadQuestionByNo(5)"> 
+</td>	
+</tr><tr>
+<td>
+    <input type="button" class="pgrBt     pgrBtAns    " value="6" title="6" onclick="JsController.apdata.action.LoadQuestionByNo(6)"> 
+</td>	
+
+<td>
+    <input type="button" class="pgrBt     pgrBtAns    " value="7" title="7" onclick="JsController.apdata.action.LoadQuestionByNo(7)"> 
+</td>	
+
+<td>
+    <input type="button" class="pgrBt     pgrBtAns    " value="8" title="8" onclick="JsController.apdata.action.LoadQuestionByNo(8)"> 
+</td>	
+
+<td>
+    <input type="button" class="pgrBt        pgrBtNotAns    pgrBtCurr" value="9" title="9" onclick="JsController.apdata.action.LoadQuestionByNo(9)"> 
+</td>	
+
+<td>
+    <input type="button" class="pgrBt       pgrBtNotVisit pgrBtNotAns    " value="10" title="10" onclick="JsController.apdata.action.LoadQuestionByNo(10)"> 
+</td>	
+</tr><tr>
+</tr>	
+</tbody></table></div>
+    <table style="font-family:tahoma; font-size:9pt; font-weight:bold;">
+        <tbody><tr><td>Legend</td></tr>
+    </tbody></table>	
+    <table style="font-family:tahoma; font-size:9pt;">
+        <tbody><tr>
+            <td><span class="pgrBt pgrBtAns" style="display:inline-block;">&nbsp;</span>&nbsp;Answered&nbsp;</td>
+        </tr>
+        <tr>
+            <td><span class="pgrBt pgrBtNotAns" style="display:inline-block;">&nbsp;</span> Not Answered</td>				
+        </tr>
+        <tr>
+            <td><span class="pgrBt pgrBtNotVisit" style="display:inline-block;">&nbsp;</span> Not Visited</td>				
+        </tr>
+        <tr>
+            <td><span class="pgrBt pgrBtAns pgrBtCurr" style="display:inline-block;">&nbsp;
+                </span><!--&nbsp;<span class="pgrBt pgrBtNotAns pgrBtCurr" style="display:inline-block;">&nbsp;
+                </span>&nbsp;<span class="pgrBt pgrBtNotVisit pgrBtCurr" style="display:inline-block;">&nbsp;</span>-->&nbsp;Current Question</td>				
+        </tr>
+    </tbody></table>
+</td>
+</tr>
+    <!--tr>
+<td class="tmrBox" align="center"><div style="width:100%" id="myRemainingTime">mm:ss</div></td>
+</tr-->
+
+</tbody></table>
+
+
+</div>
+        </div>
+    </div>
+</div>	
+
+      </body></html>
