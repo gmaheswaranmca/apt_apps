@@ -1,0 +1,8 @@
+cmd=mktest
+hasBrandInInstruction=1
+fromDatabase=t20apt00
+toDatabase=aptonlinefour
+testPaper=Jav10,1,20!Assessment Test #012,20,60
+testPaper=Jav11-13_15_19,1,20!Assessment Test #013,20,60
+testPaper=Jav11-13_15_19,21,40!Assessment Test #014,20,60
+testPaper=TE010b,32,32|TE010b,6,6|Jav11-13_15_19,41,58!Assessment Test #015,20,60

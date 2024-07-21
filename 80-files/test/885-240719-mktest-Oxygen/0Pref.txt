@@ -1,0 +1,5 @@
+cmd=mktest
+hasBrandInInstruction=1
+fromDatabase=t20apt00
+toDatabase=aptonlinefive
+testPaper=TE010b,50,56|TE010b,58,60|Jav11-13_15_19,78,87!Assessment Test #015,20,60

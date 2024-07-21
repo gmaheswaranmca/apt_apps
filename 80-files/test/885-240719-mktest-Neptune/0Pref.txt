@@ -1,0 +1,5 @@
+cmd=mktest
+hasBrandInInstruction=1
+fromDatabase=t20apt00
+toDatabase=aptonlineseven
+testPaper=TE051b,74,74|TC2I-O03,6,24!Assessment Test #015,20,60

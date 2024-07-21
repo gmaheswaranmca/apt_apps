@@ -1,0 +1,14 @@
+cmd=mktest
+hasBrandInInstruction=1
+fromDatabase=t20apt00
+toDatabase=aptonlinethree
+testPaper=QA026b,1,10|509,1,10|VA004b,1,10!Assessment Test #007,30,60
+testPaper=QA031b,1,10|RE062b,1,10|VA004b,11,20!Assessment Test #008,30,60
+testPaper=QA032b,1,10|507,21,30|VA004b,21,30!Assessment Test #009,30,60
+testPaper=QA033b,1,10|RE064b,1,10|VA004b,31,40!Assessment Test #010,30,60
+testPaper=QA034b,1,10|RE065b,1,10|VA004b,41,50!Assessment Test #011,30,60
+testPaper=QA035b,1,10|RE066b,1,10|VA004b,51,60!Assessment Test #012,30,60
+testPaper=QA041b,1,10|RE067b,1,10|VA005b,1,10!Assessment Test #013,30,60
+testPaper=QA042b,1,10|RE068b,1,10|VA005b,11,20!Assessment Test #014,30,60
+testPaper=QA043b,1,10|RE051b,11,20|VA005b,21,30!Assessment Test #015,30,60
+testPaper=QA044b,1,10|RE052b,11,20|VA005b,31,40!Assessment Test #016,30,60

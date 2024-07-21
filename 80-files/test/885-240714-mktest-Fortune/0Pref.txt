@@ -1,0 +1,6 @@
+cmd=mktest
+hasBrandInInstruction=1
+fromDatabase=t20apt00
+toDatabase=aptonlinesix
+testPaper=QA015b,1,30!Assessment Test #002,30,60
+testPaper=QA011b,1,30!Assessment Test #003,30,60
