@@ -192,7 +192,7 @@ class MkscoreUtil:
                 '''if res['attendance'] == 'ABSENT':
                     res['score'] = 'ABSENT' '''
                 if (not isCode) and res['remarks'] == "Scores can't be displayed":
-                    res['score'] = 'N.A.' 
+                    pass #res['score'] = 'N.A.' 
                 break
         return res   
     @staticmethod
@@ -214,7 +214,7 @@ class MkscoreUtil:
                 if res['attendance'] == 'ABSENT':
                     res['score'] = 'ABSENT' 
                 if (not isCode) and res['remarks'] == "Scores can't be displayed":
-                    res['score'] = 'N.A.' 
+                    pass #res['score'] = 'N.A.' 
                 elif isCode:
                     res['remarks'] = 'No Remarks'
                 break

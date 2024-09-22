@@ -1,0 +1,373 @@
+* {box-sizing: border-box;}
+
+html,body {  height: 100%;}
+body{ 
+	background-color: #97A3AF;
+	margin:0px;
+	overscroll-behavior: none;
+}
+.top_banner{display: flex; 
+	/*padding: 10px;*/
+	padding: 1px;
+}
+.top_ins{display: table-cell;
+	/*margin-right:15px; padding:25px 10px 15px 10px;*/
+	margin-right:1px; padding:2px 1px 1px 1px;
+	border-radius:10px 10px 10px 10px;
+	width:calc(20% - 2px); 
+	background-color:#f4f5f7;
+	vertical-align: middle; text-align:center;	
+	
+}.top_header{display: table-cell;
+	/*margin-right:15px; padding:5px;*/
+	margin-right:1px; padding:1px;
+	border-radius:10px 10px 10px 10px;
+	width:60%;  
+	color:#c44844; background-color:#f4f5f7;
+	font-weight:bold; font-size:26px;
+	vertical-align: middle;	text-align:center; word-wrap: break-word;  
+}.top_comp{display: table-cell;
+	/*padding:25px 10px 15px 10px;	*/
+	padding:2px 1px 1px 1px;
+	border-radius:10px 010px 10px 10px;
+	width:calc(20% - 2px); 
+	background-color:#f4f5f7;
+	text-align: center; vertical-align: middle; 			
+}.top_ins img, .top_comp img{
+  max-width: 100%;  
+}.loginTbl{width:400px;}
+.main_view{ display: flex;}
+.main_menus{display: table-cell; 
+	margin-right: 15px; padding: 1px;
+	border-radius:10px 010px 10px 10px;
+	width: calc(20% - 15px);  
+	background-color: #F4F5F7; 	
+}.main_data{display: table-cell; 
+	padding: 1px;
+	border-radius:10px 010px 10px 10px;
+	width: 80%; 
+	background-color: #F4F5F7; 
+}.heading_view{ display: block; 
+	/*padding: 10px; */
+	padding: 1px; padding-top:10px;padding-bottom:10px;
+	border-radius:10px 10px 10px 10px;
+	background-color: black;     
+}.heading_data{	
+	/*padding: 10px;  */
+	padding: 1px;
+	width: calc(80% - 30px); 
+	color: white;
+	font-size : 16px;font-family:arial;	font-weight : bold;	
+}.heading_data_d{display: block; float: left; }
+.heading_logout{ display: block; float: right; 
+	min-width: 20%; width: auto;
+} .heading_logout a{ display: inline-block; float: right; 
+	padding: 10px;
+	border: 1px solid rgb(21, 87, 153); border-radius: 10px; 
+	color:white;background-color: rgb(28, 181, 224);
+	font-weight: bold;
+	text-decoration: none;
+}
+.heading_view {}
+
+.top_banner{width:100%;}
+.aptTitle{display:inline;}
+
+.ArtAppTitle{display:inline-block;}
+.aptLogout{/*display:table-cell;*/	display:inline; flex:right;
+		text-align:right; vertical-align: middle; 
+		color: white; 
+		font-family: Arial; font-weight: bold; font-size: 12pt;
+}.aptLogout a{display:inline-block;
+	padding: 5px;
+	border: 1px solid rgb(21, 87, 153); border-radius: 10px; 
+	color:white;background-color: rgb(28, 181, 224);
+	font-weight: bold;
+	text-decoration: none;
+}
+.sticky { position: fixed;
+  top: 0; width: 100%;
+}.sticky + .main_view {
+  padding: 0; padding-top: 102px; 
+}.c_menu_list_bg{
+	margin-right:-3px; padding:8px 10px;
+	border-radius:5px;
+	width:100%;
+	background-color:#c44844;
+}.menu_child_name{
+	color:#ffffff;
+	font-size : 12px;font-weight : regular;font-family:tahoma;
+	text-decoration:none;		
+}.c_list_head{
+	padding:1px;
+	color:#7D848C;
+	font-size : 13px;font-family:tahoma;font-weight : bold;	
+}.c_list_head td{
+	padding:1px;
+	border-top:none;border-left:none;border-right:1px solid #ffffff;border-bottom:none;
+	color:#ffffff;background-color:#c44844;	
+}.c_list_item{
+	color:black;
+	font-size : 13px;font-family:tahoma;	
+}.c_list_item td{
+	padding:1px;
+	border-top:none;border-left:none;border-right:none;border-bottom:1px solid #c44844;
+}.c_list_head_gr{
+	padding:5px;
+	color:#7D848C;
+	font-size : 13px;font-family:tahoma;font-weight : bold;	
+}.c_list_head_gr td{
+	padding:5px;
+	border-top:none;border-left:none;border-right:1px solid #ccc;border-bottom:none;	
+	color:navy;background-color:#ccc;	
+}.c_list_item_gr{
+	color:black;
+	font-size : 13px;font-family:tahoma;	
+}.c_list_item_gr td{
+	padding:5px;
+	border-top:none;border-left:none;border-right:none;	border-bottom:1px solid #f4f5f7;
+}.c_list_item_gr td{
+	padding:5px;
+	border-top:none;border-left:none;border-right:none;border-bottom:1px solid #f4f5f7;
+}.st_button{ width:100px;}
+.st_txtbox{ width:200px;}
+.aptBtn{ cursor: pointer;
+	padding: 12px;	
+	border-radius: 10px; border: 1px solid rgb(21, 87, 153);
+	color:white;background-color: rgb(28, 181, 224);
+	font-weight: bold;
+} .tblGrid{ scope:col;        
+	border-top:none;border-left:none;border-right:none;	border-bottom:1px solid #c44844;border-collapse:collapse;
+	width: 100%;
+}.tblGridLi{scope:col; 
+	width: 100%;
+	border-top:none;border-left:none;border-right:none;	border-bottom:1px solid #97A3AF; border-collapse:collapse;    
+}.tblGridGreen{scope:col;        
+	border-top:none;border-left:none;border-right:none;	border-bottom:1px solid #97A3AF; border-collapse:collapse;
+	width: 100%;    
+}a{	color:black;	
+	font-size : 12px;font-family:tahoma;font-weight : bold;
+}.qst_main_table{		
+		margin: 10px;padding: 10px;  
+        border-style: Black 1px dotted; border-radius:10px;
+		background-color: #4CAF50;  color: black;       
+}.qst_main_table table {background-color: #4CAF50;}
+.qst_main_table_li{	
+		border-radius:10px; border-style: Black 1px dotted; 
+		background-color: #f4f5e7; color: black;       
+}.qst_main_table_li table {background-color: #f4f5e7;}
+.footer_text{
+	color:navy;
+	font-family:tahoma; font-size : 12px; font-weight: bold;
+}.header_text{
+	color:navy; 
+	font-family:tahoma;font-size : 12px;font-weight: bold;	
+}.qst_ans_table{
+	border: solid white 1px; border-radius: 10px;	
+	width:100%;
+}.qst_ans_table tr:hover{
+	/* background-color: silver; */
+}
+/* The container */
+.rbcontainer { display: block;position: relative; cursor: pointer;
+	margin-bottom: 12px;padding-left: 35px;
+	font-family:tahoma;	font-size : 12px; font-size: 22px;
+	-webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none;
+}
+/* Hide the browser's default radio button */
+.rbcontainer input { position: absolute; cursor: pointer;
+	opacity: 0;
+}
+/* Create a custom radio button */
+.rbcheckmark {  position: absolute;
+	border-radius: 50%;
+	top: 0;  left: 0;  height: 25px;  width: 25px;
+	background-color: white;   
+}
+/* On mouse-over, add a grey background color */
+.rbcontainer:hover input ~ .rbcheckmark {
+	background-color: orange;
+}
+/* When the radio button is checked, add a blue background */
+.rbcontainer input:checked ~ .rbcheckmark {
+	background-color: #2196F3;
+}
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.rbcheckmark:after {display: none; position: absolute;
+	content: "";
+}
+/* Show the indicator (dot/circle) when checked */
+.rbcontainer input:checked ~ .rbcheckmark:after {
+	display: block;
+}
+/* Style the indicator (dot/circle) */
+.rbcontainer .rbcheckmark:after {
+	border-radius: 50%;
+ 	top: 9px;	left: 9px;	width: 8px;	height: 8px;	
+	background: white;
+}.login_box{
+	width:225px;height:30px;
+	color:#7D848C;
+	font-family:tahoma; font-size : 15px;
+} .main_txt_lt{
+	color:#7D848C;	
+	font-family:tahoma; font-size : 12px; font-weight : bold;
+}.main_txt_lt label{
+	padding:5px;
+	height:35px;
+	color:black;
+}/* Input Box Styles */
+input[type=text], textarea, input[type=password] {
+	outline: none;
+	margin: 5px 1px 3px 0px;padding: 3px 0px 3px 3px;
+	border: 1px solid rgb(21, 87, 153);  border-radius:4px;
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+}input[type=text]:focus, textarea:focus,input[type=password]:focus {
+	margin: 5px 1px 3px 0px;padding: 3px 0px 3px 3px;
+	box-shadow: 0 0 3px #c44844;	
+	border: 1px solid rgb(21, 87, 153);
+}
+/*button Style*/
+.myButton {display:inline-block;cursor:pointer;
+	padding:6px 15px;
+	border: 1px solid white;border-radius:6px; -moz-border-radius:4px;-webkit-border-radius:4px;
+	-moz-box-shadow:inset 0px 39px 0px -24px white;
+	-webkit-box-shadow:inset 0px 39px 0px -24px white;
+	box-shadow:inset 0px 39px 0px -24px white;
+	background-color:white;color:#c44844;
+	font-family:Arial;	font-size:15px;	font-weight: bold;font-style: italic;
+	text-decoration:none;
+}.myButton:hover {
+	background-color:silver;
+}.pgrBt{cursor: pointer;
+	border-radius:4px; border: none; 	 	 
+	width: 30px; height: 30px;	
+	color: black; 
+}.pgrBtAns{
+	border-radius:4px; border: 1px #a8e063 solid;	
+	background: #56ab2f; background: -webkit-linear-gradient(to right, #a8e063, #56ab2f); background: linear-gradient(to right, #a8e063, #56ab2f);color:white;
+}.pgrBtNotAns{
+	border-radius:4px; border: 1px #93291E solid;	
+	background: #ED213A;background: -webkit-linear-gradient(to right, #93291E, #ED213A);background: linear-gradient(to right, #93291E, #ED213A); color:white;
+}.pgrBtNotVisit{
+	border-radius:4px; border: 1px #FFEFBA solid;	
+	background: #FFEFBA;background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFFA);background: linear-gradient(to right, #FFFFFF, #FFEFFA);color:black;
+}.pgrBtCurr{	
+	border-radius:15px; border: 1px #fff200 solid;	
+	background: #fff200;background: -webkit-linear-gradient(to left, #fff200, #fffccc);
+	background: linear-gradient(to left, #fff200, #fffccc);color:black;
+	font-weight: bold;
+}.brand{	
+	background: rgb(28, 181, 224); background: radial-gradient(#ffffff, rgb(28, 181, 224));		
+}
+
+
+.AptStTopLine{padding: 1px;
+	margin:5px;border-radius:10px;
+	background: rgb(28, 181, 224); background: radial-gradient(#ffffff, rgb(28, 181, 224));color:#c44844;
+}.AptStTopLineBrand{display:inline-block;
+	vertical-align:top;}
+.AptStTimer{display:inline-block;float:right;}
+.AptStCompName{display: inline-block; 		
+	margin:1%;margin-top:0px;margin-bottom:0px;padding:5px;	
+	border:1px solid #f4f5f7; border-radius:5px;
+	background: #f4f5f7;  background: -webkit-linear-gradient(to left, #ffffff, #f4f5f7); background: linear-gradient(to left, #ffffff, #f4f5f7); 
+	color:#c44844; 
+	font-family: tahoma; font-size:18pt;font-weight:bold; 
+	text-align: center;	
+}.AptStBrandName{display:inline-block;
+	padding:5px;
+	border-radius:50px;
+	width:300px;
+	background: #ADA996; background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
+	color:navy;
+	font-size:12pt;font-weight:bold;font-variant:small-caps;
+	text-align:center;
+}.AptStTopicLine{ display: block; 
+	padding: 1px; padding-top:10px;padding-bottom:10px;
+	border-radius:10px 10px 10px 10px;
+	background-color: black; color:white;
+	font-family: Arial; font-size : 16px; font-weight : bold;	
+	vertical-align:middle;
+}.aptTitle{display:inline-block;
+	margin-left:10px;
+}.aptUser{display:inline-block;float:right;} 
+.aptLogout{display:inline-block;float:right;
+	margin-right:10px;
+	vertical-align:middle;
+}.aptLogout a{margin:0px;}
+.AptMain{ display: flex;
+	margin:2px;
+	width:99%;}
+.AptSideBar{display: table-cell; 
+	margin:1px;padding: 1px;
+	border-radius:10px;
+	width: 20%;  
+	background-color: #F4F5F7; 	
+}.AptContentOnly{display: table-cell; 	
+	width: 100%;
+	margin:1px;padding: 1px; padding-top:10px;
+	border-radius:10px;
+	background-color: #F4F5F7; 
+}.AptContent{display: table-cell; 	
+	width: 80%;
+	margin:1px;padding: 1px; padding-top:10px;
+	border-radius:10px;
+	background-color: #F4F5F7; 
+}
+.aptTable{
+	width:100%;
+}.aptTable td{
+	padding:10px;		
+	border:none;		
+}.aptTable .data{
+	padding-right:0px;
+	border-bottom:1px solid #ccc;
+	color:black;	
+	font-family:tahoma; font-size : 13px;font-weight : bold;
+}.aptTable td a{
+	padding: 10px 50px; 
+	text-decoration: none;
+}.AboutQuizInMobile{display:none;}.AboutQuizInScreen{display:inline;}
+.artDataPrimary{	
+	color:black;
+	font-size:12pt;
+}.artDataSecondary{
+	color:#808080;/*#808080;*/
+	font-size:10pt;
+}
+
+/* media */
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .top_banner, .main_view{display: block;}
+  .top_ins, .main_menus, .main_data{display: block; float: left;}
+  /*.top_comp, .top_header{}*/
+  .top_ins, .top_header, .top_comp, .main_menus, .main_data{
+		margin-bottom:1px;
+		width:100%;		
+  }.
+  .heading_view,.heading_data,.aptLogout,.aptLogout a{font-size:10pt;font-family:Lucida Console;}
+  .AboutQuizInMobile{display:inline;}.AboutQuizInScreen{display:none;}
+  c_menu_list_bg{text-align: center;}
+  .loginTbl{width:auto;}
+  .aptLogout span{display:none;}
+  .aptLogout #myFullName{display:inline;}
+  
+  
+  .AptMain,.AptSideBar,.AptContent{display:block;}  
+  .AptSideBar,.AptContent{width:100%;}  
+  .AptStTopLineBrand{display:none;}
+  .aptUser span{display:none;}.aptUser #myUserName{display:inline;margin-right:2px;}
+}
+@media only print {
+  body{display:none;}
+}
+
+
+.intro_bg_top{border-bottom: 1px solid #F4F5F7;margin-bottom:5px;padding-bottom:5px;}
+.intro_bg_bot{border-top: 1px solid #F4F5F7;margin-top:5px;padding-top:5px;}
+.intro_col_red{color:red;}

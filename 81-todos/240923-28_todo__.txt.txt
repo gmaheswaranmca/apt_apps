@@ -1,0 +1,117 @@
+Zenith: [09] 24TU9AM-WE10PM, 27FR9AM-SA10PM
+Kite: [09] 23MO9AM-TU9PM
+Neptune: [09] 27FR9AM-SU9PM
+Quick: [09] 27FR9AM-SU11PM
+Rainbow: [09] 22SU9PM-FR9PM 
+Technique: [09] 23MO8PM-WE7AM, 25WE9PM-TH7AM, 26TH9PM-FR7AM, 27FR9PM-SA7AM
+Ultra: [09] 23MO8PM-WE7AM, 25WE9PM-TH7AM, 26TH9PM-FR7AM, 27FR9PM-SA7AM
+
+SUN MON TUE WED THU FRI SAT SUN
+``` ``` ZE1 ZE1 ``` ZE2 ZE2 ```   
+``` KI1 KI1 ``` ``` NE1 NE1 NE1   
+``` ``` ``` ``` ``` QU1 QU1 QU1  
+RA1 RA1 RA1 RA1 RA1 RA1 RA1 RA1 
+TE1 TE1 TE1 ``` ``` ``` ``` ```  
+``` ``` TE2 TE2 ``` ``` ``` ``` 
+UL1 UL1 UL1 TE3 TE3 ``` ``` ``` 
+``` ``` UL2 UL2 ``` TE4 TE4 ``` 
+``` ``` ``` ``` UL3 UL3 ``` ``` 
+``` ``` ``` ``` ``` ``` UL4 UL4 
+
+
+
+Zenith: [09] 24TU9AM-WE10PM, 27FR9AM-SA10PM
+Kite: [09] 23MO9AM-TU9PM
+Neptune: [09] 27FR9AM-SU9PM
+Quick: [09] 27FR9AM-SU11PM
+Rainbow: [09] 22SU9PM-FR9PM 
+Technique: [09] 23MO8PM-WE7AM, 25WE9PM-TH7AM, 26TH9PM-FR7AM, 27FR9PM-SA7AM
+Ultra: [09] 23MO8PM-WE7AM, 25WE9PM-TH7AM, 26TH9PM-FR7AM, 27FR9PM-SA7AM
+
+
+
+
+
+
+
+Zenith 
+13	
+	24/08/’24	Tuesday 9 am to Wednesday night 10 pm: 
+	More than 24 hrs	Quants Chapter 31 - Qns (1-30)
+	Total: 30 Questions. Time: 1 hour
+
+14	
+	27/08/’24	Friday 9 am to Saturday night 10 pm:
+	More than 24 hrs	Quants Chapter 32 - Qns (1-30)
+	Total: 30 Questions. Time: 1 hour
+KITE
+2	
+	23/09/’24	Monday 9 am to Tuesday 9 pm: 
+	More than 24 hrs	Chapter 15 Qns: (1-30),
+	Total: 30 Questions. Time: 1 hour
+Neptune 
+2	
+	27/09/’24	Friday 9 am to Sunday 9 pm: 
+	More than 24 hrs	Chapter 15 Qns: (1-30),
+	Total: 30 Questions. Time: 1 hour
+QUICK
+18	
+	27/09/’24	
+	Friday 9 am to Sunday night 11 pm: 
+	More than 24 hrs	Chapter 42 Qns: (1-25). Time: 1 hr
+	Chapter 21 Qns: (1-30). Time: 1 hr
+	Multi-part
+	Total: 55 Questions. Total Time: 2 hours
+RAINBOW
+1	
+	23/09/’24	Sunday 9 pm to Friday 9pm: 
+	More than 24 hrs	Verbal Chapter 41 Qns: (1-60),
+	Total: 60 Questions. Time: 45 mins
+TECHNIQUE
+1	
+	24/09/’24	
+	Monday 8 pm to Wednesday 7 am: More than 24 hrs	Java Language MCQ’s Chapter 1: Qns (1 to 20)
+	Total Qns: 20 Qns.         
+	Time: 60 mins. 
+2	
+	25/09/’24	
+	Wednesday 9 am to Thursday 7 am	Java Language MCQ’s Chapter 2: Qns (1 to 20) 
+	Total Qns: 20 Qns.         
+	Time: 60 mins.
+3	
+	26/09/’24	
+	Thursday 9 am to Friday 7 am	Java Language MCQ’s Chapter 3: Qns (1 to 20) 
+	Total Qns: 20 Qns.         
+	Time: 60 mins.
+4	
+	27/09/’24	
+	Friday 9am to Saturday 7 am	Java Language MCQ’s Chapter 4: Qns (1 to 20) 
+	Total Qns: 20 Qns.         
+	Time: 60 mins.
+ULTRA
+1	
+	24/09/’24	
+	Monday 8 pm to Wednesday 7 am: More than 24 hrs	Quantitative Aptitude
+	Chapter 16: Qns (1 to 30);     
+	Total Qns: 30 Qns.      Total Time: 60 mins.
+2	
+	25/09/’24	
+	Wednesday 9 am to Thursday 7 am	Quantitative Aptitude
+	Chapter 14: Qns (1 to 30);     
+	Total Qns: 30 Qns.      Total Time: 60 mins.
+3	
+	26/09/’24	
+	Thursday 9 am to Friday 7 am	Quantitative Aptitude
+	Chapter 21: Qns (1 to 30);     
+	Total Qns: 30 Qns.      Total Time: 60 mins.
+4	
+	27/09/’24	
+	Friday 9am to Saturday 7 am	Quantitative Aptitude
+	Chapter 25: Qns (1 to 30);     
+	Total Qns: 30 Qns.      Total Time: 60 mins.
+
+
+
+
+ 
+
