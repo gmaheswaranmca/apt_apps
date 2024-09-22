@@ -18,16 +18,31 @@ RA1 RA1 RA1 RA1 RA1 RA1 RA1 RA1
 ``` ``` ``` ``` UL3 UL3 ``` ``` 
 ``` ``` ``` ``` ``` UL4 UL4 ```
 
+testPaper=QA015b,1,30!Assessment Test #002,30,60
+testPaper=QA011b,1,30!Assessment Test #003,30,60
 
 
 Zenith: [09] 24TU9AM-WE10PM, 27FR9AM-SA10PM
+testPaper=QA015b,1,30!Assessment Test #002,30,60
+testPaper=QA011b,1,30!Assessment Test #003,30,60
 Kite: [09] 23MO9AM-TU9PM
+testPaper=QA015b,1,30!Assessment Test #002,30,60
+testPaper=QA011b,1,30!Assessment Test #003,30,60
 Neptune: [09] 27FR9AM-SU9PM
+testPaper=QA015b,1,30!Assessment Test #002,30,60
+testPaper=QA011b,1,30!Assessment Test #003,30,60
 Quick: [09] 27FR9AM-SU11PM
+testPaper=QA015b,1,30!Assessment Test #002,30,60
+testPaper=QA011b,1,30!Assessment Test #003,30,60
 Rainbow: [09] 22SU9PM-FR9PM 
+testPaper=QA015b,1,30!Assessment Test #002,30,60
+testPaper=QA011b,1,30!Assessment Test #003,30,60
 Technique: [09] 23MO8PM-WE7AM, 25WE9PM-TH7AM, 26TH9PM-FR7AM, 27FR9PM-SA7AM
+testPaper=QA015b,1,30!Assessment Test #002,30,60
+testPaper=QA011b,1,30!Assessment Test #003,30,60
 Ultra: [09] 23MO8PM-WE7AM, 25WE9PM-TH7AM, 26TH9PM-FR7AM, 27FR9PM-SA7AM
-
+testPaper=QA015b,1,30!Assessment Test #002,30,60
+testPaper=QA011b,1,30!Assessment Test #003,30,60
 
 
 
@@ -44,16 +59,26 @@ Zenith
 	27/08/’24	Friday 9 am to Saturday night 10 pm:
 	More than 24 hrs	Quants Chapter 32 - Qns (1-30)
 	Total: 30 Questions. Time: 1 hour
+
+testPaper=QA015b,1,30!Assessment Test #002,30,60
+testPaper=QA011b,1,30!Assessment Test #003,30,60
 KITE
 2	
 	23/09/’24	Monday 9 am to Tuesday 9 pm: 
 	More than 24 hrs	Chapter 15 Qns: (1-30),
 	Total: 30 Questions. Time: 1 hour
+testPaper=QA015b,1,30!Assessment Test #002,30,60
+testPaper=QA011b,1,30!Assessment Test #003,30,60
+
 Neptune 
 2	
 	27/09/’24	Friday 9 am to Sunday 9 pm: 
 	More than 24 hrs	Chapter 15 Qns: (1-30),
 	Total: 30 Questions. Time: 1 hour
+
+
+testPaper=QA015b,1,30!Assessment Test #002,30,60
+testPaper=QA011b,1,30!Assessment Test #003,30,60
 QUICK
 18	
 	27/09/’24	
@@ -62,11 +87,18 @@ QUICK
 	Chapter 21 Qns: (1-30). Time: 1 hr
 	Multi-part
 	Total: 55 Questions. Total Time: 2 hours
+
+testPaper=QA015b,1,30!Assessment Test #002,30,60
+testPaper=QA011b,1,30!Assessment Test #003,30,60
 RAINBOW
 1	
 	23/09/’24	Sunday 9 pm to Friday 9pm: 
 	More than 24 hrs	Verbal Chapter 41 Qns: (1-60),
 	Total: 60 Questions. Time: 45 mins
+
+
+testPaper=QA015b,1,30!Assessment Test #002,30,60
+testPaper=QA011b,1,30!Assessment Test #003,30,60
 TECHNIQUE
 1	
 	24/09/’24	
@@ -88,6 +120,10 @@ TECHNIQUE
 	Friday 9am to Saturday 7 am	Java Language MCQ’s Chapter 4: Qns (1 to 20) 
 	Total Qns: 20 Qns.         
 	Time: 60 mins.
+
+testPaper=QA015b,1,30!Assessment Test #002,30,60
+testPaper=QA011b,1,30!Assessment Test #003,30,60
+
 ULTRA
 1	
 	24/09/’24	
@@ -110,6 +146,9 @@ ULTRA
 	Chapter 25: Qns (1 to 30);     
 	Total Qns: 30 Qns.      Total Time: 60 mins.
 
+
+testPaper=QA015b,1,30!Assessment Test #002,30,60
+testPaper=QA011b,1,30!Assessment Test #003,30,60
 
 
 
