@@ -10,7 +10,7 @@ SUN MON TUE WED THU FRI SAT SUN
 ``` ``` ZE1 ZE1 ``` ZE2 ZE2 ```   
 ``` KI1 KI1 ``` ``` NE1 NE1 NE1   
 ``` ``` ``` ``` ``` QU1 QU1 QU1  
-RA1 RA1 RA1 RA1 RA1 RA1 RA1 RA1 
+RA1 RA1 RA1 RA1 RA1 RA1 ``` ``` 
 ``` TE1 TE1 TE1 ``` ``` ``` ```   
 ``` ``` ``` TE2 TE2 ``` ``` ```
 ``` UL1 UL1 UL1 TE3 TE3 ``` ```
@@ -18,31 +18,7 @@ RA1 RA1 RA1 RA1 RA1 RA1 RA1 RA1
 ``` ``` ``` ``` UL3 UL3 ``` ``` 
 ``` ``` ``` ``` ``` UL4 UL4 ```
 
-testPaper=QA015b,1,30!Assessment Test #002,30,60
-testPaper=QA011b,1,30!Assessment Test #003,30,60
 
-
-Zenith: [09] 24TU9AM-WE10PM, 27FR9AM-SA10PM
-testPaper=QA015b,1,30!Assessment Test #002,30,60
-testPaper=QA011b,1,30!Assessment Test #003,30,60
-Kite: [09] 23MO9AM-TU9PM
-testPaper=QA015b,1,30!Assessment Test #002,30,60
-testPaper=QA011b,1,30!Assessment Test #003,30,60
-Neptune: [09] 27FR9AM-SU9PM
-testPaper=QA015b,1,30!Assessment Test #002,30,60
-testPaper=QA011b,1,30!Assessment Test #003,30,60
-Quick: [09] 27FR9AM-SU11PM
-testPaper=QA015b,1,30!Assessment Test #002,30,60
-testPaper=QA011b,1,30!Assessment Test #003,30,60
-Rainbow: [09] 22SU9PM-FR9PM 
-testPaper=QA015b,1,30!Assessment Test #002,30,60
-testPaper=QA011b,1,30!Assessment Test #003,30,60
-Technique: [09] 23MO8PM-WE7AM, 25WE9PM-TH7AM, 26TH9PM-FR7AM, 27FR9PM-SA7AM
-testPaper=QA015b,1,30!Assessment Test #002,30,60
-testPaper=QA011b,1,30!Assessment Test #003,30,60
-Ultra: [09] 23MO8PM-WE7AM, 25WE9PM-TH7AM, 26TH9PM-FR7AM, 27FR9PM-SA7AM
-testPaper=QA015b,1,30!Assessment Test #002,30,60
-testPaper=QA011b,1,30!Assessment Test #003,30,60
 
 
 
@@ -60,15 +36,14 @@ Zenith
 	More than 24 hrs	Quants Chapter 32 - Qns (1-30)
 	Total: 30 Questions. Time: 1 hour
 
-testPaper=QA015b,1,30!Assessment Test #002,30,60
-testPaper=QA011b,1,30!Assessment Test #003,30,60
+testPaper=QA031b,1,30!Assessment Test #013,30,60
+testPaper=QA032b,1,30!Assessment Test #014,30,60
 KITE
 2	
 	23/09/’24	Monday 9 am to Tuesday 9 pm: 
 	More than 24 hrs	Chapter 15 Qns: (1-30),
 	Total: 30 Questions. Time: 1 hour
 testPaper=QA015b,1,30!Assessment Test #002,30,60
-testPaper=QA011b,1,30!Assessment Test #003,30,60
 
 Neptune 
 2	
@@ -78,7 +53,6 @@ Neptune
 
 
 testPaper=QA015b,1,30!Assessment Test #002,30,60
-testPaper=QA011b,1,30!Assessment Test #003,30,60
 QUICK
 18	
 	27/09/’24	
@@ -88,8 +62,8 @@ QUICK
 	Multi-part
 	Total: 55 Questions. Total Time: 2 hours
 
-testPaper=QA015b,1,30!Assessment Test #002,30,60
-testPaper=QA011b,1,30!Assessment Test #003,30,60
+testPaper=QA042b,1,25!Assessment Test #018-Part A,25,60
+testPaper=QA021b,1,30!Assessment Test #018-Part B,30,60
 RAINBOW
 1	
 	23/09/’24	Sunday 9 pm to Friday 9pm: 
@@ -97,8 +71,7 @@ RAINBOW
 	Total: 60 Questions. Time: 45 mins
 
 
-testPaper=QA015b,1,30!Assessment Test #002,30,60
-testPaper=QA011b,1,30!Assessment Test #003,30,60
+testPaper=VA001b,1,60!Assessment Test #001,60,45
 TECHNIQUE
 1	
 	24/09/’24	
@@ -121,13 +94,17 @@ TECHNIQUE
 	Total Qns: 20 Qns.         
 	Time: 60 mins.
 
-testPaper=QA015b,1,30!Assessment Test #002,30,60
-testPaper=QA011b,1,30!Assessment Test #003,30,60
+testPaper=Jav01-01,1,20!Assessment Test #001,20,60
+testPaper=Jav02-08,1,20!Assessment Test #002,20,60
+testPaper=Jav02-08,21,40!Assessment Test #003,20,60
+testPaper=Jav02-08,41,60!Assessment Test #004,20,60
+
 
 ULTRA
 1	
 	24/09/’24	
-	Monday 8 pm to Wednesday 7 am: More than 24 hrs	Quantitative Aptitude
+	Monday 8 pm to Wednesday 7 am: More than 24 hrs	
+	Quantitative Aptitude
 	Chapter 16: Qns (1 to 30);     
 	Total Qns: 30 Qns.      Total Time: 60 mins.
 2	
@@ -147,8 +124,10 @@ ULTRA
 	Total Qns: 30 Qns.      Total Time: 60 mins.
 
 
-testPaper=QA015b,1,30!Assessment Test #002,30,60
-testPaper=QA011b,1,30!Assessment Test #003,30,60
+testPaper=QA016b,1,30!Assessment Test #001,30,60
+testPaper=QA014b,1,30!Assessment Test #002,30,60
+testPaper=QA021b,1,30!Assessment Test #003,30,60
+testPaper=QA025b,1,30!Assessment Test #004,30,60
 
 
 
