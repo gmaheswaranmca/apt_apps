@@ -1,0 +1,141 @@
+==MOON==        10SP
+==DIAMOND==      1SP
+==FORTUNE==      2SP
+==GALAXY==       4SP 
+==HURRICANE==    4SP 
+==INDIGO==       4SP
+
+
+
+==MOON==
+7	
+    15/07/’24	
+    Monday 8 am to 1 pm	Quants Chapter 26 (1-10), 
+    Reasoning Chapter 61 (1-10), 
+    Verbal Chapter 44 (1-10). 
+    Only 1 part Test, Not Multi-part.
+    Total: 30 Questions. Time: 1 hour
+8	
+    15/07/’24	
+    Monday 2 pm to 9 pm	Quants Chapter 31 (1-10), 
+    Reasoning Chapter 62 (1-10), 
+    Verbal Chapter 44 (11-20). 
+    Only 1 part Test, Not Multi-part.
+    Total: 30 Questions. Time: 1 hour
+9	
+    16/07/’24	
+    Tuesday 8 am to 1 pm	Quants Chapter 32 (1-10), 
+    Reasoning Chapter 63 (1-10), 
+    Verbal Chapter 44 (21-30). 
+    Only 1 part Test, Not Multi-part.
+    Total: 30 Questions. Time: 1 hour
+10	
+    16/07/’24	
+    Tuesday 2 pm to 9 pm	Quants Chapter 33 (1-10), 
+    Reasoning Chapter 64 (1-10), 
+    Verbal Chapter 44 (31-40). 
+    Only 1 part Test, Not Multi-part.
+    Total: 30 Questions. Time: 1 hour
+11	
+    17/07/’24	
+    Wednesday 8 am to 1 pm	Quants Chapter 34 (1-10), 
+    Reasoning Chapter 65 (1-10), 
+    Verbal Chapter 44 (41-50). 
+    Only 1 part Test, Not Multi-part.
+    Total: 30 Questions. Time: 1 hour
+12	
+    17/07/’24	
+    Wednesday 2 pm to 9 pm	Quants Chapter 35 (1-10), 
+    Reasoning Chapter 66 (1-10), 
+    Verbal Chapter 44 (51-60). 
+    Only 1 part Test, Not Multi-part.
+    Total: 30 Questions. Time: 1 hour
+13	
+    18/07/’24	
+    Thursday 8 am to 1 pm	Quants Chapter 41 (1-10), 
+    Reasoning Chapter 67 (1-10), 
+    Verbal Chapter 45 (1-10). 
+    Only 1 part Test, Not Multi-part.
+    Total: 30 Questions. Time: 1 hour
+14	
+    18/07/’24	
+    Thursday 2 pm to 9 pm	Quants Chapter 42 (1-10), 
+    Reasoning Chapter 68 (1-10), 
+    Verbal Chapter 45 (11-20). 
+    Only 1 part Test, Not Multi-part.
+    Total: 30 Questions. Time: 1 hour
+15	
+    19/07/’24	
+    Friday 8 am to 1 pm	Quants Chapter 43 (1-10), 
+    Reasoning Chapter 51 (11-20), 
+    Verbal Chapter 45 (21-30). 
+    Only 1 part Test, Not Multi-part.
+    Total: 30 Questions. Time: 1 hour
+16	
+    19/07/’24	
+    Friday 2 pm to 9 pm	Quants Chapter 44 (1-10), 
+    Reasoning Chapter 52 (11-20), 
+    Verbal Chapter 45 (31-40). 
+    Only 1 part Test, Not Multi-part.
+    Total: 30 Questions. Time: 1 hour
+==DIAMOND==
+4	
+    21/07/’24	
+    Sunday 2 pm to Monday 9 am	Chapter 16Qns: (1-30)
+    Total: 30 Questions. Time: 1 hour
+==FORTUNE==
+2	16/07/’24	Tuesday 9 pm to Thursday 7 amMore than 24 hrs	Chapter 15 Qns: (1-30). Time: 1 hour 
+3	19/07/’24	Friday 9 pm to Sunday 7 amMore than 24 hrs	Chapter 11 Qns: (1-30). Time: 1 hour 
+==GALAXY==
+12	
+    15/07/’24	
+    Monday 2 pm to 9 pm	JAVA MCQ’s Chapter 15 - Qns (1-20)
+    Total: 20 Questions. Time: 1 hour
+13	
+    16/07/’24	
+    Tuesday 2 pm to 9 pm	JAVA MCQ’s Chapter 16 - Qns (1-20)
+    Total: 20 Questions. Time: 1 hour
+14	
+    18/07/’24	
+    Thursday 2 pm to 9 pm	JAVA MCQ’s Chapter 19 - Qns (1-20)
+    Total: 20 Questions. Time: 1 hour
+15	
+    19/07/’24	
+    Friday 2 pm to 9 pm	JAVA MCQ’s Chapter 1 - Qns (1-20); Chapter 2 Qns (1-20)
+    Total: 40 Questions. Time: 1 hour
+==HURRICANE==
+12	
+    15/07/’24	
+    Monday 2 pm to 9 pm	JAVA MCQ’s Chapter 10 - Qns (1-20)
+    Total: 20 Questions. Time: 1 hour
+13	
+    16/07/’24	
+    Tuesday 2 pm to 9 pm	JAVA MCQ’s Chapter 11 - Qns (1-20)
+    Total: 20 Questions. Time: 1 hour
+14	
+    18/07/’24	
+    Thursday 2 pm to 9 pm	JAVA MCQ’s Chapter 12 - Qns (1-20)
+    Total: 20 Questions. Time: 1 hour
+15	
+    19/07/’24	
+    Friday 2 pm to 9 pm	JAVA MCQ’s Chapter 13 - Qns (1-20)
+    Total: 20 Questions. Time: 1 hour
+==INDIGO==
+12	
+    15/07/’24	
+    Monday 2 pm to 9 pm	C Language MCQ’s Chapter 10 - Qns (1-20)
+    Total: 20 Questions. Time: 1 hour
+13	
+    16/07/’24	
+    Tuesday 2 pm to 9 pm	C Language MCQ’s Chapter 11 - Qns (1-20)
+    Total: 20 Questions. Time: 1 hour
+14	
+    18/07/’24	
+    Thursday 2 pm to 9 pm	C Language MCQ’s Chapter 12 - Qns (1-20)
+    Total: 20 Questions. Time: 1 hour
+15	
+    19/07/’24	
+    Friday 2 pm to 9 pm	C Language MCQ’s Chapter 13 - Qns (1-20)
+    Total: 20 Questions. Time: 1 hour
+
+

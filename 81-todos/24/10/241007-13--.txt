@@ -1,0 +1,139 @@
+SUN MON TUE WED THU FRI SAT SUN
+``` KI1 KI1 KI1 ``` ``` ``` ``` 1   Kite        2SP     Rs.0,250
+``` ``` ``` KI2 KI2 KI2 ``` ```         
+``` ``` ``` ``` ``` NE1 NE1 NE1 2	Neptune     1SP     Rs.0,125
+PL1 PL1 PL1 PL2 PL2 PL2 ``` ``` 3   PLUTO       2SP     Rs.0,250    
+``` ``` ``` ``` ``` QU1 QU1 QU1 4   Quick       1SP     Rs.0,125
+TE1 TE1 TE2 TE3 TE4 ``` ``` ``` 5   Technique   4SP     Rs.0,500
+``` ``` ``` TE2 TE3 TE4 ``` ``` 
+UL1 UL1 UL2 UL3 UL4 ``` ``` ``` 6   Ultra       4SP     Rs.0,500
+``` ``` ``` UL2 UL3 UL4 ``` ``` 
+``` ``` ZE1 ZE1 ``` ZE2 ZE2 ``` 7   Zenith      2SP     Rs.0,250        Total Rs.2,000
+KITE
+    4	
+        07/10/’24	
+            Monday 9 pm to 
+            Wednesday 8 am: More than 24 hrs	
+        Chapter 51Qns: (1-30),
+        Total: 30 Questions. Time: 1 hour
+    5	
+        09/10/’24	
+            Wednesday 9 pm to 
+            Friday 8 am:    More than 24 hrs	
+        Chapter 54Qns: (1-30),
+        Total: 30 Questions. Time: 1 hour
+NEPTUNE
+    4	
+        11/10/’24	
+            Friday 9 am to 
+            Sunday 9 pm: More than 24 hrs	
+        Chapter 14Qns: (1-30),
+        Total: 30 Questions. Time: 1 hour
+PLUTO   
+    2	
+        06/10/’24	
+            Sunday 9 pm to 
+            Tuesday 9 pm: More than 24 hrs	
+        Chapter 51Qns: (1-30),
+        Total: 30 Questions. Time: 1 hour
+    3	
+        09/10/’24	
+            Wednesday 9 pm to 
+            Friday 9 pm: More than 24 hrs	
+        Chapter 54Qns: (1-30),
+        Total: 30 Questions. Time: 1 hour
+QUICK
+    20	
+        11/10/’24	
+            Friday 9 am to 
+            Sunday night 11 pm: More than 24 hrs	
+        Chapter 33 Qns: (1-50). 
+        No. of Qns: 50     Time: 2 hrs
+TECHNIQUE
+    9	
+        06/10/’24	
+            Sunday 8 pm to 
+            Tuesday 7 am: More than 24 hrs	
+        Quantitative Aptitude Chapter 21: Qns (1 to 30);     
+        Total Qns: 30 Qns. Total Time: 60 mins.
+    10	
+        08/10/’24	
+            Tuesday 9 am to 
+            Wednesday 7 am	
+        Reasoning Chapter 53: Qns (1 to 30);     
+        Total Qns: 30 Qns. Total Time: 60 mins.
+    11	
+        09/10/’24	
+            Wednesday 9 am to 
+            Thursday 7 am	
+        Reasoning Chapter 51: Qns (1 to 30);     
+        Total Qns: 30 Qns. Total Time: 60 mins.
+    12	
+        10/10/’24	
+            Thursday 9 am to 
+            Friday 7 am	
+        Quantitative Aptitude Chapter 25: Qns (1 to 30);     
+        Total Qns: 30 Qns. Total Time: 60 mins
+ULTRA
+    9	
+        06/10/’24	
+            Sunday 8 pm to 
+            Tuesday 7 am: More than 24 hrs	
+        Java Language MCQ’s Chapter 3: Qns (1 to 20) 
+        Total Qns: 20 Qns. Time: 60 mins.
+    10	
+        08/10/’24	
+            Tuesday 9 am to
+            Wednesday 7 am	
+        Java Language MCQ’s Chapter 4: Qns (1 to 20) 
+        Total Qns: 20 Qns. Time: 60 mins.
+    11	
+        09/10/’24	
+            Wednesday 9 am to 
+            Thursday 7 am	
+        Java Language MCQ’s Chapter 5: Qns (1 to 20) 
+        Total Qns: 20 Qns. Time: 60 mins.
+    12	
+        10/10/’24
+            Thursday 9 am to 
+            Friday 7 am	
+        Java Language MCQ’s Chapter 6: Qns (1 to 20) 
+        Total Qns: 20 Qns. Time: 60 mins.
+ZENITH    
+    17	
+        08/10/’24	
+            Tuesday 9 am to 
+            Wednesday night 10 pm: More than 24 hrs	
+        Quants Chapter 35 - Qns (1-30)
+        Total: 30 Questions. Time: 1 hour
+    18	
+        11/10/’24	
+            Friday 9 am to 
+            Saturday night 10 pm: More than 24 hrs	
+        Quants Chapter 41 - Qns (1-30)
+        Total: 30 Questions. Time: 1 hour
+
+
+==KITE==
+testPaper=RE051b,1,30!Assessment Test #004,30,60
+testPaper=RE054b,1,30!Assessment Test #005,30,60
+==NEPTUNE==
+testPaper=QA014b,1,30!Assessment Test #004,30,60
+==PLUTO==
+testPaper=RE051b,1,30!Assessment Test #002,30,60
+testPaper=RE054b,1,30!Assessment Test #003,30,60
+==QUICK==
+testPaper=QA033b,1,50!Assessment Test #020,50,60
+==TECHNIQUE==
+testPaper=QA021b,1,30!Assessment Test #009,30,60
+testPaper=RE053b,1,30!Assessment Test #010,30,60
+testPaper=RE051b,1,30!Assessment Test #011,30,60
+testPaper=QA025b,1,30!Assessment Test #012,30,60
+==ULTRA==
+testPaper=Jav02-08,21,40!Assessment Test #009,20,60
+testPaper=Jav02-08,41,60!Assessment Test #010,20,60
+testPaper=Jav02-08,61,80!Assessment Test #011,20,60
+testPaper=Jav02-08,81,100!Assessment Test #012,20,60
+==ZENITH==
+testPaper=QA035b,1,30!Assessment Test #017,30,60
+testPaper=QA041b,1,30!Assessment Test #018,30,60

@@ -7,12 +7,13 @@ Technique: [09] 23MO8PM-WE7AM, 25WE9PM-TH7AM, 26TH9PM-FR7AM, 27FR9PM-SA7AM
 Ultra: [09] 23MO8PM-WE7AM, 25WE9PM-TH7AM, 26TH9PM-FR7AM, 27FR9PM-SA7AM
 
 SUN MON TUE WED THU FRI SAT SUN
-``` ``` ZE1 ZE1 ``` ZE2 ZE2 ```   
-``` KI1 KI1 ``` ``` NE1 NE1 NE1   
-``` ``` ``` ``` ``` QU1 QU1 QU1  
-RA1 RA1 RA1 RA1 RA1 RA1 ``` ``` 
-``` TE1 TE1 TE1 ``` ``` ``` ```   
-``` ``` ``` TE2 TE2 ``` ``` ```
+``` ``` ZE1 ZE1 ``` ZE2 ZE2 ```   1 Zenith 		1SP 	Rs0,125
+``` KI1 KI1 ``` ``` NE1 NE1 NE1   1 Kite 		1SP  	Rs0,125
+								  1 Neptuen 	1SP 	Rs0,125		
+``` ``` ``` ``` ``` QU1 QU1 QU1	  1 Quick		1MP 	Rs0,250		
+RA1 RA1 RA1 RA1 RA1 RA1 ``` ```   1 Rainbow		1SP		Rs0,125		1ID Rs.0,125
+``` TE1 TE1 TE1 ``` ``` ``` ```   4 Technique	4SP 	Rs0,500		1ID Rs.0,125
+``` ``` ``` TE2 TE2 ``` ``` ```	  4 Ultra		4SP		Rs0,500		1ID Rs.0,125 Total 2,125
 ``` UL1 UL1 UL1 TE3 TE3 ``` ```
 ``` ``` ``` UL2 UL2 TE4 TE4 ``` 
 ``` ``` ``` ``` UL3 UL3 ``` ``` 

@@ -1,14 +1,14 @@
 SUN MON TUE WED THU FRI SAT SUN
-``` KI1 KI1 ``` ``` ``` ``` ``` 1
-``` ``` ``` ``` ``` NE1 NE1 NE1 2
-``` ``` ``` PL1 PL1 PL1 ``` ``` 3
-``` ``` ``` ``` ``` QU1 QU1 QU1 4
-``` ``` ZE1 ZE1 ``` ZE2 ZE2 ``` 5
-UL1 UL1 UL2 ``` UL3 UL4 ``` ``` 6
-``` ``` ``` UL2 ``` UL3 UL4 ``` 
-TE1 TE1 TE2 ``` TE3 TE4 ``` ``` 7
+``` KI1 KI1 ``` ``` ``` ``` ``` 1   KITE         1SP    Rs.0,125
+``` ``` ``` ``` ``` NE1 NE1 NE1 2	Neptune      1SP    Rs.0,125
+``` ``` ``` PL1 PL1 PL1 ``` ``` 3   PLUTO        1SP    Rs.0,125	1ID Rs.0,125
+``` ``` ``` ``` ``` QU1 QU1 QU1 4   Quick        1MP    Rs.0,250
+``` ``` ZE1 ZE1 ``` ZE2 ZE2 ``` 5   Zenith       2SP    Rs.0,250
+UL1 UL1 UL2 ``` UL3 UL4 ``` ``` 6   Ultra        4SP    Rs.0,500
+``` ``` ``` UL2 ``` UL3 UL4 ```                 
+TE1 TE1 TE2 ``` TE3 TE4 ``` ``` 7   Technique    4SP    Rs.0,500
 ``` ``` ``` TE2 ``` TE3 TE4 ```
-
+``` ``` ``` ``` ``` VI1 ``` ``` 8   Violet       "Speed" Rs 500     Total Rs.2500
 KITE
     3	
         30/09/’24	
@@ -100,6 +100,18 @@ ULTRA
             Saturday 7 am	
         Java Language MCQ’s Chapter 2: Qns (1 to 20) 
         Total Qns: 20 Qns. Time: 60 mins.
+VIOLET
+	1	
+		03/10/’24	
+			Thursday 8 pm to 
+			Friday 1.30pm	
+		MULTI-PART
+			PART 1
+				Chapter 31 Qns: (16-25),	Chapter 55 Qns (1-10), 	Verbal Chapter 41 (1-20).
+				Total: 40 Questions. Time: 30 mins
+			PART 2
+				BASIC JAVA Part 5 MCQ’s Qns: (1-15), 	PL SQL Part 5 MCQ’s Qns (11-20), 	C Language Part 5 MCQ’s Qns (1-5)
+				Total: 30 Questions. Time: 30 mins
 
 
 
@@ -125,3 +137,6 @@ ULTRA
     testPaper=RE056b,1,30!Assessment Test #006,30,60
     testPaper=Jav01-01,1,20!Assessment Test #007,20,60
     testPaper=Jav02-08,1,20!Assessment Test #008,20,60
+VIOLET
+testPaper=QA031b,16,25|RE055b,1,10|VA001b,1,20!Assessment Test #001-Part A,40,30
+testPaper=Jav02-08,61,75|SQL1-13,61,70|TE051b,43,43|TE051b,50,52|TE051b,56,56!Assessment Test #001-Part B,30,30
