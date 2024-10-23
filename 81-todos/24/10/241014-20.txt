@@ -1,1 +1,117 @@
- 
+SUN MON TUE WED THU FRI SAT SUN
+WI1 WI1 WI1 WI2 WI3 WI4 WI5 ``` 1 Winner / Technique
+``` WI1 WI2 WI3 WI4 WI5 ``` ```         
+``` ``` ZE1 ZE1 ``` ZE2 ZE2 ``` 2 Zenith 
+``` KI1 KI1 KI1 KI2 KI2 ``` ``` 3 Kite 
+``` ``` ``` KI2 ``` NE1 NE1 NE1 4 Neptune 
+PL1 PL1 PL1 PL2 PL2 PL2 ``` ``` 5 Pluto 
+``` ``` ``` ``` ``` QU1 QU1 QU1 6 Quick 
+
+WINNER->TECHNIQUE
+    1	
+        13/10/’24	
+            Sunday 9 pm to 
+            Tuesday 9 am	
+        Chapter 55Qns: (1-30),
+        Total: 30 Questions. Time: 1 hour
+    2	
+        15/10/’24	
+            Tuesday 10 am to 
+            Wednesday 9 am 	
+        Chapter 13Qns: (1-30),
+        Total: 30 Questions. Time: 1 hour
+    3	
+        16/10/’24	
+            Wednesday 10 am to 
+            Thursday 9 am 	
+        Chapter 12Qns: (1-30),
+        Total: 30 Questions. Time: 1 hour
+    4	
+        17/10/’24	
+            Thursday 10 am to 
+            Friday 9 am 	
+        Chapter 61Qns: (1-30),
+        Total: 30 Questions. Time: 1 hour
+    5	
+        18/10/’24	
+            Friday 10 am to 
+            Saturday 9 am 	
+        Chapter 44 Qns: (1-30),
+        Total: 30 Questions. Time: 1 hour
+ZENITH
+    19	
+        15/10/’24	
+            Tuesday 9 am to 
+            Wednesday night 10 pm: More than 24 hrs	
+        Quants Chapter 42 - Qns (1-30)
+        Total: 30 Questions. Time: 1 hour
+    20	
+        18/10/’24	
+            Friday 9 am to 
+            Saturday night 10 pm:   More than 24 hrs	
+        Quants Chapter 43 - Qns (1-30)
+        Total: 30 Questions. Time: 1 hour
+KITE
+    6	
+        14/10/’24	
+            Monday 9 pm to 
+            Wednesday 8 am: More than 24 hrs	
+        Chapter 56Qns: (1-30),
+        Total: 30 Questions. Time: 1 hour
+
+    7	
+        16/10/’24	
+            Wednesday 9 pm to 
+            Friday 8 am: More than 24 hrs	
+        Chapter 57Qns: (1-30),
+        Total: 30 Questions. Time: 1 hour
+NEPTUNE
+    5	
+        18/10/’24	
+            Friday 9 am to 
+            Sunday 9 pm: More than 24 hrs	
+        Chapter 51Qns: (1-50),
+        Total: 50 Questions. Time: 1 hour
+PLUTO    
+    4	
+        13/10/’24	
+            Sunday 9 pm to 
+            Tuesday 9 pm: More than 24 hrs	
+        Chapter 15Qns: (1-30),
+        Total: 30 Questions. Time: 1 hour
+
+    5	
+        16/10/’24	
+            Wednesday 9 pm to 
+            Friday 9 pm: More than 24 hrs	
+        Chapter 60Qns: (1-30),
+        Total: 30 Questions. Time: 1 hour
+QUICK
+    21	
+        18/10/’24	
+            Friday 9 am to 
+            Sunday night 11 pm: More than 24 hrs	
+        Chapter 61 Qns: (1-30).    No. of Qns: 30     Time: 1 hr
+            Chapter 62 Qns: (1-30).     No. of Qns: 30     Time: 1 hr
+            Multi-part Total: 60 Questions. 
+        Total Time: 2 hours
+==WINNER==
+testPaper=RE055b,1,30!Assessment Test #001,30,60
+testPaper=QA013b,1,30!Assessment Test #002,30,60
+testPaper=QA012b,1,30!Assessment Test #003,30,60
+testPaper=509,1,20|522,6,10|4012,6,10!Assessment Test #004,30,60
+testPaper=QA044b,1,30!Assessment Test #005,30,60
+==ZENITH==
+testPaper=QA042b,1,30!Assessment Test #019,30,60
+testPaper=QA043b,1,30!Assessment Test #020,30,60
+==KITE==
+testPaper=RE056b,1,30!Assessment Test #006,30,60
+testPaper=RE057b,1,30!Assessment Test #007,30,60
+==NEPTUNE==
+testPaper=RE051b,1,50!Assessment Test #005,50,60
+==PLUTO==
+testPaper=QA015b,1,30!Assessment Test #004,30,60
+testPaper=RE060b,1,30!Assessment Test #005,30,60
+==QUICK==
+testPaper=509,1,20|522,6,10|4012,6,10!Assessment Test #021-Part A,30,60
+testPaper=RE062b,1,30!Assessment Test #021-Part B,30,60
