@@ -1,17 +1,17 @@
 NEPTUNE
     6	
-    25/10/’24	Friday 9 am to Sunday 9 pm: 
-    More than 24 hrs	Chapter 52Qns: (1-50),
-    Total: 50 Questions. Time: 1 hour
+        25/10/’24	Friday 9 am to Sunday 9 pm: 
+        More than 24 hrs	Chapter 52Qns: (1-50),
+        Total: 50 Questions. Time: 1 hour
 PLUTO
     6	
-    20/10/’24	Sunday 9 pm to Tuesday 9 pm: 
-    More than 24 hrs	Chapter 55Qns: (1-30),
-    Total: 30 Questions. Time: 1 hour
+        20/10/’24	Sunday 9 pm to Tuesday 9 pm: 
+        More than 24 hrs	Chapter 55Qns: (1-30),
+        Total: 30 Questions. Time: 1 hour
     7	
-    23/10/’24	Wednesday 9 pm to Friday 9 pm: 
-    More than 24 hrs	Chapter 16Qns: (1-30),
-    Total: 30 Questions. Time: 1 hour
+        23/10/’24	Wednesday 9 pm to Friday 9 pm: 
+        More than 24 hrs	Chapter 16Qns: (1-30),
+        Total: 30 Questions. Time: 1 hour
 QUICK
     22	
         25/10/’24	
@@ -24,45 +24,43 @@ QUICK
         Total: 60 Questions. Total Time: 2 hours
 WINNER->TECHNIQUE 
     6	
-    21/10/’24	
-    Sunday 9 pm to Tuesday 9 am 	Chapter 25Qns: (1-30),
-    Total: 30 Questions. Time: 1 hour
+        21/10/’24	
+        Sunday 9 pm to Tuesday 9 am 	Chapter 25Qns: (1-30),
+        Total: 30 Questions. Time: 1 hour
     7	
-    22/10/’24	
-    Tuesday 10 am to Wednesday 9 am 	Chapter 62Qns: (1-30),
-    Total: 30 Questions. Time: 1 hour
+        22/10/’24	
+        Tuesday 10 am to Wednesday 9 am 	Chapter 62Qns: (1-30),
+        Total: 30 Questions. Time: 1 hour
     8	
-    23/10/’24	
-    Wednesday 10 am to Thursday 9 am 	Chapter 26Qns: (1-30),
-    Total: 30 Questions. Time: 1 hour
+        23/10/’24	
+        Wednesday 10 am to Thursday 9 am 	Chapter 26Qns: (1-30),
+        Total: 30 Questions. Time: 1 hour
     9	
-    24/10/’24	
-    Thursday 10 am to Friday 9 am 	Chapter 53Qns: (1-30),
-    Total: 30 Questions. Time: 1 hour
+        24/10/’24	
+        Thursday 10 am to Friday 9 am 	Chapter 53Qns: (1-30),
+        Total: 30 Questions. Time: 1 hour
     10	
-    25/10/’24	
-    Friday 10 am to Saturday 9 am 	Chapter 21Qns: (1-30),
-    Total: 30 Questions. Time: 1 hour
+        25/10/’24	
+        Friday 10 am to Saturday 9 am 	Chapter 21Qns: (1-30),
+        Total: 30 Questions. Time: 1 hour
 ZENITH
     21	
-    22/10/’24	Tuesday 9 am to Wednesday night 10 pm: 
-    More than 24 hrs	Quants Chapter 44 - Qns (1-30)
-    Total: 30 Questions. Time: 1 hour
+        22/10/’24	Tuesday 9 am to Wednesday night 10 pm: 
+        More than 24 hrs	Quants Chapter 44 - Qns (1-30)
+        Total: 30 Questions. Time: 1 hour
     22	
-    25/10/’24	Friday 9 am to Saturday night 10 pm:
-    More than 24 hrs	Quants Chapter 51 - Qns (1-50)
-    Total: 50 Questions. Time: 1 hour
+        25/10/’24	Friday 9 am to Saturday night 10 pm:
+        More than 24 hrs	Quants Chapter 51 - Qns (1-50)
+        Total: 50 Questions. Time: 1 hour
 KITE 
     8	
-    21/10/’24	Monday 9 pm to Wednesday 8 am: 
-    More than 24 hrs	Chapter 59Qns: (1-30),
-    Total: 30 Questions. Time: 1 hour
+        21/10/’24	Monday 9 pm to Wednesday 8 am: 
+        More than 24 hrs	Chapter 59Qns: (1-30),
+        Total: 30 Questions. Time: 1 hour
     9	
-    23/10/’24	Wednesday 9 pm to Friday 8 am: 
-    More than 24 hrs	Chapter 13Qns: (1-30),
-    Total: 30 Questions. Time: 1 hour
-
-
+        23/10/’24	Wednesday 9 pm to Friday 8 am: 
+        More than 24 hrs	Chapter 13Qns: (1-30),
+        Total: 30 Questions. Time: 1 hour
 ==PLUTO==
 testPaper=RE055b,1,30!Assessment Test #006,30,60
 testPaper=QA016b,1,30!Assessment Test #007,30,60
