@@ -1,1 +1,49 @@
- 
+YEAR
+    1	
+        27/10/’24	Sunday 8 am to Monday 6 pm: 
+        More than 24 hrs	Chapter 15Qns: (1-30),
+        Total: 30 Questions. Time: 1 hour
+    2	
+        29/10/’24	Tuesday 8 am to Wednesday 6 pm: 
+        More than 24 hrs	Chapter 51Qns: (1-50),
+        Total: 50 Questions. Time: 1 hour
+PLUTO
+    8	
+        27/10/’24	
+            Sunday 8 am to 
+            Tuesday 9 pm: More than 24 hrs	
+        Chapter 14Qns: (1-30),
+        Total: 30 Questions. Time: 1 hour
+KITE
+    10	
+        28/10/’24	
+            Monday 8 am to 
+            Tuesday 8pm: More than 24 hrs	
+        Chapter 12Qns: (1-30),
+        Total: 30 Questions. Time: 1 hour
+    11	
+        30/10/’24	
+            Wednesday 8 am to 
+            Thursday 8 pm: More than 24 hrs	
+        Chapter 21Qns: (1-30),
+        Total: 30 Questions. Time: 1 hour
+NEPTUNE    
+    7	
+        25/10/’24	
+            Friday 8 am to 
+            Sunday 9 pm: More than 24 hrs	
+        Chapter 57 Qns: (1-50),
+        Total: 50 Questions. Time: 1 hour
+
+==YEAR==
+testPaper=QA015b,1,30!Assessment Test #001,30,60
+testPaper=RE051b,1,50!Assessment Test #002,50,60
+==PLUTO==
+testPaper=QA014b,1,30!Assessment Test #008,30,60
+==KITE==
+testPaper=QA012b,1,30!Assessment Test #010,30,60
+testPaper=QA021b,1,30!Assessment Test #011,30,60
+==NEPTUNE==
+testPaper=RE057b,1,50!Assessment Test #007,50,60
+
+

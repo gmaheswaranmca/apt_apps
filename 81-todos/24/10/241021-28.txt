@@ -1,4 +1,4 @@
- NEPTUNE
+NEPTUNE
     6	
     25/10/’24	Friday 9 am to Sunday 9 pm: 
     More than 24 hrs	Chapter 52Qns: (1-50),
@@ -14,12 +14,14 @@ PLUTO
     Total: 30 Questions. Time: 1 hour
 QUICK
     22	
-    25/10/’24	
-    Friday 9 am to Sunday night 11 pm: 
-    More than 24 hrs	Chapter 56   Qns: (1-30).    No. of Qns: 30     Time: 1 hr
-    Chapter 58   Qns: (1-30).     No. of Qns: 30     Time: 1 hr
-    Multi-part
-    Total: 60 Questions. Total Time: 2 hours
+        25/10/’24	
+            Friday 9 am to 
+            Sunday night 11 pm: 
+            More than 24 hrs	
+        Chapter 56   Qns: (1-30).    No. of Qns: 30     Time: 1 hr
+            Chapter 58   Qns: (1-30).     No. of Qns: 30     Time: 1 hr
+            Multi-part
+        Total: 60 Questions. Total Time: 2 hours
 WINNER->TECHNIQUE 
     6	
     21/10/’24	
@@ -76,3 +78,8 @@ testPaper=QA013b,1,30!Assessment Test #009,30,60
 ==ZENITH==
 testPaper=QA044b,1,30!Assessment Test #021,30,60
 testPaper=RE051b,1,30!Assessment Test #022,30,60
+==QUICK==
+testPaper=RE056b,1,30!Assessment Test #022-Part A,30,60
+testPaper=RE058b,1,30!Assessment Test #022-Part B,30,60
+==NEPTUNE==
+testPaper=RE052b,1,50!Assessment Test #006,50,60
