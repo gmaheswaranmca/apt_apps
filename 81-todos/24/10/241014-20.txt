@@ -1,11 +1,11 @@
 SUN MON TUE WED THU FRI SAT SUN
-WI1 WI1 WI1 WI2 WI3 WI4 WI5 ``` 1 Winner / Technique
+WI1 WI1 WI1 WI2 WI3 WI4 WI5 ``` 1 Winner / Technique  5SP,1ID Rs.750
 ``` WI1 WI2 WI3 WI4 WI5 ``` ```         
-``` ``` ZE1 ZE1 ``` ZE2 ZE2 ``` 2 Zenith 
-``` KI1 KI1 KI1 KI2 KI2 ``` ``` 3 Kite 
-``` ``` ``` KI2 ``` NE1 NE1 NE1 4 Neptune 
-PL1 PL1 PL1 PL2 PL2 PL2 ``` ``` 5 Pluto 
-``` ``` ``` ``` ``` QU1 QU1 QU1 6 Quick 
+``` ``` ZE1 ZE1 ``` ZE2 ZE2 ``` 2 Zenith 2SP Rs.250
+``` KI1 KI1 KI1 KI2 KI2 ``` ``` 3 Kite 2SP Rs.250
+``` ``` ``` KI2 ``` NE1 NE1 NE1 4 Neptune 1SP Rs.125
+PL1 PL1 PL1 PL2 PL2 PL2 ``` ``` 5 Pluto 2SP Rs.250
+``` ``` ``` ``` ``` QU1 QU1 QU1 6 Quick 1MP Rs.250         = Rs.1750
 
 WINNER->TECHNIQUE
     1	

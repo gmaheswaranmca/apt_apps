@@ -1,0 +1,66 @@
+2024/10_Oct                             Rs. 6,625   
+    28-03                   Rs. 1,000
+    {[Year 2SP, 1ID],
+     [Pluto   1SP],
+     [Kite    2SP],
+     [Neptune 1SP]}
+    21-28                   Rs. 1,750
+    {[Neptune  1SP],
+     [Pluto    2SP],
+     [Quick    1MP],
+     [Technique 5SP],
+     [Zenith   2SP],
+     [Kite     2SP]}
+    14-20                   Rs. 1,875
+    {[Technique  5SP,1ID],
+     [Zenith 2SP],
+     [Kite 2SP],
+     [Neptune 1SP],
+     [Pluto 2SP],
+     [Quick 1MP]}
+    07-13                   Rs. 2,000
+    {[Kite 2SP],
+     [Neptune 1SP],
+     [PLUTO 2SP],
+     [Quick 1SP],
+     [Technique 4SP],
+     [Ultra 4SP],
+     [Zenith 2SP]}
+2024/09 Sep                             Rs. 8,125   [Rs.14,750]
+    30-06                   Rs. 2,500
+    {[KITE 1SP],
+     [Neptune 1SP ],
+     [PLUTO 1SP],
+     [Quick 1MP]
+     [Zenith 2SP],
+     [Ultra 4SP],
+     [Technique 4SP],
+     [Violet "Speed"]}
+    23-29                   Rs. 2,125
+    {[Zenith 1SP],
+     [Kite 1SP],
+     [Neptune 1SP],
+     [Quick 1MP]
+     [Rainbow 1SP,1ID],
+     [Technique	4SP,1ID],
+     [Ultra 4SP,1ID]}
+    16-22                   Rs. 1,500
+    {[Zenith 2SP],
+    [DIAMOND 1SP],
+    [KITE 1SP,1ID],
+    [LEMON 2SP,1ID]
+    [NEPTUNE 1SP,1ID],
+    [QUICK 1MP]}
+    09-15                   Rs. 1,000
+    {[ZENITH 2SP],
+    [DIAMOND 1SP]}
+    02-08                   Rs. 1,000
+    {[QUICK 1MP],
+    [ZENITH 2SP]}
+2024/08 Aug 
+2024/07 Jul 
+2024/06 Jun
+2024/05 May 
+2024/04 Apr  
+    
+    

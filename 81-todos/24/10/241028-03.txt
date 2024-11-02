@@ -1,3 +1,10 @@
+SUN MON TUE WED THU FRI SAT SUN MON TUE 
+YE1 ``` YE2 ``` ``` ``` ``` ``` ``` ``` 1 Year 2SP, 1ID Rs.375 
+``` YE1 ``` YE2 YE2 YE2 YE2 YE2 YE2 ```
+PL1 ``` PL1 ``` ``` ``` ``` ``` ``` ``` 2 Pluto   1SP Rs.125
+``` KI1 KI1 KI2 KI2 KI2 ``` ``` ``` ``` 3 Kite    2SP Rs.250
+``` ``` ``` ``` ``` NE1 NE1 NE1 ``` ``` 1 Neptune 1SP Rs.125= Rs.875 = Rs.1000 
+
 YEAR
     1	
         27/10/’24	Sunday 8 am to Monday 6 pm: 

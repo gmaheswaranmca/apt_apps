@@ -1,1 +1,77 @@
- 
+SUN MON TUE WED THU FRI SAT SUN
+``` ``` ``` ``` ``` ``` ``` ```
+``` ``` ``` ``` ``` ``` ``` ```
+``` ``` ``` ``` ``` ``` ``` ```
+``` ``` ``` ``` ``` ``` ``` ```
+``` ``` ``` ``` ``` ``` ``` ```
+``` ``` ``` ``` ``` ``` ``` ```
+``` ``` ``` ``` ``` ``` ``` ```
+``` ``` ``` ``` ``` ``` ``` ```
+``` ``` ``` ``` ``` ``` ``` ```
+``` ``` ``` ``` ``` ``` ``` ```
+``` ``` ``` ``` ``` ``` ``` ``` 
+    Rs. 12 x 125 = Rs.1,500
+    {[Zenith 2SP],
+    [DIAMOND 1SP],
+    [KITE 1SP,1ID],
+    [LEMON 2SP,1ID]
+    [NEPTUNE 1SP,1ID],
+    [QUICK 1MP]}
+
+==ZENITH==
+    11	
+        17/08/’24	
+            Tuesday night 9 pm to 
+            Wednesday night 10 pm: More than 24 hrs	
+        Quants Chapter 25 - Qns (1-30)
+        Total: 30 Questions. Time: 1 hour
+    12	
+        20/08/’24	
+            Friday night 9 pm to 
+            Saturday night 10 pm: More than 24 hrs	
+        Quants Chapter 26 - Qns (1-30)
+        Total: 30 Questions. Time: 1 hour
+==DIAMOND==
+    11	
+        21/09/’24	Saturday 9 pm to Monday 9 am: 
+        More than 24 hrs	Chapter 14Qns: (1-30)
+        Total: 30 Questions. Time: 1 hour
+==KITE==
+    1	
+        16/09/’24	
+            Sunday 9 pm to 
+            Monday 8 pm	
+        Chapter 11 Qns: (1-30),
+        Total: 30 Questions. Time: 1 hour
+==LEMON==
+    1	
+        16/09/’24
+            Monday 8 am to 
+            10pm	
+        Chapter 11 Qns: (1-30), 
+            Chapter 56 Qns: (1-30), 
+        Total: 60 Questions. Total Time: 2 hours
+    2	
+        17/08/’24	
+            Tuesday 8am to 
+            10 pm	
+        Chapter 15 Qns: (1-30), 
+            Chapter 57 Qns: (1-30), 
+        Total: 60 Questions. Total Time: 2 hours
+==NEPTUNE==
+    1	
+        18/09/’24	
+            Wednesday 10 pm to 
+            Friday 10 pm: More than 24 hrs	
+        Chapter 11 Qns: (1-30),
+        Total: 30 Questions. Time: 1 hour
+==QUICK==
+    17	
+        20/09/’24	
+            Friday night 9 pm to 
+            Sunday night 11 pm: More than 24 hrs	
+        Chapter 16 Qns: (1-30). No.of Qns: 30 Time: 1 hr
+            Chapter 13Qns: (1-15), Chapter 14 Qns: (1-15) No.of Qns: 30 Time:1 hr 
+        Multi-part Total: 60 Questions. Total Time: 2 hours
+
+

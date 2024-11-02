@@ -1,3 +1,14 @@
+SUN MON TUE WED THU FRI SAT SUN
+``` ``` ``` ``` ``` NE1 ``` NE1 1 Neptune  1SP Rs.125
+PL1 ``` ``` PL2 ``` ``` ``` ``` 2 Pluto    2SP Rs.250 
+``` ``` PL1 ``` ``` PL2 ``` ``` 
+``` ``` ``` ``` ``` QU1 ``` QU1 3 Quick    1MP Rs.250 
+TE1 ``` TE2 TE3 TE4 TE5 TE5 ``` 4 Technique 5SP Rs.625
+``` ``` TE1 TE2 TE3 TE4 ``` ``` 
+``` ``` ZE1 ZE1 ZE2 ZE2 ``` ``` 5 Zenith   2SP Rs.250 
+``` KI1 ``` KI2 ``` KE2 ``` ``` 6 Kite     2SP Rs.250 =Rs.1750 
+``` ``` ``` KI1 ``` ``` ``` ``` 
+
 NEPTUNE
     6	
         25/10/’24	Friday 9 am to Sunday 9 pm: 

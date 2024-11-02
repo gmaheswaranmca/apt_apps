@@ -1,29 +1,66 @@
-2024-05
-	27-02
-2024-06
-	03-09
-	10-16
-	17-23
-	24-30
-2024-07
-	01-07
-	08-14
-	15-21
-	22-28
-	29-04
-2024-08
-	05-11
-	12-18
-	19-25
-	26-01
-2024-09
-	02-08
-	09-15
-	16-22
-	23-29
-	30-06
-2024-10
-	07-13...
-	14-20
-	21-27
-	28-03
+I need an application 
+	which takes input to process 
+	Apt Test to be automated.
+
+Schedule 
+	Tests:
+		Id, Number, LinkName,
+		FromDateTime, ToDateTime, 
+		NumberOfQuestion, DurationInMinutes
+	TestChapters:
+		Id, TestId, SerialNumber, PartNumber, 
+		Chapter, QuestionNumberFrom, 
+		QuestionNumberTo, IsMcq 
+	TestUserFile:
+		Id, UserFile, PasswordFile, Cost, TestId  
+	TestUsers
+		Id, FileId, SerialNumber, Name, UserName, Password, 
+		ActiveStatus, BatchName
+	WeekSchedules:
+		Id, WeekFromDate, WeekToDate, Cost
+	WeekScheduleTests:
+		Id, ScheduleId, TestId, Cost 
+
+QuestionBank 
+	Subjects: Id, Name
+	Chapters: Id, SubjectId, Name, TotalQuestions, IsMcq
+	McqQuestions: Id, ChapterId, Question, IsMcq
+	McqOptions: Id, QuestionId, Option, IsCorrect 
+	CodingQuetions: Id, ChapterId, Question
+	CodingTestCases, Id, QuestionId, Input, Output
+
+Test: 
+	Group: Id, 
+	McqTest: 
+
+WorkFlow:
+	Schedules: Id, WeekFromDate, WeekToDate, ScheduleText, SchduleJson, RunStatus 
+	ScheduleMails: Id, ScheduleId, MailDate, SubjectOrNarration  
+	ScheduleFiles: Id, ScheduleId, MailId, File, IsSchedule, LinkName
+	SchduleLinks: Id, LinkName, SchduleText, SchduleJson, RunStatus
+	---
+	
+
+
+
+
+
+	
+
+
+
+
+
+
+	FromWeek, ToWeek, 
+	TestLinks:
+		[{Name, 
+		  IDs: {file, ids:[{id, name, username, password}]
+		  Tests: [{
+			id,
+		  	Number, FromDateTime, ToDateTime, 
+			NumberOfQuestion,
+			Chapters:[
+				{Name, QuestionNumberFrom, QuestionNumberTo}
+			]}]  
+
