@@ -39,7 +39,17 @@ WorkFlow:
 	ScheduleFiles: Id, ScheduleId, MailId, File, IsSchedule, LinkName
 	SchduleLinks: Id, LinkName, SchduleText, SchduleJson, RunStatus
 	---
-	
+	SyncTests [Scheduler - ]
+		SwitchOff
+		DownloadScoresFile
+		DownloadLinkTestsWithScores
+		DefineLinkAtServer	[API]
+		PrepareLinkTests
+		UploadLinkTests
+		SwitchOn 
+
+
+
 
 
 

@@ -10,7 +10,10 @@ SUN MON TUE WED THU FRI SAT SUN
 ``` ``` ``` ``` ``` ``` ``` ```
 ``` ``` ``` ``` ``` ``` ``` ```
 ``` ``` ``` ``` ``` ``` ``` ``` 
-
+    Rs. 1,000
+    {[XXX 1SP],
+    [XXX 2SP]}
+    
 ==MOON==        10SP
 ==DIAMOND==      1SP
 ==FORTUNE==      2SP

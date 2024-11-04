@@ -10,3 +10,57 @@ SUN MON TUE WED THU FRI SAT SUN
 ``` ``` ``` ``` ``` ``` ``` ```
 ``` ``` ``` ``` ``` ``` ``` ```
 ``` ``` ``` ``` ``` ``` ``` ``` 
+    Rs. 1,000
+    {[DIAMOND 1SP],
+    [QUICK 1MP],
+    [ZENITH 2SP],
+    [APPLE 2SP]}
+
+==DIAMOND==
+9	
+    01/09/’24	
+        Sunday 2 pm to 
+        Monday 9 am	
+    Chapter 57Qns: (1-30)
+    Total: 30 Questions. Time: 1 hour
+==QUICK==
+15	
+    30/08/’24	
+        Friday 9 pm to 
+        Sunday 11 pm: More than 24 hrs	
+    Chapter 11 Qns: (1-30). Time: 1 hr
+        Chapter35 Qns: (1-30). Time:1 hr
+        Multi-part
+    Total: 60 Questions. Total Time: 2 hours
+==ZENITH==
+5	
+    27/08/’24	
+        Tuesday 9 pm to 
+        Wednesday 10 pm	
+    Quants Chapter 15 - Qns (1-30)
+    Total: 30 Questions. Time: 1 hour
+6	
+    30/08/’24	
+        Friday 9 pm to 
+        Saturday 10 pm	
+    Quants Chapter 16 - Qns (1-30)
+    Total: 30 Questions. Time: 1 hour
+==APPLE==
+6	
+    31/08/’24	
+        Friday 9 pm to 
+        Saturday 1pm	
+    Chapter 16 Qns: (21-40)
+        Chapter 53 Qns: (21-40)
+        Verbal Chapter 43 Qns: (21-30)
+        Single part
+    Total: 50 Questions. Total Time: 1 hour
+7	
+    31/08/’24	
+        Saturday 1.15pm to
+        6 pm	
+    Chapter 14 Qns: (21-40)
+        Chapter 59 Qns: (21-40)
+        Verbal Chapter 44 Qns: (11-20)
+        Single part
+    Total: 50 Questions. Total Time: 1 hour

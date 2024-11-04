@@ -10,3 +10,239 @@ SUN MON TUE WED THU FRI SAT SUN
 ``` ``` ``` ``` ``` ``` ``` ```
 ``` ``` ``` ``` ``` ``` ``` ```
 ``` ``` ``` ``` ``` ``` ``` ``` 
+    55# = Rs. 6,875
+    {[APPLE7 1SP,4MP,1ID],
+    [APPLE8 1SP,4MP,1ID],
+    [APPLE9 1SP,4MP,1ID],
+    [APPLE10 1SP,4MP,1ID],
+    [APPLE11 1SP,4MP,1ID],
+    [DIAMOND 1SP],
+    [QUICK 1MP],
+    [ZENITH 2SP]}
+==APPLE7==
+1	
+    17/08/’24	
+        Saturday 9 pm to 
+        Sunday 9 pm	
+    Chapter 11 Qns: (1-10), Time: 20 mins
+    Chapter 55 Qns: (1-10), Time: 20 mins
+    Verbal Chapter Chapter 41 Qns: (1-30), Time: 20 mins
+    Multi-part Test
+    Total: 50 Questions. Total Time: 1 hour
+2	
+    20/08/’24	
+        Tuesday 2 pm to 
+        Wednesday 8 am	
+    Reasoning Chapter 58 - Qns (1-25)
+    Total: 25 Questions. Time: 1 hour
+3	
+    21/08/’24	
+        Wednesday 2 pm to 
+        Thursday 7 am	
+    Chapter 16 – Qns (1-20) - 30 mins
+        Chapter 57 – Qns (1-30) - 30 mins
+        Multi-part Test
+    Total: 50 Questions. Total Time: 1 hour
+4	
+    22/08/’24	
+        Thursday 2 pm to 
+        Friday 7 am	
+    Chapter 26 – Qns (1-20) - 30 mins
+        Chapter 25 – Qns (1-30) - 30 mins
+        Multi-part Test
+    Total: 50 Questions. Total Time: 1 hour
+5	
+    23/08’24	
+        Friday 2 pm to 
+        Saturday 7 am	
+    Chapter 24 – Qns (1-20) - 30 mins
+        Chapter 23 – Qns (1-30) - 30 mins
+        Multi-part Test
+    Total: 50 Questions. Total Time: 1 hour
+==APPLE8==
+1	
+    17/08/’24	
+        Saturday 9 pm to 
+        Sunday 9 pm	
+    Chapter 11 Qns: (1-10), Time: 20 mins
+        Chapter 55 Qns: (1-10), Time: 20 mins
+        Verbal Chapter Chapter 41 Qns: (1-30), Time: 20 mins
+        Multi-part Test
+    Total: 50 Questions. Total Time: 1 hour
+2	
+    20/08/’24	
+        Tuesday 2 pm to 
+        Wednesday 8 am	
+    Reasoning Chapter 58 - Qns (1-25)
+    Total: 25 Questions. Time: 1 hour
+3	
+    21/08/’24	
+        Wednesday 2 pm to 
+        Thursday 7 am	
+    Verbal Chapter 41-Qns (21-30) & Verbal Chapter 42-Qns (21-30). Time - 30 mins
+        Chapter 25 – Qns (1-30). Time - 30 mins
+        Multi-part Test
+    Total: 50 Questions. Total Time: 1 hour
+4	
+    22/08/’24	
+        Thursday 2 pm to 
+        Friday 7 am	
+    Chapter 57 – Qns (1-20) - 30 mins
+        Chapter 26 – Qns (1-30) - 30 mins
+        Multi-part Test
+    Total: 50 Questions. Total Time: 1 hour
+5	
+    23/08’24	
+        Friday 2 pm to 
+        Saturday 7 am	
+    Chapter 14 – Qns (1-20) - 30 mins
+        Chapter 21 – Qns (1-30) - 30 mins
+        Multi-part Test
+    Total: 50 Questions. Total Time: 1 hour
+==APPLE9==
+1	
+    17/08/’24	
+    Saturday 9 pm to Sunday 9 pm	Chapter 11 Qns: (1-10), Time: 20 mins
+    Chapter 55 Qns: (1-10), Time: 20 mins
+    Verbal Chapter Chapter 41 Qns: (1-30), Time: 20 mins
+    Multi-part Test
+    Total: 50 Questions. Total Time: 1 hour
+2	
+    20/08/’24	
+    Tuesday 2 pm to Wednesday 8 am	Reasoning Chapter 58 - Qns (1-25)
+    Total: 25 Questions. Time: 1 hour
+3	
+    21/08/’24	
+        Wednesday 2 pm to 
+        Thursday 7 am	
+    Verbal Chapter 41-Qns (21-30) & 
+        Verbal Chapter 42-Qns (21-30). Time - 30 mins
+        Chapter 16 – Qns (1-30). Time - 30 mins
+        Multi-part Test
+    Total: 50 Questions. Total Time: 1 hour
+4	
+    22/08/’24	
+        Thursday 2 pm to 
+        Friday 7 am	
+    Chapter 25 – Qns (1-20) - 30 mins
+        Chapter 57 – Qns (1-30) - 30 mins
+        Multi-part Test
+    Total: 50 Questions. Total Time: 1 hour
+5	
+    23/08’24	
+        Friday 2 pm to 
+        Saturday 7 am	
+    Chapter 24 – Qns (1-20) - 30 mins
+        Chapter 23 – Qns (1-30) - 30 mins
+        Multi-part Test
+    Total: 50 Questions. Total Time: 1 hour
+==APPLE10==
+1	
+    17/08/’24	
+        Saturday 9 pm to 
+        Sunday 9 pm	
+    Chapter 11 Qns: (1-10), Time: 20 mins
+        Chapter 55 Qns: (1-10), Time: 20 mins
+        Verbal Chapter Chapter 41 Qns: (1-30), Time: 20 mins
+        Multi-part Test
+    Total: 50 Questions. Total Time: 1 hour
+2	
+    20/08/’24	
+        Tuesday 2 pm to 
+        Wednesday 8 am	
+    Reasoning Chapter 58 - Qns (1-25)
+    Total: 25 Questions. Time: 1 hour
+3	
+    21/08/’24	
+        Wednesday 2 pm to 
+        Thursday 7 am	
+    Chapter 54 – Qns (1-20) - 30 mins
+        Chapter 16 – Qns (1-30) - 30 mins
+        Multi-part Test
+    Total: 50 Questions. Total Time: 1 hour
+4	
+    22/08/’24	
+        Thursday 2 pm to 
+        Friday 7 am	
+    Verbal Chapter 41-Qns (21-30) & Verbal Chapter 42-Qns (21-30). Time - 30 mins
+        Chapter 25 – Qns (1-30). Time - 30 mins
+        Multi-part Test
+    Total: 50 Questions. Total Time: 1 hour
+5	
+    23/08’24	
+        Friday 2 pm to 
+        Saturday 7 am	
+    Chapter 26 – Qns (1-20) - 30 mins
+        Chapter 14 – Qns (1-30) - 30 mins
+        Multi-part Test
+    Total: 50 Questions. Total Time: 1 hour
+==APPLE11==
+1	
+    17/08/’24	
+        Saturday 9 pm to 
+        Sunday 9 pm	
+    Chapter 11 Qns: (1-10), Time: 20 mins
+        Chapter 55 Qns: (1-10), Time: 20 mins
+        Verbal Chapter Chapter 41 Qns: (1-30), Time: 20 mins
+        Multi-part Test
+    Total: 50 Questions. Total Time: 1 hour
+2	
+    20/08/’24	
+        Tuesday 2 pm to 
+        Wednesday 8 am	
+    Reasoning Chapter 58 - Qns (1-25)
+    Total: 25 Questions. Time: 1 hour
+3	
+    21/08/’24	
+        Wednesday 2 pm to 
+        Thursday 7 am	
+    Chapter 54 – Qns (1-20) - 30 mins
+        Chapter 53 – Qns (1-30) - 30 mins
+        Multi-part Test
+    Total: 50 Questions. Total Time: 1 hour
+4	
+    22/08/’24	
+        Thursday 2 pm to 
+        Friday 7 am	
+    Verbal Chapter 41-Qns (21-30) & Verbal Chapter 42-Qns (21-30). Time - 30 mins
+        Chapter 26 – Qns (1-30). Time - 30 mins
+        Multi-part Test
+    Total: 50 Questions. Total Time: 1 hour
+5	
+    23/08’24	
+        Friday 2 pm to 
+        Saturday 7 am	
+    Chapter 24 – Qns (1-20) - 30 mins
+        Chapter 23 – Qns (1-30) - 30 mins
+        Multi-part Test
+    Total: 50 Questions. Total Time: 1 hour
+==DIAMOND==
+8	
+    25/08/’24	
+        Sunday 2 pm to 
+        Monday 9 am	
+    Chapter 56Qns: (1-30)
+    Total: 30 Questions. Time: 1 hour
+==QUICK==
+14	
+    23/08/’24	
+        Friday 9 pm to 
+        Sunday 11 pm: More than 24 hrs	
+    Chapter 25 Qns: (1-30). Time: 1 hr
+        Chapter25Qns: (31-60). Time:1 hr
+        Multi-part
+    Total: 60 Questions. Total Time: 2 hours
+==ZENITH==
+3	
+    20/08/’24	
+        Tuesday 9 pm to 
+        Wednesday 10 pm	
+    Quants Chapter 13 - Qns (1-20)
+    Total: 20 Questions. Time: 1 hour
+4	
+    23/08/’24	
+        Friday 9 pm to 
+        Saturday 10 pm	
+    Quants Chapter 14 - Qns (1-20)
+    Total: 20 Questions. Time: 1 hour
+

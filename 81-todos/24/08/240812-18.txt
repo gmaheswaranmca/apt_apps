@@ -10,3 +10,69 @@ SUN MON TUE WED THU FRI SAT SUN
 ``` ``` ``` ``` ``` ``` ``` ```
 ``` ``` ``` ``` ``` ``` ``` ```
 ``` ``` ``` ``` ``` ``` ``` ```  
+    Rs. 1,875
+    {[ZENITH 2SP,1ID],
+    [APPLE 2MP,3SP,1ID],
+    [JACK 2SP],
+    [QUICK 1MP]}
+==ZENITH==
+1	
+    13/08/’24	
+    Tuesday 9 pm to Wednesday 10 pm	Quants Chapter 11 - Qns (1-20)
+    Total: 20 Questions. Time: 1 hour
+2	
+    16/08/’24	
+    Friday 9 pm to Saturday 10 pm	Quants Chapter 12 - Qns (1-20)
+    Total: 20 Questions. Time: 1 hour
+==APPLE==
+1	
+    17/08/’24	
+    Saturday 9 pm to Sunday 9 pm	Chapter 11 Qns: (1-10), Time: 20 mins
+    Chapter 55 Qns: (1-10), Time: 20 mins
+    Verbal Chapter Chapter 41 Qns: (1-30),Time: 20 mins
+    Multi-part Test
+    Total: 50 Questions. Total Time: 1 hour
+2	
+    20/08/’24	
+    Tuesday 2 pm to Wednesday 8 am	Reasoning Chapter 58 - Qns (1-25)
+    Total: 25 Questions. Time: 1 hour
+3	
+    22/08/’24	
+    Thursday 2 pm to Friday 8 am	Quants Chapter 16 - Qns (1-25)
+    Total: 25 Questions. Time: 1 hour
+4	
+    24/08/’24	
+    Saturday 2 pm to Sunday 8 am	Reasoning Chapter 53 - Qns (1-25)
+    Total: 25 Questions. Time: 1 hour
+5	
+    25/08/’24	
+    Sunday 9 am to Monday 9 am	Chapter 11 Qns: (11-20), Time: 20 mins
+    Chapter 55 Qns: (11-20), Time: 20 mins
+    Verbal Chapter 41 Qns: (31-60), Time: 20 mins
+    Multi-part Test
+    Total: 50 Questions. Total Time: 1 hour
+==JACK==
+4	
+    13/07/’24	
+    Tuesday 2 pm to 11 pm	Reasoning Chapter 55 - Qns (1-25)
+    Total: 25 Questions. Time: 1 hour
+5	
+    14/07/’24	
+    Wednesday 2 pm to 11 pm	Reasoning Chapter 57 - Qns (1-25)
+    Total: 25 Questions. Time: 1 hour
+6	
+    15/07/’24	
+    Thursday 2 pm to 11 pm	Reasoning Chapter 60 - Qns (1-25)
+    Total: 25 Questions. Time: 1 hour
+7	
+    16/07/’24	
+    Friday 2 pm to 11 pm	Verbal Chapter 41 - Qns (1-30; 71-90)
+    Total: 50 Questions. Time: 1 hour
+==QUICK==
+13	
+    17/08/’24	
+    Friday 9 pm to Sunday 11 pm: 
+    More than 24 hrs	Chapter 15Qns: (1-30). Time: 1 hr
+    Chapter 32 Qns: (1-30). Time:1 hr
+    Multi-part
+    Total: 60 Questions. Total Time: 2 hours

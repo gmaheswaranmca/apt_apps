@@ -57,10 +57,40 @@
     02-08                   Rs. 1,000
     {[QUICK 1MP],
     [ZENITH 2SP]}
-2024/08 Aug 
-2024/07 Jul 
+2024/08 Aug
+    26-01                   Rs. 1,000
+    {[DIAMOND 1SP],
+    [QUICK 1MP],
+    [ZENITH 2SP],
+    [APPLE 2SP]}
+    19-25                   Rs. 6,875
+    {[APPLE7 1SP,4MP,1ID],
+    [APPLE8 1SP,4MP,1ID],
+    [APPLE9 1SP,4MP,1ID],
+    [APPLE10 1SP,4MP,1ID],
+    [APPLE11 1SP,4MP,1ID],
+    [DIAMOND 1SP],
+    [QUICK 1MP],
+    [ZENITH 2SP]}
+    12-18                   Rs. 1,875
+    {[ZENITH 2SP,1ID],
+    [APPLE 2MP,3SP,1ID],
+    [JACK 2SP],
+    [QUICK 1MP]}
+    05-11
+2024/07 Jul
+    29-04
+    22-28
+    15-21
+    08-14
+    01-07
 2024/06 Jun
+    03-09
+    10-16
+    17-23
+    24-30
 2024/05 May 
+    27-02
 2024/04 Apr  
     
     

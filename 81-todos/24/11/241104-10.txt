@@ -1,0 +1,54 @@
+SUN MON TUE WED THU FRI SAT SUN
+``` ``` ``` ``` ``` ``` ``` ```
+``` ``` ``` ``` ``` ``` ``` ```
+``` ``` ``` ``` ``` ``` ``` ```
+``` ``` ``` ``` ``` ``` ``` ```
+``` ``` ``` ``` ``` ``` ``` ```
+``` ``` ``` ``` ``` ``` ``` ```
+``` ``` ``` ``` ``` ``` ``` ```
+``` ``` ``` ``` ``` ``` ``` ```
+``` ``` ``` ``` ``` ``` ``` ```
+``` ``` ``` ``` ``` ``` ``` ```
+``` ``` ``` ``` ``` ``` ``` ```
+
+==PLUTO==
+9	
+    03/11/’24	
+        Sunday 8 am to 
+        Tuesday 9 pm: More than 24 hrs	
+    Chapter 58 Qns: (1-30),
+    Total: 30 Questions. Time: 1 hour
+10	
+    06/11/’24	
+        Wednesday 9 pm to 
+        Friday 9 pm: More than 24 hrs	
+    Chapter 59Qns: (1-30),
+    Total: 30 Questions. Time: 1 hour
+==YEAR==
+3	
+    05/11/’24	
+        Tuesday 8 am to 
+        Wednesday 6 pm: More than 24 hrs	
+    Chapter 52 Qns: (1-50),
+    Total: 50 Questions. Time: 1 hour
+==ZENITH==
+23	
+    05/11/’24	
+        Tuesday 9 am to 
+        Wednesday night 10 pm: More than 24 hrs	
+    Quants Chapter 52 - Qns (1-50)      !!!ERR
+    Total: 30 Questions. Time: 1 hour
+24	
+    08/11/’24	
+        Friday 9 am to 
+        Saturday night 10 pm: More than 24 hrs	
+    Quants Chapter 53 - Qns (1-30)
+    Total: 30 Questions. Time: 1 hour
+==PLUTO==
+testPaper=RE058b,1,30!Assessment Test #009,30,60
+testPaper=RE059b,1,30!Assessment Test #010,30,60
+==YEAR==
+testPaper=RE052b,1,30!Assessment Test #003,50,60
+==ZENITH==
+testPaper=RE052b,1,30!Assessment Test #023,30,60
+testPaper=RE053b,1,30!Assessment Test #024,30,60
