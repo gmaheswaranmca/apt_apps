@@ -10,9 +10,13 @@ SUN MON TUE WED THU FRI SAT SUN
 ``` ``` ``` ``` ``` ``` ``` ```
 ``` ``` ``` ``` ``` ``` ``` ```
 ``` ``` ``` ``` ``` ``` ``` ``` 
-    Rs. 1,000
-    {[XXX 1SP],
-    [XXX 2SP]}
+    Rs. 3,125
+    {[MOON 10SP],
+    [DIAMOND 1SP],
+    [FORTUNE 2SP],
+    [GALAXY 4SP],
+    [HURRICANE 4SP],
+    [INDIGO 4SP]}
     
 ==MOON==        10SP
 ==DIAMOND==      1SP

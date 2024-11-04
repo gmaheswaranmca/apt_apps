@@ -10,9 +10,14 @@ SUN MON TUE WED THU FRI SAT SUN
 ``` ``` ``` ``` ``` ``` ``` ```
 ``` ``` ``` ``` ``` ``` ``` ```
 ``` ``` ``` ``` ``` ``` ``` ``` 
-    Rs. 1,000
-    {[XXX 1SP],
-    [XXX 2SP]}
+    Rs. 5,250
+    {[DIAMOND 1SP],
+    [GALAXY 6SP],
+    [HURRICANE 6SP],
+    [INDIGO 6SP],
+    [JACK 4SP,1ID],
+    [KITE 10SP,1ID],
+    [MOON 6SP,1ID]}
 ==DIAMOND== 1SP
 
 
@@ -23,3 +28,211 @@ SUN MON TUE WED THU FRI SAT SUN
             Monday 9 am	
         Chapter 11Qns: (1-30)
         Total: 30 Questions. Time: 1 hour
+==GALAXY==
+6	
+    08/07/’24	
+    Monday 2 pm to 9 pm	JAVA MCQ’s Chapter 7 - Qns (1-20); Chapter 8 Qns (1-20)
+    Total: 40 Questions. Time: 1 hour
+7	
+    09/07/’24	
+    Tuesday 2 pm to 9 pm	JAVA MCQ’s Chapter 9 - Qns (1-20)
+    Total: 20 Questions. Time: 1 hour
+8	
+    10/07/’24	
+    Wednesday 2 pm to 9 pm	JAVA MCQ’s Chapter 10 - Qns (1-20)
+    Total: 20 Questions. Time: 1 hour
+9	
+    11/07/’24	
+    Thursday 2 pm to 9 pm	JAVA MCQ’s Chapter 11 - Qns (1-20)
+    Total: 20 Questions. Time: 1 hour
+10	
+    12/07/’24	
+    Friday 2 pm to 9 pm	JAVA MCQ’s Chapter 12 - Qns (1-20)
+    Total: 20 Questions. Time: 1 hour
+11	
+    13/07/’24	
+    Saturday 2 pm to 9 pm	JAVA MCQ’s Chapter 13 - Qns (1-20)
+    Total: 20 Questions. Time: 1 hour
+==HURRICANE==
+6	
+    08/07/’24	
+    Monday 2 pm to 9 pm	JAVA MCQ’s Chapter 4 - Qns (1-20)
+    Total: 20 Questions. Time: 1 hour
+7	
+    09/07/’24	
+    Tuesday 2 pm to 9 pm	JAVA MCQ’s Chapter 5 - Qns (1-20)
+    Total: 20 Questions. Time: 1 hour
+8	
+    10/07/’24	
+    Wednesday 2 pm to 9 pm	JAVA MCQ’s Chapter 6 - Qns (1-20)
+    Total: 20 Questions. Time: 1 hour
+9	
+    11/07/’24	
+    Thursday 2 pm to 9 pm	JAVA MCQ’s Chapter 7 - Qns (1-20)
+    Total: 20 Questions. Time: 1 hour
+10	
+    12/07/’24	
+    Friday 2 pm to 9 pm	JAVA MCQ’s Chapter 8 - Qns (1-20)
+    Total: 20 Questions. Time: 1 hour
+11	
+    13/07/’24	
+    Saturday 2 pm to 9 pm	JAVA MCQ’s Chapter 9 - Qns (1-20)
+    Total: 20 Questions. Time: 1 hour
+==INDIGO==
+6	
+    08/07/’24	
+    Monday 2 pm to 9 pm	C Language MCQ’s Chapter 4 - Qns (1-20)
+    Total: 20 Questions. Time: 1 hour
+7	
+    09/07/’24	
+    Tuesday 2 pm to 9 pm	C Language MCQ’s Chapter 5 - Qns (1-20)
+    Total: 20 Questions. Time: 1 hour
+8	
+    10/07/’24	
+    Wednesday 2 pm to 9 pm	C Language MCQ’s Chapter 6 - Qns (1-20)
+    Total: 20 Questions. Time: 1 hour
+9	
+    11/07/’24	
+    Thursday 2 pm to 9 pm	C Language MCQ’s Chapter 7 - Qns (1-20)
+    Total: 20 Questions. Time: 1 hour
+10	
+    12/07/’24	
+    Friday 2 pm to 9 pm	C Language MCQ’s Chapter 8 - Qns (1-20)
+    Total: 20 Questions. Time: 1 hour
+11	
+    13/07/’24	
+    Saturday 2 pm to 9 pm	C Language MCQ’s Chapter 9 - Qns (1-20)
+    Total: 20 Questions. Time: 1 hour
+==JACK==
+1	
+    09/07/’24	
+    Tuesday 2 pm to 11 pm	Quants Chapter 15 - Qns (1-20)
+    Total: 20 Questions. Time: 1 hour
+2	
+    10/07/’24	
+    Wednesday 2 pm to 11 pm	Quants Chapter 11 - Qns (1-25)
+    Total: 25 Questions. Time: 1 hour
+3	
+    11/07/’24	
+    Thursday 2 pm to 11 pm	Quants Chapter 16 - Qns (1-30)
+    Total: 30 Questions. Time: 1 hour
+4	
+    12/07/’24	
+    Friday 2 pm to 11 pm	Quants Chapter 14 - Qns (1-30)
+    Total: 30 Questions. Time: 1 hour
+==KITE==
+1	
+    08/07/’24	
+    Monday 8 am to 1 pm	Quants Chapter 11 (1-10), 
+    Reasoning Chapter 51 (1-10), 
+    Verbal Chapter 41 (1-20). 
+    Only 1 part Test, Not Multi-part.
+    Total: 40 Questions. Time: 1 hour
+2	
+    08/07/’24	
+    Monday 2 pm to 9 pm	Quants Chapter 12 (1-10), 
+    Reasoning Chapter 52 (1-10), 
+    Verbal Chapter 41 (21-40). 
+    Only 1 part Test, Not Multi-part.
+    Total: 40 Questions. Time: 1 hour
+3	
+    09/07/’24	
+    Tuesday 8 am to 1 pm	Quants Chapter 13 (1-10), 
+    Reasoning Chapter 53 (1-10), 
+    Verbal Chapter 41 (41-60). 
+    Only 1 part Test, Not Multi-part.
+    Total: 40 Questions. Time: 1 hour
+4	
+    09/07/’24	
+    Tuesday 2 pm to 9 pm	Quants Chapter 14 (1-10), 
+    Reasoning Chapter 54 (1-10), 
+    Verbal Chapter 41 (61-80). 
+    Only 1 part Test, Not Multi-part.
+    Total: 40 Questions. Time: 1 hour
+5	
+    10/07/’24	
+    Wednesday 8 am to 1 pm	Quants Chapter 15 (1-10), 
+    Reasoning Chapter 55 (1-10), 
+    Verbal Chapter 42 (1-20). 
+    Only 1 part Test, Not Multi-part.
+    Total: 40 Questions. Time: 1 hour
+6	
+    10/07/’24	
+    Wednesday 2 pm to 9 pm	Quants Chapter 21 (1-10), 
+    Reasoning Chapter 56 (1-10), 
+    Verbal Chapter 42 (21-40). 
+    Only 1 part Test, Not Multi-part.
+    Total: 40 Questions. Time: 1 hour
+7	
+    11/07/’24	
+    Thursday 8 am to 1 pm	Quants Chapter 22 (1-10), 
+    Reasoning Chapter 57 (1-10), 
+    Verbal Chapter 42 (41-60). 
+    Only 1 part Test, Not Multi-part.
+    Total: 40 Questions. Time: 1 hour
+8	
+    11/07/’24	
+    Thursday 2 pm to 9 pm	Quants Chapter 23 (1-10), 
+    Reasoning Chapter 58 (1-10), 
+    Verbal Chapter 43 (1-20). 
+    Only 1 part Test, Not Multi-part.
+    Total: 40 Questions. Time: 1 hour
+9	
+    12/07/’24	
+    Friday 8 am to 1 pm	Quants Chapter 24 (1-10), 
+    Reasoning Chapter 59 (1-10), 
+    Verbal Chapter 43 (21-40). 
+    Only 1 part Test, Not Multi-part.
+    Total: 40 Questions. Time: 1 hour
+10
+    12/07/’24	
+    Friday 2 pm to 9 pm	Quants Chapter 25 (1-10), 
+    Reasoning Chapter 60 (1-10), 
+    Verbal Chapter 43 (41-60). 
+    Only 1 part Test, Not Multi-part.
+    Total: 40 Questions. Time: 1 hour
+==MOON==
+1	
+    10/07/’24	
+    Wednesday 8 am to 1 pm	Quants Chapter 15 (1-10), 
+    Reasoning Chapter 55 (1-10), 
+    Verbal Chapter 42 (1-20). 
+    Only 1 part Test, Not Multi-part.
+    Total: 40 Questions. Time: 1 hour
+2	
+    10/07/’24	
+    Wednesday 2 pm to 9 pm	Quants Chapter 21 (1-10), 
+    Reasoning Chapter 56 (1-10), 
+    Verbal Chapter 42 (21-40). 
+    Only 1 part Test, Not Multi-part.
+    Total: 40 Questions. Time: 1 hour
+3	
+    11/07/’24	
+    Thursday 8 am to 1 pm	Quants Chapter 22 (1-10), 
+    Reasoning Chapter 57 (1-10), 
+    Verbal Chapter 42 (41-60). 
+    Only 1 part Test, Not Multi-part.
+    Total: 40 Questions. Time: 1 hour
+4	
+    11/07/’24	
+    Thursday 2 pm to 9 pm	Quants Chapter 23 (1-10), 
+    Reasoning Chapter 58 (1-10), 
+    Verbal Chapter 43 (1-20). 
+    Only 1 part Test, Not Multi-part.
+    Total: 40 Questions. Time: 1 hour
+5	
+    12/07/’24	
+    Friday 8 am to 1 pm	Quants Chapter 24 (1-10), 
+    Reasoning Chapter 59 (1-10), 
+    Verbal Chapter 43 (21-40). 
+    Only 1 part Test, Not Multi-part.
+    Total: 40 Questions. Time: 1 hour
+6	
+    12/07/’24	
+    Friday 2 pm to 9 pm	Quants Chapter 25 (1-10), 
+    Reasoning Chapter 60 (1-10), 
+    Verbal Chapter 43 (41-60). 
+    Only 1 part Test, Not Multi-part.
+    Total: 40 Questions. Time: 1 hour
+
+

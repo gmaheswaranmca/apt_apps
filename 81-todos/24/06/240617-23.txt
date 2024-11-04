@@ -11,5 +11,11 @@ SUN MON TUE WED THU FRI SAT SUN
 ``` ``` ``` ``` ``` ``` ``` ```
 ``` ``` ``` ``` ``` ``` ``` ``` 
     Rs. 1,000
-    {[XXX 1SP],
-    [XXX 2SP]}
+    {[DIAMOND 1SP,1ID]}
+==DIAMOND==
+1	
+    23/06/’24	
+    Sunday 8 am to 11 pm	Chapter 31 Qns: (1-20),
+    Chapter 59Qns: (1-20),
+    Verbal Chapter 41. Qns: (1-30)
+    Total: 70 Questions. Time: 1 hour

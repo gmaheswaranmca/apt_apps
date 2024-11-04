@@ -11,104 +11,11 @@ SUN MON TUE WED THU FRI SAT SUN
 ``` ``` ``` ``` ``` ``` ``` ```
 ``` ``` ``` ``` ``` ``` ``` ``` 
     Rs. 1,000
-    {[XXX 1SP],
-    [XXX 2SP]}
+    {[PLUTO 5SP],
+    [ULTRA 1MP]}
 ==QUICK==
-1	
-    22/07/’24	
-    Monday 2 pm to 11pm	Chapter 11 Qns: (1-10), 
-    Chapter 55Qns: (1-10), 
-    Verbal Chapter Chapter 41 Qns: (1-20), 
-    Total: 40 Questions. Total Time: 1 hour
-2	
-    23/07/’24	
-    Tuesday 2 pm to 11 pm	Chapter 51 Qns: (1-30), Chapter 52 Qns (1-30)
-    Total: 60 Questions. Total Time: 1 hour
-3	
-    24/07/’24	
-    Wednesday 2 pm to 11 pm	Verbal Chapter 41 – Qns(11-40), 
-    Total: 30 Questions. Total Time: 1 hour
-4	
-    25/07/’24	
-    Thursday 2 pm to 11 pm	Chapter 31 Qns: (1-30), 
-    Total: 30 Questions. Total Time: 1 hour
-5	
-    26/07/’24	
-    Friday 2 pm to 11 pm	Chapter 16Qns: (1-30), 
-    Total: 30 Questions. Total Time: 1 hour
-6	
-    27/07/’24	
-    Saturday 2 pm to 11 pm	Chapter 33Qns: (1-30), 
-    Total: 30 Questions. Total Time: 1 hour
-7	
-    29/07/’24	
-    Monday 2 pm to 11 pm	Chapter 57Qns: (1-30), 
-    Total: 30 Questions. Total Time: 1 hour
-8	
-    30/07/’24	
-    Tuesday 2 pm to 11 pm	Chapter 25Qns: (1-30), 
-    Total: 30 Questions. Total Time: 1 hour
-9	
-    31/08/’24	
-    Wednesday 2 pm to 11 pm	Chapter 21Qns: (1-50), 
-    Total: 50 Questions. Total Time: 1 hour
-10	
-    01/08/’24	
-    Thursday 2 pm to 11 pm	Chapter 56 Qns: (1-30), 
-    Total: 30 Questions. Total Time: 1 hour
-11	
-    02/08/’24	
-    Friday 2 pm to 11 pm	Chapter 59Qns: (1-30), 
-    Total: 30 Questions. Total Time: 1 hour
-12	
-    03/08/’24	
-    Saturday 2 pm to 11 pm	Chapter 11 Qns: (11-20), 
-    Chapter 55 Qns: (11-20), 
-    Verbal Chapter 41 Qns: (21-40).
-    Total: 40 Questions. Total Time: 1 hour
+
 ==PLUTO==
-1	
-    22/07/’24	
-    Monday 2 pm to 9 pm	Chapter 11 Qns: (1-10), 
-    Chapter 55 Qns: (1-10), 
-    Verbal Chapter Chapter 41 Qns: (1-20), 
-    Total: 40 Questions. Total Time: 1 hour
-2	
-    23/07/’24	
-    Tuesday 2 pm to 9 pm	Chapter 31 Qns: (1-30), 
-    Total: 30 Questions. Total Time: 1 hour
-3	
-    24/07/’24	
-    Wednesday 2 pm to 9 pm	Verbal Chapter 41 Qns: (11-40), 
-    Total: 30 Questions. Total Time: 1 hour
-4	
-    25/07/’24	
-    Thursday 2 pm to 9 pm	Chapter 51 Qns: (1-30), Chapter 52 Qns (1-30)
-    Total: 60 Questions. Total Time: 1 hour
-5	
-    26/07/’24	
-    Friday 2 pm to 9 pm	Chapter 15Qns: (1-30), 
-    Total: 30 Questions. Total Time: 1 hour
-6	
-    29/07/’24	
-    Monday 2 pm to 9 pm	Chapter 11Qns: (1-30), 
-    Total: 30 Questions. Total Time: 1 hour
-7	
-    30/07/’24	
-    Tuesday 2 pm to 9 pm	Chapter 25Qns: (1-30), 
-    Total: 30 Questions. Total Time: 1 hour
-8	
-    31/07/’24	
-    Wednesday 2 pm to 9 pm	Chapter 21Qns: (1-30), 
-    Total: 30 Questions. Total Time: 1 hour
-9	
-    01/08/’24	
-    Thursday 2 pm to 9 pm	Verbal Chapter 42Qns: (1-50), 
-    Total: 50 Questions. Total Time: 1 hour
-10	
-    02/08/’24	
-    Friday 2 pm to 9 pm	Chapter 56Qns: (1-30), 
-    Total: 30 Questions. Total Time: 1 hour
 11	
     05/08/’24	
     Monday 2 pm to 9 pm	Chapter 24 Qns: (1-30), 

@@ -1,3 +1,14 @@
+Allowances: Rs. 44,674 (after TDS 10%)
+
+From    :   2024/05May[week27-02]
+To      :   2024/10Oct[week28-03]
+
+Attached File: Allowances2024_05May27ToNov03.txt
+
+Allowances Total Rs.45,125.00 + 10% = Rs.49,638.00
+Minus TDS 10% = Rs.4,964
+Allowances minus TDS 10% = Rs.44,674
+
 2024/10_Oct                             Rs. 6,625   
     28-03                   Rs. 1,000
     {[Year 2SP, 1ID],
@@ -57,7 +68,7 @@
     02-08                   Rs. 1,000
     {[QUICK 1MP],
     [ZENITH 2SP]}
-2024/08 Aug
+2024/08 Aug                             Rs.10,750   [Rs.25,500]
     26-01                   Rs. 1,000
     {[DIAMOND 1SP],
     [QUICK 1MP],
@@ -77,20 +88,47 @@
     [APPLE 2MP,3SP,1ID],
     [JACK 2SP],
     [QUICK 1MP]}
-    05-11
-2024/07 Jul
-    29-04
-    22-28
-    15-21
-    08-14
-    01-07
-2024/06 Jun
-    03-09
-    10-16
-    17-23
-    24-30
-2024/05 May 
-    27-02
-2024/04 Apr  
+    05-11                   Rs. 1,000
+    {[PLUTO 5SP],
+    [ULTRA 1MP]}
+2024/07 Jul                             Rs.18625    [Rs.44,125]
+    29-04                   Rs.2,625
+    {[MOON 10SP],
+    [PLUTO 5SP],
+    [QUICK 6SP]}
+    22-28                   Rs. 4,000
+    {[DIAMOND 3SP],
+    [FORTUNE 6SP],
+    [MOON 10SP],
+    [PLUTO 5SP,1ID],
+    [QUICK 6SP,1ID]}
+    15-21                   Rs.3,125
+    {[MOON 10SP],
+    [DIAMOND 1SP],
+    [FORTUNE 2SP],
+    [GALAXY 4SP],
+    [HURRICANE 4SP],
+    [INDIGO 4SP]}
+    08-14                   Rs. 5,250
+    {[DIAMOND 1SP],
+    [GALAXY 6SP],
+    [HURRICANE 6SP],
+    [INDIGO 6SP],
+    [JACK 4SP,1ID],
+    [KITE 10SP,1ID],
+    [MOON 6SP,1ID]}
+    01-07                   Rs. 3,625
+    {[DIAMOND 2SP,1ID],
+    [FORTUNE 1SP,1ID],
+    [GALAXY 5SP,1MP,1ID],
+    [HURRICANE 5SP,1MP,1ID],
+    [INDIGO 5SP,1MP,1ID]}
+2024/06 Jun                 Rs.1,000    [Rs.45,125]
+    03-09                  N/A
+    10-16                  N/A
+    17-23                  Rs. 1,000
+    24-30                  N/A
+2024/05 May                Rs.0
+    27-02   N/A
     
     

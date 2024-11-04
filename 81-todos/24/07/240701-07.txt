@@ -10,6 +10,111 @@ SUN MON TUE WED THU FRI SAT SUN
 ``` ``` ``` ``` ``` ``` ``` ```
 ``` ``` ``` ``` ``` ``` ``` ```
 ``` ``` ``` ``` ``` ``` ``` ``` 
-    Rs. 1,000
-    {[XXX 1SP],
-    [XXX 2SP]}
+    Rs. 3,625
+    {[DIAMOND 2SP,1ID],
+    [FORTUNE 1SP,1ID],
+    [GALAXY 5SP,1MP,1ID],
+    [HURRICANE 5SP,1MP,1ID],
+    [INDIGO 5SP,1MP,1ID]}
+==DIAMOND==
+1	
+    23/06/’24	
+    Sunday 8 am to 11 pm	Chapter 31 Qns: (1-20),
+    Chapter 59 Qns: (1-20),
+    Verbal Chapter 41. Qns: (1-30) 
+    Total: 70 Questions. Time: 1 hour
+2	
+    07/07/’24	
+    Sunday 2 pmto Monday 9 am	Chapter 15Qns: (1-30)
+    Total: 30 Questions. Time: 1 hour
+==FORTUNE==
+1	
+    01/07/’24	
+    Monday7 pm to Wednesday 9 pm: 
+    More than 24 hrs	Chapter 31 Qns: (1-20). Time: 20 mins
+    Chapter 55 Qns: (1-20). Time: 20 mins
+    Verbal Chapter 41. Qns: (1-30) Time: 20 mins
+    Total: 70 Questions. Total Time: 1 hour
+==GALAXY==
+1	
+    01/07/’24	
+    Monday 2 pm to 9 pm	Chapter 31 Qns: (1-20),Time: 20 mins
+    Chapter 59 Qns: (1-20),Time: 20 mins
+    Verbal Chapter 42. Qns: (1-30) Time: 20 mins
+    Total: 70 Questions. Total Time: 1 hour
+2	
+    02/07/’24	
+    Tuesday 2 pm to 9 pm	Chapter 55 - Qns (1-50)
+    Total: 50 Questions. Time: 1 hour
+3	
+    03/07/’24	
+    Wednesday 2 pm to 9 pm	Verbal Chapter 41 - Qns (1-90)
+    Total: 90 Questions. Time: 1 hour
+4	
+    04/07/’24	
+    Thursday 2 pm to 9 pm	JAVA MCQ’s Chapter 3 - Qns (1-20); Chapter 4 Qns (1-20)
+    Total: 40 Questions. Time: 1 hour
+5	
+    05/07/’24	
+    Friday 2 pm to 9 pm	JAVA MCQ’s Chapter 5 - Qns (1-20); Chapter 6 Qns (1-20)
+    Total: 40 Questions. Time: 1 hour
+6	
+    06/07/’24	
+    Saturday 2 pm to Sunday 10 am	JAVA MCQ’s Chapter 7 - Qns (1-20); Chapter 8 Qns (1-20)
+    Total: 40 Questions. Time: 1 hour
+==HURRICANE==
+1	
+    01/07/’24	
+    Monday 2 pm to 9 pm	Chapter 31 Qns: (1-20), Time: 20 mins
+    Chapter 59 Qns: (1-20), Time: 20 mins
+    Verbal Chapter 42. Qns: (1-30) Time: 20 mins
+    Total: 70 Questions. Total Time: 1 hour
+2	
+    02/07/’24	
+    Tuesday 2 pm to 9 pm	Chapter 55 - Qns (1-50)
+    Total: 50 Questions. Time: 1 hour
+3	
+    03/07/’24	
+    Wednesday 2 pm to 9 pm	Verbal Chapter 41 - Qns (1-90)
+    Total: 90 Questions. Time: 1 hour
+4	
+    04/07/’24	
+    Thursday 2 pm to 9 pm	JAVA MCQ’s Chapter 1 - Qns (1-20); Chapter 2 Qns (1-20)
+    Total: 40 Questions. Time: 1 hour
+5	
+    05/07/’24	
+    Friday 2 pm to 9 pm	JAVA MCQ’s Chapter 3 - Qns (1-20);
+    Total: 20 Questions. Time: 1 hour
+6	
+    06/07/’24	
+    Saturday 2 pm to Sunday 10 am	JAVA MCQ’s Chapter 4 - Qns (1-20)
+    Total: 20 Questions. Time: 1 hour
+==INDIGO==
+1	
+    01/07/’24	
+    Monday 2 pm to 9 pm	Chapter 31 Qns: (1-20), Time: 20 mins
+    Chapter 59 Qns: (1-20), Time: 20 mins
+    Verbal Chapter 42. Qns: (1-30) Time: 20 mins
+    Total: 70 Questions. Total Time: 1 hour
+2	
+    02/07/’24	
+    Tuesday 2 pm to 9 pm	Chapter 55 - Qns (1-50)
+    Total: 50 Questions. Time: 1 hour
+3	
+    03/07/’24	
+    Wednesday 2 pm to 9 pm	Verbal Chapter 41 - Qns (1-90)
+    Total: 90 Questions. Time: 1 hour
+4	
+    04/07/’24	
+    Thursday 2 pm to 9 pm	C Language MCQ’s Chapter 1 - Qns (1-20); Chapter 2 Qns (1-20)
+    Total: 40 Questions. Time: 1 hour
+5	
+    05/07/’24	
+    Friday 2 pm to 9 pm	C Language MCQ’s Chapter 3 - Qns (1-20)
+    Total: 20 Questions. Time: 1 hour
+6	
+    06/07/’24	
+    Saturday 2 pm to Sunday 10 am	C Language MCQ’s Chapter 4 - Qns (1-20)
+    Total: 20 Questions. Time: 1 hour 
+
+
