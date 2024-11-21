@@ -1,0 +1,20 @@
+17  18  19  20  21  22  23  24
+SUN MON TUE WED THU FRI SAT SUN
+``` ``` ZE1 ZE1 ``` ZE2 ZE2 ```
+``` ``` ``` ``` ``` ``` ``` ```
+``` ``` ``` ``` ``` ``` ``` ```
+    Rs. 1,000
+    {[ZENITH 2SP]}
+==ZENITH==
+27	
+19/11/’24	Tuesday 9 am to Wednesday night 10 pm: 
+More than 24 hrs	Quants Chapter 56 - Qns (1-30)
+Total: 30 Questions. Time: 1 hour
+28	
+22/11/’24	Friday 9 am to Saturday night 10 pm:
+ More than 24 hrs	Quants Chapter 57 - Qns (1-30)
+Total: 30 Questions. Time: 1 hour
+
+==ZENITH==
+testPaper=RE056b,1,30!Assessment Test #027,30,60
+testPaper=RE057b,1,30!Assessment Test #028,30,60

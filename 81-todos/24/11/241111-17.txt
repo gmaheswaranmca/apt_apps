@@ -1,0 +1,59 @@
+SUN MON TUE WED THU FRI SAT SUN
+PL1 ``` PL1 PL2 ``` PL2 ``` ```
+``` ``` ZE1 ZE1``` ZE2 ZE2 ```
+``` AP1 AP1 AP2 AP3 AP4 ``` ```
+``` ``` ``` ``` AP2 AP3 AP4 ```
+``` ``` ``` ``` ``` ``` ``` ```
+``` ``` ``` ``` ``` ``` ``` ```
+``` ``` ``` ``` ``` ``` ``` ```
+    Rs. 1,125         So, Rs.1,000
+    {[PLUTO 2SP],
+    [APPLE 4SP, 1ID],  Cancelled 
+    [ZENITH 2SP]}
+==PLUTO==
+11	
+10/11/’24	Sunday 8 am to Tuesday 9 pm: 
+More than 24 hrs	Chapter 24Qns: (1-30),
+Total: 30 Questions. Time: 1 hour
+12	
+13/11/’24	Wednesday 9 pm to Friday 9 pm: 
+More than 24 hrs	Chapter 23Qns: (1-30),
+Total: 30 Questions. Time: 1 hour
+==ZENITH==
+25	
+12/11/’24	Tuesday 9 am to Wednesday night 10 pm: 
+More than 24 hrs	Quants Chapter 54 - Qns (1-30)
+Total: 30 Questions. Time: 1 hour
+26	
+15/11/’24	Friday 9 am to Saturday night 10 pm:
+ More than 24 hrs	Quants Chapter 55 - Qns (1-30)
+Total: 30 Questions. Time: 1 hour
+==APPLE==
+1	
+11/11/’24	
+Monday 9 am to Wednesday 8 am 	Chapter 51 Qns: (1-50),
+Total: 50 Questions. Time: 1 hour
+2	
+13/11/’24	
+Wednesday 9 am to Thursday 8 am 	Chapter 52 Qns: (1-50),
+Total: 50 Questions. Time: 1 hour
+3	
+14/11/’24	
+Thursday 9 am to Friday 8 am 	Chapter 53 Qns: (1-30),
+Total: 30 Questions. Time: 1 hour
+4	
+15/11/’24	
+Friday 9 am to Saturday 8 am 	Chapter 24 Qns: (1-30),
+Total: 30 Questions. Time: 1 hour
+
+==PLUTO==
+testPaper=QA024b,1,30!Assessment Test #011,30,60
+testPaper=QA023b,1,30!Assessment Test #012,30,60
+==ZENITH==
+testPaper=RE054b,1,30!Assessment Test #025,30,60
+testPaper=RE055b,1,30!Assessment Test #026,30,60
+==APPLE==
+testPaper=RE051b,1,50!Assessment Test #001,50,60
+testPaper=RE052b,1,50!Assessment Test #002,50,60
+testPaper=RE053b,1,30!Assessment Test #003,30,60
+testPaper=QA024b,1,30!Assessment Test #004,30,60
