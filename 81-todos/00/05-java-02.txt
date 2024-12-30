@@ -1,0 +1,10 @@
+Subject	Test	Qns	Test Paper
+Java Coding	TCJAVA01		codeQn=301,2,10|302,2,10|303,2,10!Assessment Test #001,3,60,2
+Java Coding	TCJAVA02		codeQn=304,2,10|305,2,10|306,2,10!Assessment Test #002,3,60,2
+Java Coding	TCJAVA03		codeQn=307,2,10|308,2,10|309,2,10!Assessment Test #003,3,60,2
+Java Coding	TCJAVA04		codeQn=310,2,10|311,2,10|312,2,10!Assessment Test #004,3,60,2
+Java Coding	TCJAVA05		codeQn=313,2,10|314,2,10|315,2,10!Assessment Test #005,3,60,2
+Java Coding	TCJAVA06		codeQn=316,2,10|317,2,10|318,2,10!Assessment Test #006,3,60,2
+Java Coding	TCJAVA07		codeQn=319,2,10|320,2,10|321,2,10!Assessment Test #007,3,60,2
+Java Coding	TCJAVA08		codeQn=322,2,10|323,2,10|324,2,10!Assessment Test #008,3,60,2
+Java Coding	TCJAVA09		codeQn=325,2,10|326,2,10|327,2,10!Assessment Test #009,3,60,2

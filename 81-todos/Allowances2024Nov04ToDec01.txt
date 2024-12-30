@@ -9,11 +9,34 @@ Allowances Total Rs.???? + 10% = Rs.????
 Minus TDS 10% = Rs.????
 Allowances minus TDS 10% = Rs.????
 
-2024/11_Nov                             Rs. ????  
+2024/11_Nov                             Rs. 3,000  
     04-10                   Rs. 1,000
     {[PLUTO 2SP],
-    [YEAR 1SP],
-    [ZENITH 2SP]}
-    11-17                   Rs.0
-    18-24                   Rs.0
-    25-01                   Rs.0
+     [YEAR 1SP],
+     [ZENITH 2SP]}
+    11-17                   Rs. 1,000
+    {[PLUTO 2SP],
+     [ZENITH 2SP]}
+    18-24                   Rs. 1,000
+    {[ZENITH 2SP]}
+    25-01                   N/A
+2024/12_Dec                             Rs. 2,000 
+    02-08                   N/A
+    09-15                   N/A
+    16-22                   Rs. 1,000
+    {[KITE 2SP]}
+    23-29                   Rs. 1,000
+    {[KITE 2SP]}
+    30-05
+2025/01_Jan 
+    06-12
+    13-19
+    20-26
+    27-02
+2025/02_Feb
+    03-09
+    10-16
+    17-23
+    24-02
+2025/02_Mar
+

@@ -1,0 +1,86 @@
+jun 17-23 [arv:no test] me:1 test 
+jul 8-14 [kite:4 tests] 10 tests 
+jul 15-21 [4 links]
+jul 29-aug 4 [moon 10 SP]
+
+http://localhost:8002?dt=20240205&link=one 
+
+C:\mywork\source\apt\apt_apps\01-admin-client-localhost\app\jobfile
+
+#jobs
+deactivate
+cd /d C:\mywork\source\apt\envs\
+env01\Scripts\activate
+cd /d C:\mywork\source\apt\apt_apps\01-admin-client-localhost\py\src\srcV2
+python AppBePyV2.py
+
+#new app 
+deactivate
+cd /d C:\mywork\source\apt\envs\
+env01\Scripts\activate
+cd /d C:\mywork\source\apt\apt_apps\01-admin-client-localhost\py\src\app202209
+python main.py
+
+#api app 
+deactivate
+cd /d C:\mywork\source\apt\envs\
+env01\Scripts\activate
+cd /d C:\mywork\source\apt\apt_apps\01-admin-client-localhost\py\src\aptmktest
+python manage.py runserver 7002
+
+Apt Conduct Monitor Test app: http://localhost:8002/fev5
+
+
+
+
+--------------------------------------------------------------------------------------
+Remote Server Details:
+	http://oxygen.aptonlinetest.co.in:2083
+	https://oxygen.aptonlinetest.co.in:2083
+	UserName: oxygen
+	PassWord: 79!1r|v~LV4w@2024!
+--------------------------------------------------------------------------------------	
+
+
+
+jdoodle.com
+-------------------------------------------------------------------------------------
+	01 for aptonlinetest.co.in - Exam for Students
+		gmaheswaranmca@gmail.com | @2019$Guido
+		urlToRun		https://api.jdoodle.com/v1/execute
+		clientId 		'524a4ccae6caac2a3f791b04186c72f5';
+		clientSecret 	'4a70a9a269720b855f37e9e353eb4fdfd460fbf3ba33a508709ab1a8e805e2cf';
+		
+		Site: https://www.jdoodle.com/
+		Pricing: https://www.jdoodle.com/compiler-api
+		Login ID:gmaheswaranmca@gmail.com 
+		Password: @2019$Guido
+		
+											Old Pwd: 2020apttraining
+-------------------------------------------------------------------------------------
+jdoodle.com
+-------------------------------------------------------------------------------------
+	02 for aptonlinetest.co.in - Exam for Students
+		pystud19@gmail.com | 2019guido
+		urlToRun		https://api.jdoodle.com/v1/execute
+		clientId 		'9f0d8737e218cab0ac901f50097b1b8b';
+		clientSecret 	'b199a9f735e06990970bc56b7acf0598a4cc17b2d3f91d29a5851f91643d71ec';
+		
+		Site: https://www.jdoodle.com/
+		Pricing: https://www.jdoodle.com/compiler-api
+		Login ID:pystud19@gmail.com
+		Password: @2019$Guido
+		
+		
+email id: 			pystud19@gmail.com 
+gmail password: 	2019guido 
+jdoodle password: 	@2019$Guido
+-------------------------------------------------------------------------------------
+#cpu cores check  		
+	$ cat /proc/cpuinfo
+#ram check
+	$ cat /proc/meminfo
+#load check
+	$ uptime
+-------------------------------------------------------------------------------------
+

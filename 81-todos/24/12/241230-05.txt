@@ -1,0 +1,26 @@
+30  31  01  02  03  04  05  06
+SUN MON TUE WED THU FRI SAT SUN
+``` KI1 KI1 ``` KI2 KI2 ``` ```
+``` ``` ``` ``` ``` ``` ``` ```
+``` ``` ``` ``` ``` ``` ``` ```
+    Rs. 1,000
+    {[KITE 2SP]}
+==KITE==
+16	
+    30/12/’24	
+        Monday 8 am to 
+        Tuesday 9 pm: More than 24 hrs	
+    Chapter 23Qns: (1-30),
+    Total: 30 Questions. Time: 1 hour
+
+17	
+    02/11/’25	
+        Thursday 8 am to 
+        Friday 9 pm: More than 24 hrs	
+    Chapter 61Qns: (1-30),
+    Total: 30 Questions. Time: 1 hour
+---
+==KITE==
+testPaper=QA022b,1,30!Assessment Test #016,30,60
+testPaper=509,1,20|522,6,10|4012,6,10!Assessment Test #017,30,60
+

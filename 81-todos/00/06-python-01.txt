@@ -1,0 +1,8 @@
+Subject	Test	Qns	Test Paper
+Python	Python2	20	testPaper=TE007b,21,40!Assessment Test #002,20,60
+Python	Python3	20	testPaper=TE007b,41,60!Assessment Test #003,20,60
+Python	Python4	20	testPaper=TE007b,61,80!Assessment Test #004,20,60
+Python	Python5	20	testPaper=TE007b,81,100!Assessment Test #005,20,60
+Python	Python6	20	testPaper=TE007b,101,120!Assessment Test #006,20,60
+Python	Python7	20	testPaper=TE007b,121,140!Assessment Test #007,20,60
+Python	Python8	10	testPaper=TE008b,141,150!Assessment Test #008,10,60

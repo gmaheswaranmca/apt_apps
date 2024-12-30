@@ -1,0 +1,14 @@
+Subject	Test	Qns	Test Paper
+PLSQL	SQL01	20	testPaper=SQL1-13,1,20!Assessment Test #001,20,60
+PLSQL	SQL02	20	testPaper=SQL1-13,21,40!Assessment Test #002,20,60
+PLSQL	SQL03	20	testPaper=SQL1-13,41,60!Assessment Test #003,20,60
+PLSQL	SQL04	20	testPaper=SQL1-13,61,80!Assessment Test #004,20,60
+PLSQL	SQL05	20	testPaper=SQL1-13,81,100!Assessment Test #005,20,60
+PLSQL	SQL06	20	testPaper=SQL1-13,101,120!Assessment Test #006,20,60
+PLSQL	SQL07	20	testPaper=SQL1-13,121,140!Assessment Test #007,20,60
+PLSQL	SQL08	20	testPaper=SQL1-13,141,160!Assessment Test #008,20,604
+PLSQL	SQL09	20	testPaper=SQL1-13,161,180!Assessment Test #009,20,60
+PLSQL	SQL10	20	testPaper=SQL1-13,181,200!Assessment Test #010,20,60
+PLSQL	SQL11	20	testPaper=SQL1-13,201,220!Assessment Test #011,20,60
+PLSQL	SQL12	20	testPaper=SQL1-13,221,240!Assessment Test #012,20,60
+PLSQL	SQL13	20	testPaper=SQL1-13,241,260!Assessment Test #013,20,60

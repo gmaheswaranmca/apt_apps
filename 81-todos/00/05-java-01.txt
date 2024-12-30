@@ -1,0 +1,21 @@
+Subject	Test	Qns	Test Paper
+Java MCQ	TMJAVA01		testPaper=Jav01-01,1,20!Assessment Test #001,20,60
+Java MCQ	TMJAVA02		testPaper=Jav02-08,1,20!Assessment Test #002,20,60
+Java MCQ	TMJAVA03		testPaper=Jav02-08,21,40!Assessment Test #003,20,60
+Java MCQ	TMJAVA04		testPaper=Jav02-08,41,60!Assessment Test #004,20,60
+Java MCQ	TMJAVA05		testPaper=Jav02-08,61,80!Assessment Test #005,20,60
+Java MCQ	TMJAVA06		testPaper=Jav02-08,81,100!Assessment Test #006,20,60
+Java MCQ	TMJAVA07		testPaper=Jav02-08,101,120!Assessment Test #007,20,60
+Java MCQ	TMJAVA08		testPaper=Jav02-08,121,135|TE009b,30,30|TE009b,27,28|TE010b,26,27!Assessment Test #008,20,60
+Java MCQ	TMJAVA09		testPaper=TE009b,19,19|TE009b,23,23|TE009b,25,25|TE009b,28,28|TE009b,30,30|Jav09,1,15!Assessment Test #009,20,60
+Java MCQ	TMJAVA10		testPaper=Jav10,1,20!Assessment Test #010,20,60
+Java MCQ	TMJAVA11		testPaper=Jav11-13_15_19,1,20!Assessment Test #011,20,60
+Java MCQ	TMJAVA12		testPaper=Jav11-13_15_19,21,40!Assessment Test #012,20,60
+Java MCQ	TMJAVA13		testPaper=TE010b,32,32|TE010b,6,6|Jav11-13_15_19,41,58!Assessment Test #013,20,60
+Java MCQ	TMJAVA14		
+Java MCQ	TMJAVA15		testPaper=Jav11-13_15_19,59,78!Assessment Test #015,20,60
+Java MCQ	TMJAVA16		testPaper=TE009b,51,60|TE010b,51,60!Assessment Test #016,20,60
+Java MCQ	TMJAVA17		
+Java MCQ	TMJAVA18		
+Java MCQ	TMJAVA19		testPaper=Jav11-13_15_19,79,98!Assessment Test #019,20,60
+Java MCQ	TMJAVA20

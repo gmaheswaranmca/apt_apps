@@ -1,0 +1,27 @@
+Subject	Test	Qns	Test Paper
+Reasoning	RE51	55	RE051b,1,55
+Reasoning	RE52	55	RE052b,1,55
+Reasoning	RE53	53	RE053b,1,53
+Reasoning	RE54	39	RE054b,1,39
+Reasoning	RE55	55	RE055b,1,55
+Reasoning	RE56	49	RE056b,1,49
+Reasoning	RE57	60	RE057b,1,60
+Reasoning	RE58	56	RE058b,1,56
+Reasoning	RE59	55	RE059b,1,55
+Reasoning	RE60	57	RE060b,1,57
+Reasoning	RE61	58	"RE061b,1,58 
+    (509 1-20, -> RE061b 1-20 | 
+     522 6-10 -> RE061b 40-44 | 
+     4012 6-11 -> RE061b 45-50)
+    509,1,20|522,6,10|4012,6,11
+    1-20   40-44  45-51"
+Reasoning	RE62	55	RE062b1,1,55
+Reasoning	RE63	50	"RE063b,1,63       
+    (507 21-40 -> 65 1-20    |   
+     528 21-40-> 65 21-40)
+     507,21,40|528,21,40"
+Reasoning	RE64	79	RE064b,1,79
+Reasoning	RE65	50	RE065b,1,50
+Reasoning	RE66	48	RE066b,1,48
+Reasoning	RE67	85	RE067b,1,85
+Reasoning	RE68	45	RE068b,1,45
