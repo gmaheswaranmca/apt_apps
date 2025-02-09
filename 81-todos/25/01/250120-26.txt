@@ -1,0 +1,94 @@
+19  20  21  22  23  24  25  26 
+SUN MON TUE WED THU FRI SAT SUN
+``` KI1 KI1 ``` KI2 KI2 ``` ```
+CA1 ``` CA2 CA3 CA4 CA5 CA6 ```
+``` CA1 CA1 CA2 CA3 CA4 CA5 CA6
+DI1 ``` ``` DI2 ``` ``` DI3 ```
+``` DI1 DI1 ``` DI2 ``` ``` DI3
+``` ``` ``` ``` ``` ``` ``` ```
+    Rs. 1,000
+    {[KITE 2SP]}
+==KITE==
+    20	
+        20/01/’25	
+            Monday 8 am to 
+            Tuesday 9 pm: More than 24 hrs	
+        Chapter 25Qns: (1-30),
+        Total: 30 Questions. Time: 1 hour
+    21	
+        23/01/’25	
+            Thursday 8 am to 
+            Friday 9 pm: More than 24 hrs	
+        Chapter 63Qns: (1-30),
+        Total: 30 Questions. Time: 1 hour
+==CAMEL==
+    1	
+        20/01/’25	
+            Sunday 9 am to 
+            Tuesday 7 am	
+        Chapter 12 Qns: (31-35), Chapter 13 (31-35), 
+            Chapter 61 (31-35), Chapter 62 (31-35), 
+            Chapter 60 (31-40)
+        Total Qns: 30.     Total Time: 1 hr
+    2	
+        21/01/’25	
+            Tuesday 6 pm to 
+            Wednesday 7 am	Chapter 12Qns: (1-30)
+        Total Qns: 30.     Total Time: 1 hr
+    3	
+        22/01/’25	
+            Wednesday 6 pm to 
+            Thursday 7 am	
+        Chapter 13Qns: (1-30)
+        Total Qns: 30.     Total Time: 1 hr
+    4	
+        23/01/’25	
+            Thursday 6 pm to 
+            Friday 7 am	
+        Chapter 61Qns: (1-30)
+        Total Qns: 30.     Total Time: 1 hr
+    5	
+        24/01/’25	
+            Friday 6 pm to 
+            Saturday 7 am	
+        Verbal Chapter 42Qns: (11-40). 
+        Total Qns: 30.     Total Time: 1 hr
+    6	
+        25/01/’25	
+            Saturday 6 pm to 
+            Sunday 7 am	
+        Chapter 62 Qns: (1-30)
+        Total Qns: 30.     Total Time: 1 hr
+==DIAMOND==
+    1	
+        20/01/’25	
+            Sunday 9 am to 
+            Tuesday 7 pm	
+        Chapter 31Qns: (1-30)
+        Total Qns: 30.     Total Time: 1 hr
+    2	
+        21/01/’25	
+            Wednesday 7 amto 
+            Thursday 7 pm	
+        Chapter 63Qns: (1-30)
+        Total Qns: 30.     Total Time: 1 hr
+    3	
+        22/01/’25	
+            Saturday 7 am to 
+            Sunday 7 pm	
+        Verbal Chapter 41Qns: (1-50)
+        Total Qns: 50.     Total Time: 1 hr
+==KITE==
+testPaper=QA025b,1,30!Assessment Test #020,30,60
+testPaper=507,21,40|528,21,30!Assessment Test #021,30,60
+==CAMEL== RE61[27-31] / RE61[1-30]
+testPaper=QA012b,31,35|QA013b,31,35|4012,7,11|RE062b,31,35|RE060b,31,40!Assessment Test #001,30,60
+testPaper=QA012b,1,30!Assessment Test #002,30,60
+testPaper=QA013b,1,30!Assessment Test #003,30,60
+testPaper=509,1,20|522,6,10|4012,6,10!Assessment Test #004,30,60
+testPaper=VA002b,11,40!Assessment Test #005,30,60
+testPaper=RE062b,1,30!Assessment Test #006,30,60
+==DIAMOND== RE63 [1-30]
+testPaper=QA031b,1,30!Assessment Test #001,30,60
+testPaper=507,21,40|528,21,30!Assessment Test #002,30,60
+testPaper=VA001b,1,50!Assessment Test #003,50,60

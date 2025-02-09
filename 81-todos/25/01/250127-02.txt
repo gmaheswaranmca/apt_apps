@@ -1,0 +1,54 @@
+26  27  28  29  30  31  01  02 
+SUN MON TUE WED THU FRI SAT SUN
+``` ``` ``` ``` ``` ``` ``` ```
+``` ``` ``` ``` ``` ``` ``` ```
+``` ``` ``` ``` ``` ``` ``` ```
+``` ``` ``` ``` ``` ``` ``` ```
+``` ``` ``` ``` ``` ``` ``` ```
+    Rs. 1,000
+    {[KITE 2SP]}
+==KITE==
+    20	
+        27/01/’25	
+            Monday 8 am to 
+            Tuesday 9 pm: More than 24 hrs	
+        Chapter 26Qns: (1-30),
+        Total: 30 Questions. Time: 1 hour
+    21	
+        30/01/’25	
+            Thursday 8 am to 
+            Friday 9 pm: More than 24 hrs	
+        Chapter 64 Qns: (1-30),
+        Total: 30 Questions. Time: 1 hour
+
+==GALAXY==
+    1	
+        28/01/’25	
+            Tuesday 8am to 
+            Thursday 7 am: More than 24 hrs	
+        Chapter 11Qns: (31-55),
+        Total: 25 Questions. Time: 1 hour
+
+    2	
+        31/01/’25	
+            Friday 8 am to 
+            Sunday 7 am: More than 24 hrs	
+        Chapter 51 Qns: (31-55),
+        Total: 25 Questions. Time: 1 hour
+
+==CAMEL==
+    7	
+        26/01/’25	
+            Sunday 6 pm to 
+            Thursday 7 am: More than 24 hrs	
+        Chapter 44 Qns: (1-30)
+        Total Qns: 30. Total Time: 1 hr
+==KITE==
+testPaper=QA026b,1,30!Assessment Test #022,30,60
+testPaper=RE064b,1,30!Assessment Test #023,30,60
+==GALAXY==
+testPaper=QA011b,31,55!Assessment Test #001,25,60
+testPaper=RE051b,31,55!Assessment Test #002,25,60
+==CAMEL==
+testPaper=QA044b,1,30!Assessment Test #007,30,60
+

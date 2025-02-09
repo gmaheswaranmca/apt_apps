@@ -1,0 +1,71 @@
+12  13  14  15  16  17  18  19 
+SUN MON TUE WED THU FRI SAT SUN
+BA1 BA2 BA3 BA4 ``` ``` ``` ```
+``` BA1 BA2 BA3 BA4 ``` ``` ```
+``` ``` ``` ``` ``` ``` ``` ```
+``` ``` ``` ``` ``` ``` ``` ```
+    Rs. 1,000
+    {[KITE 2SP]}
+==BAG==
+1	
+    12/01/’25	
+        Sunday 9 pm to 
+        Monday 9 pm	
+    Chapter 53Qns: (1-15) - Time: 15 mins
+        JAVA MCQ’s Part 5 (1-10) – Time: 10 mins
+        Verbal Chapter 42 (1-20) – Time: 20 mins
+        Chapter 55 Qns: (1-4) - Time: 10 mins 
+        Verbal Chapter 41 (31-40) – Time: 10 mins
+    Total: 60 Questions. Time: 65 mins
+2	
+    13/01/’25	
+        Monday 10 pmto 
+        Tuesday 9 pm	
+    Chapter 54Qns: (1-15) - Time: 15 mins 
+        JAVA MCQ’s Part 6 (1-10) – Time: 10 mins
+        Verbal Chapter 43 (1-20) – Time: 20 mins
+        Chapter 55 Qns: (5-8) - Time: 10 mins 
+        Verbal Chapter 41 (71-80) – Time: 10 mins
+    Total: 60 Questions. Time: 65 mins
+3	
+    14/01/’25	
+        Tuesday 10 pm to 
+        Wednesday 9 pm	
+    Chapter 56Qns: (1-15) - Time: 15 mins 
+        JAVA MCQ’s Part 7 (1-10) – Time: 10 mins
+        Verbal Chapter 44 (1-20) – Time: 20 mins
+        Chapter 55 Qns: (9-12) - Time: 10 mins 
+        Verbal Chapter 41 (81-90) – Time: 10 mins
+    Total: 60 Questions. Time: 65 mins
+4	
+    15/01/’25	
+        Wednesday 10 pm to 
+        Thursday 9 pm	
+    Chapter 57Qns: (1-15) - Time: 15 mins 
+        JAVA MCQ’s Part 8 (1-10) – Time: 10 mins
+        Verbal Chapter 45 (1-20) – Time: 20 mins
+        Chapter 55 Qns: (13-16) - Time: 10 mins 
+        Verbal Chapter 42 (31-40) – Time: 10 mins
+    Total: 60 Questions. Time: 65 mins
+==BAG==
+testPaper=RE053b,1,15!Assessment Test #001-Part A,15,15
+testPaper=Jav02-08,61,70!Assessment Test #001-Part B,10,10
+testPaper=VA002b,1,20!Assessment Test #001-Part C,20,20
+testPaper=RE055b,1,4!Assessment Test #001-Part D,4,10
+testPaper=VA001b,31,40!Assessment Test #001-Part E,10,10  
+testPaper=RE054b,1,15!Assessment Test #002-Part A,15,15
+testPaper=Jav02-08,81,90!Assessment Test #002-Part B,10,10
+testPaper=VA003b,1,20!Assessment Test #002-Part C,20,20
+testPaper=RE055b,5,8!Assessment Test #002-Part D,4,10
+testPaper=VA001b,71,80!Assessment Test #002-Part E,10,10 
+testPaper=RE056b,1,15!Assessment Test #003-Part A,15,15
+testPaper=Jav02-08,101,110!Assessment Test #003-Part B,10,10
+testPaper=VA004b,1,20!Assessment Test #003-Part C,20,20
+testPaper=RE055b,9,12!Assessment Test #003-Part D,4,10
+testPaper=VA001b,81,90!Assessment Test #003-Part E,10,10
+testPaper=RE057b,1,15!Assessment Test #004-Part A,15,15
+testPaper=Jav02-08,121,130!Assessment Test #004-Part B,10,10
+testPaper=VA005b,1,20!Assessment Test #004-Part C,20,20
+testPaper=RE055b,13,16!Assessment Test #004-Part D,4,10
+testPaper=VA002b,31,40!Assessment Test #004-Part E,10,10  
+

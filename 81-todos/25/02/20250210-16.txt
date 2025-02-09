@@ -1,0 +1,39 @@
+02  03  04  05  06  07  08  09 
+SUN MON TUE WED THU FRI SAT SUN
+``` ``` ``` ``` ``` ``` ``` ```
+``` ``` ``` ``` ``` ``` ``` ```
+``` ``` ``` ``` ``` ``` ``` ```
+``` ``` ``` ``` ``` ``` ``` ```
+``` ``` ``` ``` ``` ``` ``` ```
+KITE
+26 10/02/’25 Mon 0800am Tue 0900pm Ch 32 [01-30, 30Qns] 060mins more than 24 hrs 
+27 13/02/’25 Thu 0800am Fri 0900pm Ch 66 [01-30, 30Qns] 060mins more than 24 hrs  
+GALAXY
+05 11/02/’25 Tue 0800am Thu 0700pm Ch 13 [19-49, 30Qns] 060mins more than 24 hrs 
+06 14/02/’25 Fri 0800am Sun 0700pm Ch 53 [24-53, 30Qns] 060mins more than 24 hrs  
+
+==KITE==
+testPaper=QA032b,1,30!Assessment Test #026,30,60
+testPaper=RE066b,1,30!Assessment Test #027,30,60
+==GALAXY==
+testPaper=QA013b,19,49!Assessment Test #005,30,60
+testPaper=RE054b,24,53!Assessment Test #006,30,60
+
+KITE
+26	
+10/02/’25	Monday 8 am to Tuesday 9 pm: 
+More than 24 hrs	Chapter 32Qns: (1-30),
+Total: 30 Questions. Time: 1 hour
+27	
+13/02/’25	Thursday 8 am to Friday 9 pm: 
+More than 24 hrs	Chapter 66Qns: (1-30),
+Total: 30 Questions. Time: 1 hour
+GALAXY
+5	
+11/02/’25	Tuesday 8 am to Thursday 7 am:
+More than 24 hrs	Chapter 13Qns: (19-49),
+Total: 30 Questions. Time: 1 hour
+6	
+14/02/’25	Friday 8 am to Sunday 7 am:
+More than 24 hrs	Chapter 53 Qns: (24-53),
+Total: 30 Questions. Time: 1 hour

@@ -1,0 +1,58 @@
+06  07  08  09  10  11  12  13 
+SUN MON TUE WED THU FRI SAT SUN
+``` KI1 KI1 ``` KI2 KI2 ``` ```
+AP1 AP2 AP3 ``` AP4 AP5 ``` ```
+``` ``` ``` ``` ``` ``` ``` ```
+``` ``` ``` ``` ``` ``` ``` ```
+    Rs. 1,000
+    {[KITE 2SP]}
+==KITE==
+18	
+    06/12/’24	
+        Monday 8 am to 
+        Tuesday 9 pm: More than 24 hrs	
+    Chapter 24Qns: (1-30),
+    Total: 30 Questions. Time: 1 hour
+
+19	
+    09/11/’25	
+        Thursday 8 am to 
+        Friday 9 pm: More than 24 hrs	
+    Chapter 62Qns: (1-30),
+    Total: 30 Questions. Time: 1 hour
+==APPLE==
+1	
+    05/01/’25	
+        Sunday 7 pm to 10 pm	
+    Chapter 11 Qns: (1-20), Chapter 53 (1-20), Verbal Chapter 41 (1-20)
+    Total: 60 Questions. Time: 1 hour
+2	
+    06/01/’25	
+        Monday 7 pm to 10 pm	
+    Chapter 12Qns: (1-20), Chapter 54 (1-20), Verbal Chapter 41 (21-40)
+    Total: 60 Questions. Time: 1 hour
+3	
+    07/01/’25	
+        Tuesday 7 pm to 10 pm	
+    Chapter 13Qns: (1-20), Chapter 56 (1-20), Verbal Chapter 41 (41-60)
+    Total: 60 Questions. Time: 1 hour
+4	
+    09/01/’25	
+        Thursday 7 pm to 10 pm	
+    Chapter 14Qns: (1-20), Chapter 57 (1-20), Verbal Chapter 41 (61-80)
+    Total: 60 Questions. Time: 1 hour
+5	
+    10/01/’25	
+        Friday 7 pm to 10 pm	
+    Chapter 15Qns: (1-20), Chapter 58 (1-20), Verbal Chapter 42 (1-20)
+    Total: 60 Questions. Time: 1 hour
+---
+==KITE==
+testPaper=QA024b,1,30!Assessment Test #018,30,60
+testPaper=QA062b,1,20!Assessment Test #019,30,60
+==APPLE==
+testPaper=QA011b,1,20|RE053b,1,20|VA001b,1,20!Assessment Test #001,60,60
+testPaper=QA012b,1,20|RE054b,1,20|VA001b,21,40!Assessment Test #002,60,60
+testPaper=QA013b,1,20|RE056b,1,20|VA001b,41,60!Assessment Test #003,60,60
+testPaper=QA014b,1,20|RE057b,1,20|VA001b,61,80!Assessment Test #004,60,60
+testPaper=QA015b,1,20|RE058b,1,20|VA002b,1,20!Assessment Test #005,60,60
