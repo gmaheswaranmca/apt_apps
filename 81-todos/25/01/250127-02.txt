@@ -6,7 +6,9 @@ SUN MON TUE WED THU FRI SAT SUN
 ``` ``` ``` ``` ``` ``` ``` ```
 ``` ``` ``` ``` ``` ``` ``` ```
     Rs. 1,000
-    {[KITE 2SP]}
+    {[KITE 2SP],
+    [GALAXY 2SP, 1ID],
+    [CAMEL 1SP]}
 ==KITE==
     20	
         27/01/’25	

@@ -1,16 +1,16 @@
 12
-KITE,34,10/03/25,Mon,8am,Tue,9pm,SP,Quants.42.1-30;60
-KITE,35,13/03/25,Thu,8am,Fri,9pm,SP,Quants.43.1-30;60
-HURRICANE,5,10/03/25,Mon,8am,Tue,7pm,SP,Quants.13.1-30;60
-HURRICANE,6,13/03/25,Thu,8am,Fri,7pm,SP,Reasoning.53.1-30;60
-Galaxy,12,11/03/25,Tue,8am,Thu,7am,SP,Quants.21.19-48;60
-Galaxy,13,14/03/25,Fri,8am,Sun,7am,SP,Reasoning.56.19-48;60
-TECHNIQUE,6,09/03/25,Sun,8am,Mon,9pm,MP,Quants.16.1-20;25:Reasoning.56.1-20;25:Verbal.43.26-50;25:C MCQ.6.1-15;25
-TECHNIQUE,7,10/03/25,Mon,10pm,Tue,9pm,MP,Quants.21.1-20;25:Reasoning.57.1-20;25:Verbal.44.1-25;25:C MCQ.7.1-15;25
-TECHNIQUE,8,11/03/25,Tue,10pm,Wed,9pm,MP,Quants.22.1-20;25:Reasoning.58.1-20;25:Verbal.44.26-50;25:C MCQ.8.1-15;25
-TECHNIQUE,9,12/03/25,Wed,10pm,Thu,9pm,MP,Quants.23.1-20;25:Reasoning.59.1-20;25:Verbal.45.1-25;25:C MCQ.9.1-15;25
-TECHNIQUE,10,13/03/25,Thu,10pm,Fri,9pm,MP,Quants.24.1-20;25:Reasoning.60.1-20;25:Verbal.45.26-50;25:C MCQ.10.1-15;25
-TECHNIQUE,11,14/03/25,Fri,10pm,Sat,9pm,MP,Quants.25.1-20;25:Reasoning.61.1-20;25:Verbal.46.1-25;25:C MCQ.11.1-15;25
+KITE,34,10/03/’25,Mon,8am,Tue,9pm,SP,Quants.42.1-30;60
+KITE,35,13/03/’25,Thu,8am,Fri,9pm,SP,Quants.43.1-30;60
+HURRICANE,5,10/03/’25,Mon,8am,Tue,7pm,SP,Quants.13.1-30;60
+HURRICANE,6,13/03/’25,Thu,8am,Fri,7am,SP,Reasoning.53.1-30;60
+Galaxy,12,11/03/’25,Tue,8am,Thu,7am,SP,Quants.21.19-48;60
+Galaxy,13,14/03/’25,Fri,8am,Sun,7pm,SP,Reasoning.56.19-48;60
+TECHNIQUE,6,09/03/’25,Sun,8am,Mon,9pm,MP,Quants.16.1-20;25:Reasoning.56.1-20;25:Verbal.43.26-50;25:C MCQ.6.1-15;25
+TECHNIQUE,7,10/03/’25,Mon,10pm,Tue,9pm,MP,Quants.21.1-20;25:Reasoning.57.1-20;25:Verbal.44.1-25;25:C MCQ.7.1-15;25
+TECHNIQUE,8,11/03/’25,Tue,10pm,Wed,9pm,MP,Quants.22.1-20;25:Reasoning.58.1-20;25:Verbal.44.26-50;25:C MCQ.8.1-15;25
+TECHNIQUE,9,12/03/’25,Wed,10pm,Thu,9pm,MP,Quants.23.1-20;25:Reasoning.59.1-20;25:Verbal.45.1-25;25:C MCQ.9.1-15;25
+TECHNIQUE,10,13/03/’25,Thu,10pm,Fri,9pm,MP,Quants.24.1-20;25:Reasoning.60.1-20;25:Verbal.45.26-50;25:C MCQ.10.1-15;25
+TECHNIQUE,11,14/03/’25,Fri,10pm,Sat,9pm,MP,Quants.25.1-20;25:Reasoning.61.1-20;25:Verbal.46.1-25;25:C MCQ.11.1-15;25
 
 ..KITE..
 testPaper=QA042b,1,30!Assessment Test #034,30,60

@@ -1,0 +1,64 @@
+16  17  18  19  20  21  22  22 
+SUN MON TUE WED THU FRI SAT SUN
+``` ``` ``` ``` ``` ``` ``` ```
+``` ``` ``` ``` ``` ``` ``` ```
+``` ``` ``` ``` ``` ``` ``` ```
+``` ``` ``` ``` ``` ``` ``` ```
+``` ``` ``` ``` ``` ``` ``` ```
+Rs. 1,000
+    {[KITE 2SP],
+    [HURRICANE 2SP, 1 ID],
+    [GALAXY 2SP]}
+KITE
+30 24/02/’25 Mon 0800am Tue 0900pm Ch 34 [01-30, 30Qns] 060mins more than 24 hrs 
+31 27/02/’25 Thu 0800am Fri 0900pm Ch 68 [01-30, 30Qns] 060mins more than 24 hrs 
+HURRICANE
+01 24/02/’25 Mon 0800am Wed 0700am Ch 11 [01-30, 30Qns] 060mins more than 24 hrs
+02 27/02/’25 Thu 0800am Sat 0700am Ch 51 [01-50, 50Qns] 060mins more than 24 hrs
+Galaxy
+09 24/02/’25 Tue 0800am Thu 0700am Ch 15 [19-48, 30Qns] 060mins more than 24 hrs ! NOT RUN on tue but on WED day end 
+XXX...10 21/02/’25 Fri 0800am Sun 0700am Ch 55 [10-39, 30Qns] 060mins more than 24 hrs ! CANCELLED
+==KITE==
+testPaper=QA034b,1,30!Assessment Test #030,30,60
+testPaper=RE068b,1,30!Assessment Test #031,30,60
+==HURRICANE==
+testPaper=QA011b,1,30!Assessment Test #001,30,60
+testPaper=RE051b,1,50!Assessment Test #002,50,60
+==Galaxy==
+testPaper=QA015b,19,48!Assessment Test #009,30,60
+testPaper=RE055b,10,39!Assessment Test #010,30,60
+==KITE==
+    
+    30	
+    24/02/’25	Monday 8 am to Tuesday 9 pm: 
+    More than 24 hrs	Chapter 34Qns: (1-30),
+    Total: 30 Questions. Time: 1 hour
+
+    31	
+    27/02/’25	Thursday 8 am to Friday 9 pm: 
+    More than 24 hrs	Chapter 68Qns: (1-30),
+    Total: 30 Questions. Time: 1 hour
+
+==HURRICANE==
+    
+    1	
+    24/02/’25	Monday 8am to Wednesday 7 am:
+    More than 24 hrs	Chapter 11Qns: (1-30),
+    Total: 30 Questions. Time: 1 hour
+
+    2	
+    27/02/’25	Thursday 8 am to Saturday 7 am:
+    More than 24 hrs	Chapter 51 Qns: (1-50),
+    Total: 50 Questions. Time: 1 hour
+==Galaxy==
+    9	
+    18/02/’25	Tuesday 8 am to Thursday 7 am:
+    More than 24 hrs	Chapter 15Qns: (19-49),
+    Total: 30 Questions. Time: 1 hour
+    10	
+    21/02/’25	Friday 8 am to Sunday 7 am:
+    More than 24 hrs	Chapter 55 Qns: (10-39),
+    Total: 30 Questions. Time: 1 hour
+
+
+

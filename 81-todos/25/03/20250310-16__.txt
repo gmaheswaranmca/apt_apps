@@ -1,0 +1,155 @@
+##KITE##
+    34	
+    10/03/’25	
+    Monday 8 am to Tuesday 9 pm : More than 24 hrs	
+    [ ([(Quants, 42, 1-30, 30Qns)], Time: 1 hour) ]
+    35	
+    13/03/’25	
+    Thursday 8 am to Friday 9 pm : More than 24 hrs	
+    [ ([(Quants, 43, 1-30, 30Qns)], Time: 1 hour) ]
+##HURRICANE##
+    5	
+    10/03/’25	
+    Monday 8 am to Wednesday 7 am : More than 24 hrs	
+    [ ([(Quants, 13,1-30, 30Qns)], Time: 1 hour) ]
+    6	
+    13/03/’25	
+    Thursday 8 am to Saturday 7 am : More than 24 hrs	
+    [ ([(Reasoning, 53, 1-30, 30Qns)], Time: 1 hour) ]
+##Galaxy##
+    12	
+    11/03/’25	
+    Tuesday 8 am to Thursday 7 am : More than 24 hrs	
+    [ ([(Quants, 21, 19-48, 30Qns)], Time: 1 hour) ]
+    13	
+    14/03/’25	
+    Friday 8 am to Sunday 7 am : More than 24 hrs	
+    [ ([(Reasoning, 56, 19-48, 30Qns)], Time: 1 hour) ]
+##TECHNIQUE##
+    6	
+    09/03/’25	
+    Sunday 8 am to Monday 9 pm : More than 24 hrs	
+    [ ([(Quants, 16, 1-20, 20Qns)], Time:25 mins),
+      ([(Reasoning, 56, 1-20, 20Qns)], Time:25 mins),
+      ([(Verbal, 43, 26-50, 25Qns)], Time:25 mins),
+      ([(C MCQ, 6, 1-15, 15Qns)], Time:25 mins)   ]
+    7	
+    10/03/’25	
+    Monday 10 pm to Tuesday 9 pm	
+    [ ([(Quants, 21, 1-20, 20Qns)], Time:25 mins)
+      ([(Reasoning, 57, 1-20, 20Qns)], Time:25 mins)
+      ([(Verbal, 44, 1-25, 25Qns)], Time:25 mins)
+      ([(C MCQ, 7, 1-15, 15Qns)], Time:25 mins) ]
+    8	
+    11/03/’25	
+    Tuesday 10 pm to Wednesday 9 pm	
+    [  ([(Quants, 22, 1-20, 20Qns)], Time:25 mins),
+       ([(Reasoning,58,1-20, 20Qns)], Time: 25 mins),
+       ([(Verbal, 44, 26-50, 25Qns)], Time: 25 mins),
+       ([(C MCQ, 8, 1-15, 15Qns)], Time: 25 mins) ]
+    9	
+    12/03/’25	
+    Wednesday 10 pm to Thursday 9 pm	
+    [   ([(Quants, 23 1-20, 20Qns)], Time: 25 mins),
+        ([(Reasoning, 59, 1-20, 20Qns)], Time: 25 mins),
+        ([(Verbal, 45, 1-25, 25Qns)], Time: 25 mins),
+        ([(C MCQ, 9, 1-15, 15Qns)], Time: 25 mins)  ]
+    10	
+    13/03/’25	
+    Thursday 10 pm to Friday 9 pm	
+    [   ([(Quants,24, 1-20, 20Qns)], Time: 25 mins)
+        ([(Reasoning, 60, 1-20, 20Qns)], Time: 25 mins)
+        ([(Verbal, 45, 26-50, 25Qns)], Time: 25 mins)
+        ([(C MCQ, 10, 1-15, 15Qns)], Time: 25 mins)  ]
+    11	
+    14/03/’25	
+    Friday 10 pm to Saturday 9 pm	
+    [   ([(Quants, 25, 1-20, 20Qns)], Time: 25 mins)
+        ([(Reasoning, 61, 1-20, 20Qns)], Time: 25 mins)
+        ([(Verbal, 46, 1-25, 25Qns)], Time: 25 mins)
+        ([(C MCQ, 11, 1-15, 15Qns)], Time: 25 mins)  ]
+##END##
+
+16  17  18  19  20  21  22  22 
+SUN MON TUE WED THU FRI SAT SUN
+``` ``` ``` ``` ``` ``` ``` ```
+``` ``` ``` ``` ``` ``` ``` ```
+``` ``` ``` ``` ``` ``` ``` ```
+``` ``` ``` ``` ``` ``` ``` ```
+``` ``` ``` ``` ``` ``` ``` ```
+
+..KITE..
+testPaper=QA042b,1,30!Assessment Test #034,30,60 
+testPaper=QA043b,1,30!Assessment Test #035,30,60 
+..HURRICANE..
+testPaper=QA013b,1,30!Assessment Test #005,30,60 
+testPaper=RE053b,1,30!Assessment Test #006,30,60 
+..Galaxy..
+testPaper=QA021b,19,48!Assessment Test #012,30,60 
+testPaper=RE056b,19,48!Assessment Test #013,30,60 
+..TECHNIQUE..
+testPaper=QA016b,1,20!Assessment Test #006 - Part A,20,25
+testPaper=RE056b,1,20!Assessment Test #006 - Part B,20,25
+testPaper=VA003b,26,50!Assessment Test #006 - Part C,25,25
+testPaper=TE051b,44,44|TE051b,53,53|TE051b,58,58|TE051b,60,60|TE051b,47,47|TC1,56,65!Assessment Test #006 - Part D,15,25
+testPaper=QA021b,1,20!Assessment Test #007 - Part A,20,25
+testPaper=RE057b,1,20!Assessment Test #007 - Part B,20,25
+testPaper=VA004b,1,25!Assessment Test #007 - Part C,25,25
+testPaper=TE051b,74,74|TE002b,19,19|TC2G,1,13!Assessment Test #007 - Part D,15,25
+testPaper=QA022b,1,20!Assessment Test #008 - Part A,20,25
+testPaper=RE058b,1,20!Assessment Test #008 - Part B,20,25
+testPaper=VA004b,26,50!Assessment Test #008 - Part C,25,25
+testPaper=TE051b,21,21|TE051b,26,26|TE051b,28,28|TE051b,30,31|TE051b,33,34|TE051b,38,38|TE051b,40,40|TC2H,1,6!Assessment Test #008 - Part D,15,25
+testPaper=QA023b,1,20!Assessment Test #009 - Part A,20,25
+testPaper=RE059b,1,20!Assessment Test #009 - Part B,20,25
+testPaper=VA005b,1,25!Assessment Test #009 - Part C,25,25
+testPaper=TE051b,24,25|TE051b,29,29|TE051b,35,35|TE051b,37,37|TE051b,39,39|TC2I-O01,1,9!Assessment Test #009 - Part D,15,25
+testPaper=QA024b,1,20!Assessment Test #010 - Part A,20,25
+testPaper=RE060b,1,20!Assessment Test #010 - Part B,20,25
+testPaper=VA005b,26,50!Assessment Test #010 - Part C,25,25
+testPaper=TE002b,11,11|TE002b,14,20|TE001b,12,12|TE001b,15,16|TE001b,19,19|TC2I-O01,15,17!Assessment Test #010 - Part D,15,25
+testPaper=QA025b,1,20!Assessment Test #011 - Part A,20,25
+testPaper=509,1,20!Assessment Test #011 - Part B,20,25
+testPaper=VA46,1,25!Assessment Test #011 - Part C,25,25
+testPaper=TE002b,21,21|TE002b,23,24|TE002b,27,27|TC2I-O01,23,33!Assessment Test #011 - Part D,15,25
+
+==KITE==
+testPaper=QA042b,1,30!Assessment Test #034,30,60
+testPaper=QA043b,1,30!Assessment Test #035,30,60
+==HURRICANE==
+testPaper=QA013b,1,30!Assessment Test #005,30,60
+testPaper=RE053b,1,30!Assessment Test #006,30,60
+==Galaxy==
+testPaper=QA021b,19,48!Assessment Test #012,30,60
+testPaper=RE056b,19,48!Assessment Test #013,30,60
+==TECHNIQUE==
+testPaper=QA016b,1,20!Assessment Test #006 - Part A,20,25
+testPaper=RE056b,1,20!Assessment Test #006 - Part B,20,25
+testPaper=VA003b,26,50!Assessment Test #006 - Part C,25,25
+testPaper=TE051b,44,44|TE051b,53,53|TE051b,58,58|TE051b,60,60|TE051b,47,47|TC1,56,65!Assessment Test #006 - Part D,15,25
+...
+testPaper=QA021b,1,20!Assessment Test #007 - Part A,20,25
+testPaper=RE057b,1,20!Assessment Test #007 - Part B,20,25
+testPaper=VA004b,1,25!Assessment Test #007 - Part C,25,25
+testPaper=TE051b,74,74|TE002b,19,19|TC2G,1,13!Assessment Test #007 - Part D,15,25
+
+testPaper=QA022b,1,20!Assessment Test #008 - Part A,20,25
+testPaper=RE058b,1,20!Assessment Test #008 - Part B,20,25
+testPaper=VA004b,26,50!Assessment Test #008 - Part C,25,25
+testPaper=TE051b,21,21|TE051b,26,26|TE051b,28,28|TE051b,30,30!Assessment Test #008 - Part D,15,25
+
+testPaper=QA023b,1,20!Assessment Test #009 - Part A,20,25
+testPaper=RE059b,1,20!Assessment Test #009 - Part B,20,25
+testPaper=VA005b,1,25!Assessment Test #009 - Part C,25,25
+testPaper=TE051b,24,25|TE051b,29,29|TE051b,35,35|TE051b,37,37|TE051b,39,39|TC2I-O01,1,9!Assessment Test #009 - Part D,15,25
+
+testPaper=QA024b,1,20!Assessment Test #010 - Part A,20,25
+testPaper=RE060b,1,20!Assessment Test #010 - Part B,20,25
+testPaper=VA005b,26,50!Assessment Test #010 - Part C,25,25
+testPaper=TE002b,11,11|TE002b,14,20|TE001b,12,12|TE001b,15,16|TE001b,19,19|TC2I-O01,15,17!Assessment Test #010 - Part D,15,25
+
+testPaper=QA025b,1,20!Assessment Test #011 - Part A,20,25
+testPaper=509,1,20!Assessment Test #011 - Part B,20,25
+testPaper=VA0006b,1,25!Assessment Test #011 - Part C,25,25
+testPaper=TE002b,21,21|TE002b,23,24|TE002b,27,27|TC2I-O01,23,33!Assessment Test #011 - Part D,15,25
+

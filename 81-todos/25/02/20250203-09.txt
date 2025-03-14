@@ -5,6 +5,10 @@ SUN MON TUE WED THU FRI SAT SUN
 ``` ``` ``` ``` ``` ``` ``` ```
 ``` ``` ``` ``` ``` ``` ``` ```
 ``` ``` ``` ``` ``` ``` ``` ```
+    Rs. 1,125
+    {[KITE 2SP],
+    [GALAXY 2SP],
+    [EXCEL 4SP, 1 ID]}
 KITE
 24 03/02/’25 Mon 0800am Tue 0900pm Ch 31 [01-30, 30Qns] 060mins more than 24 hrs 
 25 06/02/’25 Thu 0800am Fri 0900pm Ch 65 [01-30, 30Qns] 060mins more than 24 hrs  

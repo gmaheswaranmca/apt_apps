@@ -6,8 +6,10 @@ CA1 ``` CA2 CA3 CA4 CA5 CA6 ```
 DI1 ``` ``` DI2 ``` ``` DI3 ```
 ``` DI1 DI1 ``` DI2 ``` ``` DI3
 ``` ``` ``` ``` ``` ``` ``` ```
-    Rs. 1,000
-    {[KITE 2SP]}
+    Rs. 1,625
+    {[KITE 2SP],
+    [CAMEL 6SP, 1ID],
+    [DIAMOND 3SP, 1ID]}
 ==KITE==
     20	
         20/01/’25	

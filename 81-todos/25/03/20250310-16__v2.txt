@@ -1,0 +1,89 @@
+12
+KITE,       34,10/03/25,Mon, 8am,Tue,9pm,SP,Quants.    42.1-30;60
+KITE,       35,13/03/25,Thu, 8am,Fri,9pm,SP,Quants.    43.1-30;60
+HURRICANE,  5 ,10/03/25,Mon, 8am,Tue,7pm,SP,Quants.    13.1-30;60
+HURRICANE,  6 ,13/03/25,Thu, 8am,Fri,7am,SP,Reasoning. 53.1-30;60
+Galaxy,     12,11/03/25,Tue, 8am,Thu,7am,SP,Quants.    21.19-48;60
+Galaxy,     13,14/03/25,Fri, 8am,Sun,7pm,SP,Reasoning. 56.19-48;60
+TECHNIQUE,  6 ,09/03/25,Sun, 8am,Mon,9pm,MP,Quants.    16.1-20;25:Reasoning.56.1-20;25:Verbal.43.26-50;25:C MCQ.6.1-15;25
+TECHNIQUE,  7 ,10/03/25,Mon,10pm,Tue,9pm,MP,Quants.    21.1-20;25:Reasoning.57.1-20;25:Verbal.44.1-25;25:C MCQ.7.1-15;25
+TECHNIQUE,  8 ,11/03/25,Tue,10pm,Wed,9pm,MP,Quants.    22.1-20;25:Reasoning.58.1-20;25:Verbal.44.26-50;25:C MCQ.8.1-15;25
+TECHNIQUE,  9 ,12/03/25,Wed,10pm,Thu,9pm,MP,Quants.    23.1-20;25:Reasoning.59.1-20;25:Verbal.45.1-25;25:C MCQ.9.1-15;25
+TECHNIQUE,  10,13/03/25,Thu,10pm,Fri,9pm,MP,Quants.    24.1-20;25:Reasoning.60.1-20;25:Verbal.45.26-50;25:C MCQ.10.1-15;25
+TECHNIQUE,  11,14/03/25,Fri,10pm,Sat,9pm,MP,Quants.    25.1-20;25:Reasoning.61.1-20;25:Verbal.46.1-25;25:C MCQ.11.1-15;25
+
+..KITE..
+testPaper=QA042b,1,30!Assessment Test #034,30,60
+testPaper=QA043b,1,30!Assessment Test #035,30,60
+..HURRICANE..
+testPaper=QA013b,1,30!Assessment Test #005,30,60
+testPaper=RE053b,1,30!Assessment Test #006,30,60
+..Galaxy..
+testPaper=QA021b,19,48!Assessment Test #012,30,60
+testPaper=RE056b,19,48!Assessment Test #013,30,60
+..TECHNIQUE..
+testPaper=QA016b,1,20!Assessment Test #006 - Part A,20,25
+testPaper=RE056b,1,20!Assessment Test #006 - Part B,20,25
+testPaper=VA003b,26,50!Assessment Test #006 - Part C,25,25
+testPaper=TE051b,44,44|TE051b,53,53|TE051b,58,58|TE051b,60,60|TE051b,47,47|TC1,56,65!Assessment Test #006 - Part D,15,25
+testPaper=QA021b,1,20!Assessment Test #007 - Part A,20,25
+testPaper=RE057b,1,20!Assessment Test #007 - Part B,20,25
+testPaper=VA004b,1,25!Assessment Test #007 - Part C,25,25
+testPaper=TE051b,74,74|TE002b,19,19|TC2G,1,13!Assessment Test #007 - Part D,15,25
+testPaper=QA022b,1,20!Assessment Test #008 - Part A,20,25
+testPaper=RE058b,1,20!Assessment Test #008 - Part B,20,25
+testPaper=VA004b,26,50!Assessment Test #008 - Part C,25,25
+testPaper=TE051b,21,21|TE051b,26,26|TE051b,28,28|TE051b,30,31|TE051b,33,34|TE051b,38,38|TE051b,40,40|TC2H,1,6!Assessment Test #008 - Part D,15,25
+testPaper=QA023b,1,20!Assessment Test #009 - Part A,20,25
+testPaper=RE059b,1,20!Assessment Test #009 - Part B,20,25
+testPaper=VA005b,1,25!Assessment Test #009 - Part C,25,25
+testPaper=TE051b,24,25|TE051b,29,29|TE051b,35,35|TE051b,37,37|TE051b,39,39|TC2I-O01,1,9!Assessment Test #009 - Part D,15,25
+testPaper=QA024b,1,20!Assessment Test #010 - Part A,20,25
+testPaper=RE060b,1,20!Assessment Test #010 - Part B,20,25
+testPaper=VA005b,26,50!Assessment Test #010 - Part C,25,25
+testPaper=TE002b,11,11|TE002b,14,20|TE001b,12,12|TE001b,15,16|TE001b,19,19|TC2I-O01,15,17!Assessment Test #010 - Part D,15,25
+testPaper=QA025b,1,20!Assessment Test #011 - Part A,20,25
+testPaper=509,1,20!Assessment Test #011 - Part B,20,25
+testPaper=VA46,1,25!Assessment Test #011 - Part C,25,25
+testPaper=TE002b,21,21|TE002b,23,24|TE002b,27,27|TC2I-O01,23,33!Assessment Test #011 - Part D,15,25
+
+
+09/03/25(On Date)
+  TECHNIQUE,  6,  09/03/25,Sun, 8am,Mon, 9pm,MP,Quants.16.1-20;25:Reasoning.56.1-20;25:Verbal.43.26-50;25:C MCQ. 6.1-15;25
+10/03/25(On Date)
+  KITE,       34, 10/03/25,Mon, 8am,Tue, 9pm,SP,Quants.42.1-30;60
+  HURRICANE,  5,  10/03/25,Mon, 8am,Tue, 7pm,SP,Quants.13.1-30;60
+  TECHNIQUE,  7,  10/03/25,Mon,10pm,Tue, 9pm,MP,Quants.21.1-20;25:Reasoning.57.1-20;25:Verbal.44. 1-25;25:C MCQ. 7.1-15;25
+11/03/25(On Date)
+  Galaxy,     12, 11/03/25,Tue, 8am,Thu, 7am,SP,Quants.21.19-48;60
+  TECHNIQUE,  8,  11/03/25,Tue,10pm,Wed, 9pm,MP,Quants.22.1-20;25:Reasoning.58.1-20;25:Verbal.44.26-50;25:C MCQ. 8.1-15;25
+12/03/25(On Date)
+  TECHNIQUE,  9,  12/03/25,Wed,10pm,Thu, 9pm,MP,Quants.23.1-20;25:Reasoning.59.1-20;25:Verbal.45. 1-25;25:C MCQ. 9.1-15;25
+13/03/25(On Date)
+  KITE,       35, 13/03/25,Thu, 8am,Fri, 9pm,SP,Quants.43.1-30;60
+  HURRICANE,  6,  13/03/25,Thu, 8am,Fri, 7pm,SP,Reasoning.53.1-30;60
+  TECHNIQUE,  10, 13/03/25,Thu,10pm,Fri, 9pm,MP,Quants.24.1-20;25:Reasoning.60.1-20;25:Verbal.45.26-50;25:C MCQ.10.1-15;25
+14/03/25(On Date)
+  Galaxy,     13, 14/03/25,Fri, 8am,Sun, 7am,SP,Reasoning.56.19-48;60
+  TECHNIQUE,  11, 14/03/25,Fri,10pm,Sat, 9pm,MP,Quants.25.1-20;25:Reasoning.61.1-20;25:Verbal.46. 1-25;25:C MCQ.11.1-15;25
+10/03/25(Off Date)
+  TECHNIQUE,  6,  09/03/25,Sun, 8am,Mon, 9pm,MP,Quants.16.1-20;25:Reasoning.56.1-20;25:Verbal.43.26-50;25:C MCQ. 6.1-15;25
+
+  
+11/03/25(Off Date)
+  KITE,       34, 10/03/25,Mon, 8am,Tue, 9pm,SP,Quants.42.1-30;60
+  HURRICANE,  5,  10/03/25,Mon, 8am,Tue, 7pm,SP,Quants.13.1-30;60
+  TECHNIQUE,  7,  10/03/25,Mon,10pm,Tue, 9pm,MP,Quants.21.1-20;25:Reasoning.57.1-20;25:Verbal.44. 1-25;25:C MCQ. 7.1-15;25
+12/03/25(Off Date)
+  TECHNIQUE,  8,  11/03/25,Tue,10pm,Wed, 9pm,MP,Quants.22.1-20;25:Reasoning.58.1-20;25:Verbal.44.26-50;25:C MCQ. 8.1-15;25
+13/03/25(Off Date)
+  Galaxy,     12, 11/03/25,Tue, 8am,Thu, 7am,SP,Quants.21.19-48;60
+  TECHNIQUE,  9,  12/03/25,Wed,10pm,Thu, 9pm,MP,Quants.23.1-20;25:Reasoning.59.1-20;25:Verbal.45. 1-25;25:C MCQ. 9.1-15;25
+14/03/25(Off Date)
+  KITE,       35, 13/03/25,Thu, 8am,Fri, 9pm,SP,Quants.43.1-30;60
+  HURRICANE,  6,  13/03/25,Thu, 8am,Fri, 7pm,SP,Reasoning.53.1-30;60
+  TECHNIQUE,  10, 13/03/25,Thu,10pm,Fri, 9pm,MP,Quants.24.1-20;25:Reasoning.60.1-20;25:Verbal.45.26-50;25:C MCQ.10.1-15;25
+15/03/25(Off Date)
+  TECHNIQUE,  11, 14/03/25,Fri,10pm,Sat, 9pm,MP,Quants.25.1-20;25:Reasoning.61.1-20;25:Verbal.46. 1-25;25:C MCQ.11.1-15;25
+16/03/25(Off Date)
+  Galaxy,     13, 14/03/25,Fri, 8am,Sun, 7am,SP,Reasoning.56.19-48;60

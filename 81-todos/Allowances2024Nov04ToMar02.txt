@@ -1,0 +1,59 @@
+Allowances: Rs.13,860 (after deducted TDS 10%)
+
+From    :   2024-Nov-04
+To      :   2025-Mar-02
+
+Attached File: Allowances2024Nov04ToMar02.txt
+
+Allowances Total Rs.14,000 + 10% = Rs.15,400
+Minus TDS 10% = Rs.1,540
+Allowances minus TDS 10% = Rs.13,860
+
+2024/11_Nov                             Rs. 3,000  
+    04-10                   Rs. 1,000
+    {[PLUTO 2SP],
+     [YEAR 1SP],
+     [ZENITH 2SP]}
+    11-17                   Rs. 1,000
+    {[PLUTO 2SP],
+     [ZENITH 2SP]}
+    18-24                   Rs. 1,000
+    {[ZENITH 2SP]}
+    25-01                   N/A
+2024/12_Dec                             Rs. 3,000 
+    02-08                   N/A
+    09-15                   N/A
+    16-22                   Rs. 1,000
+    {[KITE 2SP]}
+    23-29                   Rs. 1,000
+    {[KITE 2SP]}
+    30-05                   Rs. 1,000
+    {[KITE 2SP]}
+2025/01_Jan                             Rs. 4,750 
+    06-12                   Rs. 1,000
+    {[KITE 2SP],
+    [APPLE 5SP, 1ID]}
+    13-19                    Rs. 1,125
+    {[BAG 4MP, 1 ID]}
+    20-26                   Rs. 1,625
+    {[KITE 2SP],
+    [CAMEL 6SP, 1ID],
+    [DIAMOND 3SP, 1ID]}
+    27-02                   Rs. 1,000
+    {[KITE 2SP],
+    [GALAXY 2SP, 1ID],
+    [CAMEL 1SP]}
+2025/02_Feb                             Rs. 3,250
+    03-09                   Rs. 1,125
+    {[KITE 2SP],
+    [GALAXY 2SP],
+    [EXCEL 4SP, 1 ID]}
+    10-16                   Rs. 1,125
+    {[KITE 2SP],
+    [GALAXY 2SP]}
+    17-23                   N/A
+    24-02                   Rs. 1,000
+    {[KITE 2SP],
+    [HURRICANE 2SP, 1 ID],
+    [GALAXY 2SP]}
+
